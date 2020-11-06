@@ -1,4 +1,4 @@
-Intermagnet Technical Reference Manual
+Test Technical Reference Manual
 ======================================
 
 
