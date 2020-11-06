@@ -11,7 +11,7 @@ Intermagnet
 .. only:: html
 
     A small description of the intermagnet chapter.
-    **Normally this should be in the stable release**
+    **Normally this should be in the latest release**
 
 .. toctree::
     :maxdepth: 4
