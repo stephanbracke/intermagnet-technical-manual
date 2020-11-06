@@ -17,10 +17,10 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'INTERMAGNET Technical Reference Manual'
+project = 'TEST Technical Reference Manual'
 copyright = '2020, INTERMAGNET'
 author = 'Technical Manual Team'
-version = '5.0.0'
+version = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
