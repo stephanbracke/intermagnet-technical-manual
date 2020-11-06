@@ -4,7 +4,6 @@ build:
   image: stable
 
 sphinx:
- builder: html
   configuration: conf.py
   fail_on_warning: true
 
@@ -12,12 +11,8 @@ sphinx:
 formats:
   - pdf
   - htmlzip
-
-
+  
 python:
   version: 3.6.9
   install:
     - requirements: requirements.txt
-    - method: pip
-      path: .
-   system_packages: true
