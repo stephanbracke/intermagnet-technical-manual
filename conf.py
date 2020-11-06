@@ -20,7 +20,7 @@
 project = 'TEST Technical Reference Manual'
 copyright = '2020, INTERMAGNET'
 author = 'Technical Manual Team'
-version = '0.0.1'
+version = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
