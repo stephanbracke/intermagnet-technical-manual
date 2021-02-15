@@ -5,6 +5,7 @@ Conditions Of Use
 
 .. include:: ../../shared/variables.rst
 
+Some extras written
 INTERMAGNET intends, in due course, to move to a standard,
 machine-readable data license, such as Creative Commons or
 similar. Until such time, the INTERMAGNET conditions of use are
