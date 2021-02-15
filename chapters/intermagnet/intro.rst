@@ -3,7 +3,7 @@
 Introduction
 ============
 
-The genesis of INTERMAGNET resulted from a convergence of
+The Genesis of INTERMAGNET resulted from a convergence of
 scientific need and emerging technology. The growing interest
 and importance of space weather fostered a need for "near
 real-time" magnetic data, and the semi-automation of some of
