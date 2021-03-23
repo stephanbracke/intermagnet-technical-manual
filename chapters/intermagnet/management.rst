@@ -4,7 +4,7 @@ Intermagnet Management
 ======================
 
 
-I add some lines 
+Whatever we change
 
 The  Executive Council establishes policy for INTERMAGNET, deals
 with questions of international participation and data
