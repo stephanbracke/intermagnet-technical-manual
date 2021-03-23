@@ -3,7 +3,10 @@
 Intermagnet Management
 ======================
 
-The Executive Council establishes policy for INTERMAGNET, deals
+
+I add some lines 
+
+The  Executive Council establishes policy for INTERMAGNET, deals
 with questions of international participation and data
 exchange, and communicates with national agencies and
 international scientific and funding agencies.
