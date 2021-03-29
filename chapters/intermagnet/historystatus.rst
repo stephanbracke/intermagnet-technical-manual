@@ -3,7 +3,7 @@
 History And Status Of INTERMAGNET
 =================================
 
-The possibility of worldwide data communication between
+Th possibility of worldwide data communication between
 magnetic observatories was first raised seriously at the
 Workshop on Magnetic Observatory Instruments, held in Ottawa,
 Canada, in August 1986. Further discussions, particularly
