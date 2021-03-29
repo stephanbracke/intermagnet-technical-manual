@@ -2,6 +2,7 @@
 
 Intermagnet Management
 ======================
+Some change
 
 The  Executive Council establishes policy for INTERMAGNET, deals
 with questions of international participation and data
