@@ -23,8 +23,6 @@ project = 'Technical Reference Manual'
 copyright = '2020, INTERMAGNET'
 author = 'Technical Manual Team'
 release = re.sub('^v', '', os.popen('git describe').read().strip())
-version = release
-
 
 # -- General configuration ---------------------------------------------------
 # Activate autosectionlabel plugin
@@ -82,7 +80,7 @@ latex_elements = {
     'extraclassoptions': 'openany',
 }
 latex_documents = [
-    ('index', 'technical_manual_'+version+'.tex',
+    ('index', 'technical_manual_'+release+'.tex',
      u'INTERMAGNET Technical Reference Manual',
-     u'Version : ' +version, 'manual'),
+     u'' +author, 'manual'),
 ]
