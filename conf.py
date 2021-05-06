@@ -16,11 +16,14 @@
 
 
 # -- Project information -----------------------------------------------------
+import re
+import os
 
-project = 'TEST Technical Reference Manual'
+project = 'Technical Reference Manual'
 copyright = '2020, INTERMAGNET'
 author = 'Technical Manual Team'
-version = '2.0.1-alpha'
+release = re.sub('^v', '', os.popen('git describe').read().strip())
+version = release
 
 
 # -- General configuration ---------------------------------------------------

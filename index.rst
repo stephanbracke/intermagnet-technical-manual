@@ -1,73 +1,75 @@
+
+
 ######################################
 INTERMAGNET Technical Reference Manual
 ######################################
 
-***********
-Intermagnet
-***********
-
-
-
 .. only:: html
 
-    A small description of the intermagnet chapter.
-    **Normally this should be in the latest release**
+    .. figure:: ./img/cover_intermagnet.png
+           :align: center
+           :alt: Intermagnet
 
-.. toctree::
-    :maxdepth: 4
-    :hidden:
-    :numbered:
-    :caption: Intermagnet
 
-    chapters/intermagnet/intro
-    chapters/intermagnet/missionvision
-    chapters/intermagnet/historystatus
-    chapters/intermagnet/principles
-    chapters/intermagnet/participationproduct
-    chapters/intermagnet/condofuse
-    chapters/intermagnet/management
+.. only:: latex
 
-************************************************
-Intermagnet Magnetic Observatories 1 Minute Imos
-************************************************
+    ***********
+    Intermagnet
+    ***********
 
-.. only:: html
+    .. toctree::
+        :maxdepth: 4
+        :hidden:
+        :numbered:
+        :caption: Intermagnet
 
-    A small description Intermagnet magnetic observatories 1 minute imos
+        chapters/intermagnet/intro
+        chapters/intermagnet/missionvision
+        chapters/intermagnet/historystatus
+        chapters/intermagnet/principles
+        chapters/intermagnet/participationproduct
+        chapters/intermagnet/condofuse
+        chapters/intermagnet/management
 
-.. toctree::
-    :maxdepth: 4
-    :hidden:
-    :numbered:
-    :caption: 1 minute imos
+.. only:: latex
 
-    chapters/oneminuteimos/description
-    chapters/oneminuteimos/envlocation
-    chapters/oneminuteimos/instrumentationspecs
-    chapters/oneminuteimos/samplingfiltering
-    chapters/oneminuteimos/missingdata
-    chapters/oneminuteimos/qualcontrol
+    ************************************************
+    Intermagnet Magnetic Observatories 1 Minute Imos
+    ************************************************
 
-************************************************
-Intermagnet Magnetic Observatories 1 Second Imos
-************************************************
 
-.. only:: html
+    .. toctree::
+        :maxdepth: 4
+        :hidden:
+        :numbered:
+        :caption: 1 minute imos
 
-    A small description Intermagnet magnetic observatories 1 second imos
+        chapters/oneminuteimos/description
+        chapters/oneminuteimos/envlocation
+        chapters/oneminuteimos/instrumentationspecs
+        chapters/oneminuteimos/samplingfiltering
+        chapters/oneminuteimos/missingdata
+        chapters/oneminuteimos/qualcontrol
 
-.. toctree::
-    :maxdepth: 4
-    :hidden:
-    :numbered:
-    :caption: 1 second imos
+.. only:: latex
 
-    chapters/onesecondimos/description
-    chapters/onesecondimos/envlocation
-    chapters/onesecondimos/instrumentationspecs
-    chapters/onesecondimos/samplingfiltering
-    chapters/onesecondimos/missingdata
-    chapters/onesecondimos/qualcontrol
+    ************************************************
+    Intermagnet Magnetic Observatories 1 Second Imos
+    ************************************************
+
+
+    .. toctree::
+        :maxdepth: 4
+        :hidden:
+        :numbered:
+        :caption: 1 second imos
+
+        chapters/onesecondimos/description
+        chapters/onesecondimos/envlocation
+        chapters/onesecondimos/instrumentationspecs
+        chapters/onesecondimos/samplingfiltering
+        chapters/onesecondimos/missingdata
+        chapters/onesecondimos/qualcontrol
 
 .. raw:: latex
 

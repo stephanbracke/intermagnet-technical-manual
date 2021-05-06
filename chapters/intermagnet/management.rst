@@ -51,7 +51,7 @@ transmission characteristics which optimize global exchange.
     Christopher W. Turbitt United Kingdom
     ====================== ==============
 
-.. figure:: ../../img/intermagnet_chart.png
+.. figure:: ../../img/inter_man_chart.png
     :align: center
     :scale: 60 %
     :alt: Intermagnet organigram
