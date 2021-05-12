@@ -51,6 +51,8 @@ transmission characteristics which optimize global exchange.
     Christopher W. Turbitt United Kingdom
     ====================== ==============
 
+.. _inter_man_fig:
+
 .. figure:: ../../img/inter_man_chart.png
     :align: center
     :scale: 60 %

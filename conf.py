@@ -23,12 +23,15 @@ project = 'Technical Reference Manual'
 copyright = '2020, INTERMAGNET'
 author = 'Technical Manual Team'
 release = re.sub('^v', '', os.popen('git describe').read().strip())
+version = release
 
 # -- General configuration ---------------------------------------------------
 # Activate autosectionlabel plugin
 # default_role = 'obj'
 autosectionlabel_prefix_document = True
 numfig = True
+#navtree_shift = True
+#navtree_root_links = True
 
 
 # Add any Sphinx extension module names here, as strings. They can be
