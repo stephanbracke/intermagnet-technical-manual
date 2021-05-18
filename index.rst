@@ -2,6 +2,7 @@
 INTERMAGNET Technical Reference Manual
 ######################################
 
+
 .. only:: html
 
     .. figure:: ./img/cover_intermagnet.png
