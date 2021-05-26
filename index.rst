@@ -13,9 +13,9 @@ INTERMAGNET Technical Reference Manual
     :maxdepth: 4
     :numbered:
 
-    chapters/intermagnet/intermagnet
-    chapters/oneminuteimos/oneminuteimos
-    chapters/onesecondimos/onesecondimos
+    chapters/intermagnet/toc_intermagnet
+    chapters/oneminuteimos/toc_oneminuteimos
+    chapters/onesecondimos/toc_onesecondimos
 
 
 
