@@ -56,7 +56,7 @@ commercial users.
    participating institution or observatory a statement of data
    received by the GIN. Each week, INTERMAGNET will provide
    data download statistics to the community via FTP (see
-   :numref:`inter_princ` should be  section 7.2).
+   :numref:`use_dat_ftp`).
 
 
 

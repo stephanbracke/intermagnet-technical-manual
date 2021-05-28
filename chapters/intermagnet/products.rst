@@ -1,26 +1,9 @@
-.. _inter_part:
-
-Participation
-=============
-
-.. include:: ../../shared/variables.rst
-
-INTERMAGNET membership is available to institutions who wish to
-operate one or more INTERMAGNET Magnetic Observatories (IMOs).
-Members agree to allow distribution of their IMO data in
-accordance with INTERMAGNET guidelines. In return for
-participation, Institutional membership provides: access to
-near real-time data from any IMOs for all members of the
-Institution; access to the best in magnetic observatory
-technologies and assistance in implementing them. There are, at
-present, no membership fees. An application to become a member
-is submitted to the INTERMAGNET office for approval by the
-Executive Council, subject to technical evaluation by the
-Operations Committee. Information on how to apply for
-membership can be found in chapter 8.
+.. _inter_prod:
 
 Products
 ========
+
+.. include:: ../../shared/variables.rst
 
 Values of geomagnetic components along with other INTERMAGNET
 products may be retrieved from the website

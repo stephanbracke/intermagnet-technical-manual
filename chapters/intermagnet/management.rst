@@ -8,9 +8,6 @@ with questions of international participation and data
 exchange, and communicates with national agencies and
 international scientific and funding agencies.
 
-.. tabularcolumns:: { |C|L| }
-
-
 .. table:: Executive Council membership
     :widths: auto
     :align: center
@@ -51,7 +48,7 @@ transmission characteristics which optimize global exchange.
     Christopher W. Turbitt United Kingdom
     ====================== ==============
 
-.. _inter_man_fig:
+.. _inter_man_org:
 
 .. figure:: ../../img/inter_man_chart.png
     :align: center

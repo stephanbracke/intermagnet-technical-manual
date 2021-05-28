@@ -19,7 +19,7 @@ that
 - Any report or publication that makes use of INTERMAGNET data
   should acknowledge the relevant Institutes as the source of
   data. INTERMAGNET provides two forms of acknowledgement for
-  data use  :numref:`1min_imo_instspec_ct` should be Section 7.5.1.
+  data use  :numref:`us_dat_cond_use_ack`.
 -  We ask that the data not be used for commercial purposes,
    nor in any project in which you, your organization, or your
    collaborators are in a commercial agreement with any third

@@ -1,0 +1,2 @@
+OBSERVATORIES PARTICIPATING IN INTERMAGNET
+==========================================

@@ -62,6 +62,11 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
 
+latex_appendices = ['appendices/terminology',
+                    'appendices/observatories',
+                    'appendices/IAF']
+
+
 #added to avoid empty pages
 latex_elements = {
      # The paper size ('letterpaper' or 'a4paper').

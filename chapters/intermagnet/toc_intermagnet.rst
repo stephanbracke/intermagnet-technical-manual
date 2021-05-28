@@ -1,3 +1,5 @@
+.. _inter:
+
 ***********
 Intermagnet
 ***********
@@ -9,6 +11,7 @@ Intermagnet
     missionvision
     historystatus
     principles
-    participationproduct
+    participation
+    products
     condofuse
     management

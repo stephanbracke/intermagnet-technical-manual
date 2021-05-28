@@ -16,8 +16,20 @@ INTERMAGNET Technical Reference Manual
     chapters/intermagnet/toc_intermagnet
     chapters/oneminuteimos/toc_oneminuteimos
     chapters/onesecondimos/toc_onesecondimos
+    chapters/absmeasurements/toc_absmeasurements
+    chapters/processdata/toc_processdata
+    chapters/submitdata/toc_submitdata
+    chapters/usingdata/toc_usingdata
+    chapters/membership/toc_membership
 
+.. only:: html
 
+    .. toctree::
+        :maxdepth: 1
+
+        appendices/terminology
+        appendices/observatories
+        appendices/IAF
 
 
 .. raw:: latex
