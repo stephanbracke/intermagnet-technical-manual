@@ -159,5 +159,5 @@ published by the CODATA group in 2006:
 
 .. math::
 
-   g_p = 2.675153362*10^8 * T^{-1}S^{-11}
+   g_p = 2.675153362*10^8 . T^{-1}S^{-11}
 

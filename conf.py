@@ -27,6 +27,7 @@ author = 'Technical Manual Team'
 release = re.sub('^v', '', os.popen('git describe').read().strip())
 version = release
 
+
 # -- General configuration ---------------------------------------------------
 # Activate autosectionlabel plugin
 # default_role = 'obj'
@@ -41,9 +42,12 @@ numfig = True
 # ones.
 
 extensions = ['sphinx_rtd_theme',
-              'sphinx.ext.imgmath',
+              #'sphinx.ext.imgmath',
               'sphinx.ext.autosectionlabel',
               'sphinx.ext.autodoc']
+
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -65,6 +69,7 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
 
+latex_engine = 'xelatex'
 latex_appendices = ['appendices/terminology',
                     'appendices/observatories',
                     'appendices/IAF',
