@@ -1,3 +1,5 @@
+
+
 IAF: INTERMAGNET ARCHIVE FORMAT
 ===============================
 

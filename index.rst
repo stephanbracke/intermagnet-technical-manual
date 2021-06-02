@@ -24,12 +24,14 @@ INTERMAGNET Technical Reference Manual
 
 .. only:: html
 
-    .. toctree::
-        :maxdepth: 1
+        .. toctree::
+            :maxdepth: 1
 
-        appendices/terminology
-        appendices/observatories
-        appendices/IAF
+            appendices/terminology
+            appendices/observatories
+            appendices/IAF
+            appendices/minutefilter
+            appendices/secondfilter
 
 
 .. raw:: latex

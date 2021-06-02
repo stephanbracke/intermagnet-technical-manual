@@ -18,6 +18,8 @@
 # -- Project information -----------------------------------------------------
 import re
 import os
+import sys
+
 
 project = 'Technical Reference Manual'
 copyright = '2020, INTERMAGNET'
@@ -37,6 +39,7 @@ numfig = True
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+
 extensions = ['sphinx_rtd_theme',
               'sphinx.ext.imgmath',
               'sphinx.ext.autosectionlabel',
@@ -64,7 +67,9 @@ html_theme = "sphinx_rtd_theme"
 
 latex_appendices = ['appendices/terminology',
                     'appendices/observatories',
-                    'appendices/IAF']
+                    'appendices/IAF',
+                    'appendices/minutefilter',
+                    'appendices/secondfilter']
 
 
 #added to avoid empty pages
@@ -92,3 +97,5 @@ latex_documents = [
      u'INTERMAGNET Technical Reference Manual',
      u'' +author, 'manual'),
 ]
+
+
