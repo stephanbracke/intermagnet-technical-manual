@@ -10,8 +10,8 @@ network is invited to submit an application to the INTERMAGNET
 Operations Committee along with a minimum of twelve months of
 one-minute definitive data. The Committee will assess an
 application against the data quality standards as described in
-this manual (Chapter 2 and Chapter 3) before granting
-INTERMAGNET membership.
+this manual (:numref:`Chapter %s <1min_imo>` and
+:numref:`Chapter %s <1sec_imo>`) before granting INTERMAGNET membership.
 
 Observatories submitting an application should note that a
 condition of acceptance is that the observatory agrees to
