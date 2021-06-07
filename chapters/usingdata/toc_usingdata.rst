@@ -5,7 +5,7 @@ Using Intermagnet Data
 **********************
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
 
     imagwebsite
     ftpserver

@@ -5,7 +5,7 @@ Intermagnet
 ***********
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
 
     intro
     missionvision

@@ -5,7 +5,7 @@ How To Apply For Membership
 ***************************
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
 
     application
     imagparticipationpolicy

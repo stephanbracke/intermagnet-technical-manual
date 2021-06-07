@@ -6,7 +6,7 @@ Submitting Data
 
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
 
     introduction
     subpreldata

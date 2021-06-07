@@ -10,7 +10,7 @@ INTERMAGNET Technical Reference Manual
            :alt: Intermagnet
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 5
     :numbered:
 
     chapters/intermagnet/toc_intermagnet
@@ -38,4 +38,5 @@ INTERMAGNET Technical Reference Manual
 
   \listoffigures
   \listoftables
+
 

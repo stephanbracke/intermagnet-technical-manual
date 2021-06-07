@@ -40,7 +40,8 @@ IMFV1.23 Gin Dissemination Format
 .. tabularcolumns:: |p{3.5cm}|p{9cm}|
 
 .. table::
-     :widths: auto
+    :widths: auto
+    :align: center
 
     +---------------------+-----------------------------------------------+
     | Data type supported | Notes                                         |
