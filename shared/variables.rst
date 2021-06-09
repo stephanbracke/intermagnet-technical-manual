@@ -17,13 +17,5 @@
 .. |gin_edin_up_help| replace:: http://app.geomag.bgs.ac.uk/GINFileUpload/HelpAutomate.html
 .. |tn_9| replace:: http://intermagnet.org/publications/im_tn_9_WebDataDelivery.pdf.
 
-
-
 .. |matzka_hansen| replace:: http://agp2.igf.edu.pl/agp/files/C-99/Matzka_Hansen.pdf
-
 .. |matzka_qd| replace:: http://iaga_workshop_2012.roa.es/IAGA%20Extended%20Abstract%20Volume.pdf
-
-
-.. _INTERMAGNET web site: http://www.intermagnet.org/
-.. _application form: https://www.intermagnet.org/imos/apply-eng.php
-

@@ -4,6 +4,8 @@ Application
 ===========
 
 .. include:: ../../shared/variables.rst
+.. include:: ../../shared/targets.rst
+
 
 Any observatory wishing to become a member of the INTERMAGNET
 network is invited to submit an application to the INTERMAGNET

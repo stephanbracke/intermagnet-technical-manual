@@ -2,7 +2,9 @@
 
 Intermagnet Participation Policy
 ================================
+
 .. include:: ../../shared/variables.rst
+.. include:: ../../shared/targets.rst
 
 
 INTERMAGNET is a global near real-time network of absolute
