@@ -543,9 +543,6 @@ Copies of CD-ROM/DVD/USB may be obtained from:
 | FRANCE
 | Tel: 33 (0) 2-38-33-95-01
 | Internet: |contact_ipgp|
-| Individual (monthly) IAF data files are available from the
-| INTERMAGNET web site.
 
 
-
-
+Individual (monthly) IAF data files are available from the INTERMAGNET web site.
