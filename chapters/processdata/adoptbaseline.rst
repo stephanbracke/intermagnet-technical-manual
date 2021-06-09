@@ -18,7 +18,7 @@ Statistics of the difference between the adopted and observed
 baseline can be generated to verify that confidence limits for
 the adopted baseline meet the INTERMAGNET specifications.
 
-:numref:`proc_dat_baseline_comp_belsk_fig` shows
+:numref:`proc_dat_baseline_comp_belsk` shows
 observed values (circles) and adopted baseline
 values (dots) for magnetic field components X, Y, and Z for
 Belsk observatory during 2003. The time series of F-P total
@@ -28,7 +28,7 @@ corresponds to the time series of adopted baseline values.
 Often the baseline changes smoothly due to seasonal changes in
 temperature or humidity, or from ageing of magnetometer
 components. The constant segments used to adopt the baseline
-shown in :numref:`proc_dat_baseline_comp_belsk_fig`
+shown in :numref:`proc_dat_baseline_comp_belsk`
 are just one example for the adoption method.
 In order to avoid jumps in the calibrated data (at the times
 between segments of constant baselines), the baseline could be

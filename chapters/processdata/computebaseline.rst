@@ -6,7 +6,7 @@ Computation Of Baseline Values
 The component baseline values are calculated as described in
 :numref:`sub_dat_def_calc` and reported in the format described in Appendix E-4.
 
-.. _proc_dat_baseline_comp_belsk_fig:
+.. _proc_dat_baseline_comp_belsk:
 
 .. figure:: ../../img/baseline_belsk.png
     :align: center
