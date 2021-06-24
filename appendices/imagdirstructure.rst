@@ -141,7 +141,7 @@ Structure of first (1991) CD-ROM
 
 
 
-CD-ROM/DVD/USB DIRECTORY STRUCTURE
+CD-ROM/DVD/USB Directory Structure
 ----------------------------------
 
 The files on the INTERMAGNET CD-ROM/DVD/USB are set up in a
@@ -221,6 +221,9 @@ CD-ROM/DVD/USB. These ASCII K-Index files are published on,
 even though the data are in the binary records, because they
 are much faster to access than paging through the binary
 records on the CD-ROM/DVD/USB.
+
+List of changes to the structure since the first (1991) CD-ROM
+--------------------------------------------------------------
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{1cm}|p{12cm}|
 
@@ -458,16 +461,3 @@ The yyOBSDAT.DBF file (no longer used on the DVD/USB) is a
 database listing the contents of the CD-ROM. This was used by the
 DOS-based IMAGxx software (but is not used by the more recent
 imcdview software). The database is in Dbase format.
-
-
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
-| body row 2 | Cells may span columns.|
-+------------+------------+-----------+
-| body row 3 | Cells may  | - Cells   |
-+------------+ span rows. | - contain |
-| body row 4 |            | - blocks. |
-+------------+------------+-----------+
