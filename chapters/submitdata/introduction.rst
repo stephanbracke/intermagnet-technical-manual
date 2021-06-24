@@ -92,7 +92,7 @@ This format is fully defined in Appendix E-5.
 
 Intermagnet Archive Format
 ``````````````````````````
-.. tabularcolumns:: |p{4.5cm}|p{8cm}|
+.. tabularcolumns:: |p{6.5cm}|p{8cm}|
 
 .. table::
     :widths: auto
@@ -175,7 +175,7 @@ with time-series geomagnetic data include (or imply) a data
 type field in their metadata. This data type field is explained
 below.
 
-.. tabularcolumns:: |p{2cm}|p{5cm}|p{8cm}|
+.. tabularcolumns:: |p{3cm}|p{6cm}|p{6cm}|
 
 .. table::
     :widths: auto
@@ -185,13 +185,14 @@ below.
     | Data type        | Formats where it can   | What it means          |
     |                  | be used                |                        |
     +==================+========================+========================+
-    | Reported         | IMFV1.23 (as a         | Preliminary data from  |
-    |                  | metadata field) and    | an observatory that    |
-    |                  | IMFV2.83 (implied –    | has not had any        |
-    |                  | data in this format    | baseline corrections   |
-    |                  | can only be            | applied. It may        |
-    |                  | ‘Reported’).           | contain spikes and may |
-    |                  |                        | have missing values.   |
+    | Reported         | IMFV1.23               | Preliminary data from  |
+    |                  | (as a metadata field)  | an observatory that    |
+    |                  |                        | has not had any        |
+    |                  | IMFV2.83 (implied –    | baseline corrections   |
+    |                  | data in this format    | applied. It may        |
+    |                  | can only be            | contain spikes and may |
+    |                  | ‘Reported’).           | have missing values.   |
+    |                  |                        |                        |
     +------------------+------------------------+------------------------+
     | Variation        | IAGA-2002 (as a        | The data type is not   |
     |                  | metadata field)        | defined in the format  |
@@ -216,10 +217,10 @@ below.
     |                  |                        | ‘Adjusted’ data type.  |
     +------------------+------------------------+------------------------+
     | Quasi-definitive | IMFV1.23, IAGA-2002    | Quasi-definitive data  |
-    |                  | and IAFV2.11 (as a     | are defined as data    |
-    |                  | metadata field)        | that have been         |
+    |                  | and IAFV2.11           | are defined as data    |
+    |                  |                        | that have been         |
     |                  |                        | corrected using        |
-    |                  |                        | provisional baselines. |
+    |                  | (as a metadata field)  | provisional baselines. |
     |                  |                        | Produced soon after    |
     |                  |                        | data acquisition,      |
     |                  |                        | their accuracy is      |
@@ -293,7 +294,7 @@ individual elements of the geomagnetic vector.
 
     Geomagnetic components
 
-.. tabularcolumns:: |p{1cm}|p{15cm}|
+.. tabularcolumns:: |p{1cm}|p{10cm}|
 
 .. table::
     :widths: auto

@@ -68,7 +68,7 @@ Usually, after the end of the calendar year, INTERMAGNET
 officers send an email to IMOs titled "Call For Data". This
 email informs, among other things, about the delivery deadline
 of definitive data. For this, the e-mail list
-|imag_imo_list| is used. The subject of this email
+|imag_imo_email| is used. The subject of this email
 starts traditionally with the words "Call for Data". The
 request always includes a submission date by which data must be
 received at the Paris GIN ftp server (usually this deadline is

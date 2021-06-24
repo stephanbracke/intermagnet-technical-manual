@@ -30,6 +30,7 @@ INTERMAGNET Technical Reference Manual
             appendices/terminology
             appendices/observatories
             appendices/IAF
+            appendices/imagdirstructure
             appendices/minutefilter
             appendices/secondfilter
 

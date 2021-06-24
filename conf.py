@@ -76,11 +76,22 @@ html_context = {
     }
 
 latex_engine = 'xelatex'
+latex_use_xindy = False
+
+'''latex_appendices = ['appendices/terminology',
+                    'appendices/observatories',
+                    'appendices/IAF',
+                    'appendices/imagdirstructure',
+                    'appendices/minutefilter',
+                    'appendices/secondfilter']'''
+
 latex_appendices = ['appendices/terminology',
                     'appendices/observatories',
                     'appendices/IAF',
+                    'appendices/imagdirstructure',
                     'appendices/minutefilter',
-                    'appendices/secondfilter']
+                    'appendices/secondfilter'
+                    ]
 
 
 #added to avoid empty pages
@@ -101,6 +112,7 @@ latex_elements = {
      #
      # 'figure_align': 'htbp',
     'preamble': '\\addto\\captionsenglish{\\renewcommand{\\contentsname}{Table of contents}}',
+
     'extraclassoptions': 'openany',
 }
 latex_documents = [
