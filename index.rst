@@ -31,8 +31,12 @@ INTERMAGNET Technical Reference Manual
             appendices/observatories
             appendices/IAF
             appendices/imagdirstructure
+            appendices/iyfvformat
+            appendices/imagcdsoftware
+            appendices/imagcdfformat
             appendices/minutefilter
             appendices/secondfilter
+
 
 
 .. raw:: latex

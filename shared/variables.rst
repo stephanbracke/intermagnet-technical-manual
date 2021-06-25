@@ -17,6 +17,11 @@
 .. |gin_edin_up| replace:: http://app.geomag.bgs.ac.uk/GINFileUpload/
 .. |gin_edin_up_help| replace:: http://app.geomag.bgs.ac.uk/GINFileUpload/HelpAutomate.html
 .. |tn_9| replace:: http://intermagnet.org/publications/im_tn_9_WebDataDelivery.pdf.
+.. |cdf_format| replace:: http://cdf.gsfc.nasa.gov/
+.. |cdf_software| replace:: http://cdf.gsfc.nasa.gov/html/sw_and_docs.html
+
+.. |floating_point_arithmetic|  replace:: http://flint.cs.yale.edu/cs422/doc/art-of-asm/pdf/CH14.PDF
+.. |istp_guide| replace:: http://spdf.gsfc.nasa.gov/istp_guide/gattributes.html
 
 .. |matzka_hansen| replace:: http://agp2.igf.edu.pl/agp/files/C-99/Matzka_Hansen.pdf
 .. |matzka_qd| replace:: http://iaga_workshop_2012.roa.es/IAGA%20Extended%20Abstract%20Volume.pdf

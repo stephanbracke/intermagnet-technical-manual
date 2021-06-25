@@ -78,17 +78,14 @@ html_context = {
 latex_engine = 'xelatex'
 latex_use_xindy = False
 
-'''latex_appendices = ['appendices/terminology',
-                    'appendices/observatories',
-                    'appendices/IAF',
-                    'appendices/imagdirstructure',
-                    'appendices/minutefilter',
-                    'appendices/secondfilter']'''
 
 latex_appendices = ['appendices/terminology',
                     'appendices/observatories',
                     'appendices/IAF',
                     'appendices/imagdirstructure',
+                    'appendices/iyfvformat',
+                    'appendices/imagcdsoftware',
+                    'appendices/imagcdfformat',
                     'appendices/minutefilter',
                     'appendices/secondfilter'
                     ]
