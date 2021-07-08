@@ -19,9 +19,17 @@
 .. |tn_9| replace:: http://intermagnet.org/publications/im_tn_9_WebDataDelivery.pdf.
 .. |cdf_format| replace:: http://cdf.gsfc.nasa.gov/
 .. |cdf_software| replace:: http://cdf.gsfc.nasa.gov/html/sw_and_docs.html
+.. |cdf_software_list| replace:: http://cdf.gsfc.nasa.gov/html/FAQ.html#cdfsw
+.. |q_def| replace:: http://www.intermagnet.org/faqs-eng.php#quasi-definitive
+.. |autoplot| replace:: http://autoplot.org/
+.. |octave| replace:: http://lists.gnu.org/archive/html/help-octave/2007-04/txtyRdYjKU85H.txt
+.. |wolfgram| replace:: http://reference.wolfram.com/language/guide/NumericalDataFormats.html.
+
+
 
 .. |floating_point_arithmetic|  replace:: http://flint.cs.yale.edu/cs422/doc/art-of-asm/pdf/CH14.PDF
-.. |istp_guide| replace:: http://spdf.gsfc.nasa.gov/istp_guide/gattributes.html
+.. |istp_gattr| replace:: http://spdf.gsfc.nasa.gov/istp_guide/gattributes.html
+.. |istp_vattr| replace:: http://spdf.gsfc.nasa.gov/istp_guide/vattributes.html
 
 .. |matzka_hansen| replace:: http://agp2.igf.edu.pl/agp/files/C-99/Matzka_Hansen.pdf
 .. |matzka_qd| replace:: http://iaga_workshop_2012.roa.es/IAGA%20Extended%20Abstract%20Volume.pdf
