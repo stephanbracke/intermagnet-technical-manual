@@ -1,5 +1,9 @@
-IYFV1.02 INTERMAGNET DVD/CD-ROM FORMAT FOR YEARMEAN FILE
-========================================================
+.. _app_iyf:
+
+
+INTERMAGNET DVD/CD-ROM FORMAT FOR YEARMEAN FILE : IYF V1.02
+===========================================================
+
 
 Magnetic data with 1nT or 0.1min of arc resolution are organized
 on a year file basis. One file contains all annual mean values of

@@ -1,7 +1,11 @@
-.. _ap_imag_term:
+.. _app_imag_term:
 
 INTERMAGNET TERMINOLOGY
 =======================
+
+.. include:: ./appendices.rst
+
+
 
 .. glossary::
 
@@ -21,8 +25,8 @@ INTERMAGNET TERMINOLOGY
         day file. When data are missing from an ADJUSTED data file,
         these data may be input to a GIN in a later message. This
         new message file can be transmitted to a GIN with the 'A'
-        flag set in byte 25 of each hourly block header (Appendix
-        E-3). ADJUSTED data are maintained online until the annual
+        flag set in byte 25 of each hourly block header ( |app_imag_imfv_1| ).
+        ADJUSTED data are maintained online until the annual
         DVD is available. They are then archived by the GIN and only
         available thereafter by special arrangement.
 
@@ -64,7 +68,7 @@ INTERMAGNET TERMINOLOGY
         This describes observatory data which have been corrected
         for baseline variations and which have had spikes removed
         and gaps filled where possible. DEFINITIVE data have each
-        block header byte 25 set to 'D' (Appendix E-3), and the
+        block header byte 25 set to 'D' (|app_imag_imfv_1|), and the
         quality of the data is such that in this form they would be
         used for inclusion into Observatory Year Books, input to
         World Data Centers and included in INTERMAGNET DVDs.
@@ -103,7 +107,7 @@ INTERMAGNET TERMINOLOGY
     NESS binary
         For GOES users, each 16-bit binary word is encoded as 3
         pseudo ASCII bytes, so that the 126 bytes of IMFV2.83 data
-        are encoded as 189 bytes NESS binary (see Appendix E-2).
+        are encoded as 189 bytes NESS binary (see |app_sat_cod|).
 
     Time stamp
         The time of the first sample of the data block:
@@ -111,16 +115,16 @@ INTERMAGNET TERMINOLOGY
         -  Greenwich day 1 through 366 encoded as a 12-bit binary
            number.
         -  Minute of the Greenwich day : 0 through 1439 encoded as a
-           12-bit binary number (see Appendices E-1 and E-2).
+           12-bit binary number (see |app_imag_imfv_2| and |app_sat_cod|).
 
 
     Offset
         The component offset values determined by the INTERMAGNET
         coding algorithm that has been applied to recorded data for
         coding data stored in the "minute value" section of Format
-        IMFV2.83 (see Appendix E-1).
+        IMFV2.83 (see |app_imag_imfv_2|).
 
     Flags
         Two bytes "Flags #1" and "Flags #2" (bytes 8 and 9) of
         Format IMFV2.83, are reserved for IMO status information
-        (see Appendix E-1).
+        (see |app_imag_imfv_2|).

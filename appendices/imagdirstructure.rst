@@ -1,3 +1,5 @@
+.. _app_imag_dir:
+
 INTERMAGNET CD-ROM/DVD/USB DIRECTORY STRUCTURE
 ==============================================
 

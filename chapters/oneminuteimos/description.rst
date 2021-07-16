@@ -3,6 +3,9 @@
 Description
 ===========
 
+.. include:: ../../appendices/appendices.rst
+
+
 An INTERMAGNET Magnetic Observatory (IMO) is a magnetic
 observatory with full absolute control, making continual data
 recordings at a minimum rate of one minute. One minute magnetic
@@ -30,7 +33,7 @@ that have historically transmitted such data.
 
 Within 3-months, observatories may transmit quasi-definitive
 data to one of the INTERMAGNET GINs provided these data meet
-the provisional baseline conditions outlined in :ref:`ap_imag_term` .
+the provisional baseline conditions outlined in |app_imag_term| .
 Quasi-definitive data submission is by the same method as
 preliminary data submission (described in :numref:`sub_dat_prel_data`).
 Observatories may submit quasi-definitive data in place of

@@ -1,0 +1,5 @@
+.. _app_iaga_2002:
+
+IAGA2002 INTERMAGNET EXCHANGE FORMAT (Spreadsheet compatible)
+=============================================================
+

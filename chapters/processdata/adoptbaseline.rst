@@ -3,12 +3,14 @@
 Baseline Adoption
 =================
 
+.. include:: ../../appendices/appendices.rst
+
 A number of methods are used in observatory data processing
 procedures to adopt baselines from observed baseline values. An
 adopted baseline may be fitted to the baseline values by hand
 or by a computer algorithm. The baseline values obtained from
 the adopted baseline for each day are written to a file in the
-INTERMAGNET baseline format IBFV2.00, (Appendix E-4). The
+INTERMAGNET baseline format IBFV2.00, (|app_imag_ibf|). The
 format includes a section for comments pertaining to dates and
 times of baseline adjustments or changes in instrumentation.
 These files must be transmitted annually to INTERMAGNET along
@@ -58,4 +60,4 @@ in total field differences. Also, this will show up when you
 calculate the differences between the absolute field values
 determined in the absolute measurements minus the calibrated
 data from the final data product (e.g. from the IAF files, see
-Appendix C-1) at the time of absolute measurements.
+|app_iaf| ) at the time of absolute measurements.

@@ -3,6 +3,9 @@
 Introduction
 ============
 
+.. include:: ../../appendices/appendices.rst
+
+
 Observatories send their data to INTERMAGNET via two different
 routes. For preliminary data products (all types of
 non-definitive data including quasi-definitive), each
@@ -54,7 +57,7 @@ IMFV1.23 Gin Dissemination Format
     |                     | the IAGA-2002 format instead.                 |
     +---------------------+-----------------------------------------------+
 
-This format is fully defined in Appendix E-3.
+This format is fully defined in |app_imag_imfv_1|.
 
 IMFV2.83 Satellite Transmission Format
 ``````````````````````````````````````
@@ -71,7 +74,7 @@ IMFV2.83 Satellite Transmission Format
     |                     | data via GOES and METEOSAT satellites.        |
     +---------------------+-----------------------------------------------+
 
-This format is fully defined in Appendix E-1.
+This format is fully defined in |app_imag_imfv_2|.
 
 IAGA-2002
 `````````
@@ -88,7 +91,7 @@ IAGA-2002
     | geomagnetic data                 | submission of preliminary data.  |
     +----------------------------------+----------------------------------+
 
-This format is fully defined in Appendix E-5.
+This format is fully defined in |app_iaga_2002|.
 
 Intermagnet Archive Format
 ``````````````````````````
@@ -107,7 +110,7 @@ Intermagnet Archive Format
     |                                  | INTERMAGNET CD/DVD.              |
     +----------------------------------+----------------------------------+
 
-This format is fully defined in Appendix C-1.
+This format is fully defined in |app_iaf|.
 
 ImagCDF
 ```````
@@ -125,7 +128,7 @@ ImagCDF
     |                              | of 1-second definitive data.         |
     +------------------------------+--------------------------------------+
 
-This format is fully defined in Appendix E-6.
+This format is fully defined in |app_cdf|.
 
 IYF INTERMAGNET Year-mean File
 ``````````````````````````````
@@ -141,7 +144,7 @@ IYF INTERMAGNET Year-mean File
     Annual mean values  Primarily used on the annual INTERMAGNET CD/DVD.
     =================== ================================================
 
-This format is fully defined in Appendix C-3.
+This format is fully defined in |app_iyf|.
 
 IBF INTERMAGNET Baseline File
 `````````````````````````````
@@ -156,7 +159,7 @@ IBF INTERMAGNET Baseline File
     | observation data                 | INTERMAGNET CD/DVD.              |
     +----------------------------------+----------------------------------+
 
-This format is fully defined in Appendix E-4.
+This format is fully defined in |app_imag_ibf|.
 
 
 .. _sub_dat_intro_dt:

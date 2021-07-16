@@ -1,4 +1,4 @@
-.. _ap_1min_filter:
+.. _app_1min_filter:
 
 FILTER COEFFICIENTS TO PRODUCE ONE MINUTE VALUES
 ================================================

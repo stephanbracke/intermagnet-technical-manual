@@ -5,6 +5,7 @@ Definitive 1-Second Data
 
 .. include:: ../../shared/variables.rst
 
+.. include:: ../../appendices/appendices.rst
 
 [Under development]
 
@@ -22,7 +23,7 @@ this is likely to change in the future as more observatories
 become able to meet the standard.
 
 INTERMAGNET has created a format for 1-second data (see
-Appendix E-6) based on NASA’s Common Data Format (CDF)
+|app_cdf|) based on NASA’s Common Data Format (CDF)
 software. Observatories are asked to supply data in the new
 INTERMAGNET CDF format. Software for conversion to the new
 format is available. For the most up to date details of what

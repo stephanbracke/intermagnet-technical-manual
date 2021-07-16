@@ -3,6 +3,9 @@
 Data sampling and filtering
 ===========================
 
+.. include:: ../../appendices/appendices.rst
+
+
 INTERMAGNET requires that the one-second filtered data values
 be centered on the second. To minimize aliasing of higher
 frequency signals into the pass-band of the final second data
@@ -18,7 +21,7 @@ meet the required specifications in :numref:`1sec_imo_instspec`.
 
 Examples of acceptable sets of filter coefficients, for use
 with various sampling rates of properly anti-aliased signals
-are presented in :ref:`ap_1sec_filter`.
+are presented in |app_1sec_filter|.
 
 A scalar magnetometer must provide a sample centered on the
 same time as the output of the digital filter used with the

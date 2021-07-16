@@ -5,6 +5,7 @@ CD-ROM/DVD/USB
 
 .. include:: ../../shared/variables.rst
 
+.. include:: ../../appendices/appendices.rst
 
 Various types of data can be downloaded from the web site as
 described in :numref:`use_dat_imag_web_down_data`.
@@ -56,7 +57,7 @@ Where:
 -  country_id is the country code
 
 #. A binary file in IAF format (described in detail in :numref:`sub_dat_1min_data`
-   and APPENDIX C-1) includes minute values as well as
+   and |app_iaf|) includes minute values as well as
    other accompanying data such as: metadata headers W01-W16, K indices,
    hourly and daily mean values.
 #. A text file readme.sss contains a lot of valuable
@@ -64,13 +65,13 @@ Where:
    institute, personnel, used apparatus, etc.
 #. A text file sssyyyy.blv includes results of absolute control
    of geomagnetic observations. The format of this file is
-   described in APPENDIX E-4. Baseline data are considered by
+   described in |app_imag_ibf|. Baseline data are considered by
    many experts as an indicator of quality of the performed
    observation, especially with regard to observation of
    secular variations.
 #. A text file yearmean.sss includes a listing of annual mean
    values for the observatory. The format of this file is
-   described in APPENDIX C-3. Most observatories publish all
+   described in |app_iyf|. Most observatories publish all
    annual means, i.e. since the beginning of their activity.
    Some observatories publish also annual means for quiet-days
    and disturbed-days.

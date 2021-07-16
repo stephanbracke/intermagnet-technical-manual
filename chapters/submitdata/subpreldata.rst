@@ -5,6 +5,8 @@ Submission Of Preliminary Data
 
 .. include:: ../../shared/variables.rst
 
+.. include:: ../../appendices/appendices.rst
+
 
 An observatory sends preliminary (non-definitive) data to its
 assigned GIN via e-mail, web upload or satellite transmission.
@@ -21,10 +23,10 @@ Update Frequencies And Formats For Preliminary Data
 ---------------------------------------------------
 
 GINs can receive data in IAGA-2002 and IMFV1.23 formats. These
-formats are fully defined and described in Appendix E-3 and
-Appendix E-5. GINs also support IMFV2.83 format, but only where
+formats are fully defined and described in |app_imag_imfv_1| and
+|app_iaga_2002|. GINs also support IMFV2.83 format, but only where
 an observatory is transmitting via satellite. IMFV2.83 is
-defined in Appendix E-1. Preliminary data cannot be accepted by
+defined in |app_imag_imfv_2|. Preliminary data cannot be accepted by
 GINs in other formats (expect where a GIN makes arrangements to
 receive data from its own observatories in a private format –
 in these cases the data must be converted to IAGA-2002 before
@@ -312,15 +314,15 @@ Satellite Transmission
 In preparation for transmitting data to one of several possible
 satellites, an IMO will first prepare its data in INTERMAGNET
 format IMFV2.83 or later. This format, which is fully described
-in Appendix E1, imposes a common structure on the data files,
+in |app_imag_imfv_2|, imposes a common structure on the data files,
 ensuring that all necessary information is included so that the
 data may be properly decoded at a GIN. Once data are in
 IMFV2.83, a supplementary encoding step is applied to make the
 data stream, as transmitted to satellites, exactly compatible
-with the requirements of the satellite operators. Appendix E-2
+with the requirements of the satellite operators. |app_sat_cod|
 shows the supplementary encoding steps for the GOES and
 Meteosat satellites along with examples using a specific data
-set. Appendix E-2 also provides provisional information about
+set.|app_sat_cod| also provides provisional information about
 encoding for the GMS satellite.
 
 Geostationary Satellites
@@ -397,7 +399,7 @@ to a GIN:
    ensure that they are not contravening any transmission laws
    in force in their country.
 #. Application must be made to the operators of whichever
-   satellite is accessible from the observatory. Appendix B-2
+   satellite is accessible from the observatory. |app_sat_cod|
    shows the footprints of geostationary satellites and from
    this users can decide which satellite should provide the
    best transmission path. Since satellite positions are

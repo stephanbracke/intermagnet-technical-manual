@@ -29,10 +29,16 @@ INTERMAGNET Technical Reference Manual
 
             appendices/terminology
             appendices/observatories
-            appendices/IAF
+            appendices/imagiaf
             appendices/imagdirstructure
-            appendices/iyfvformat
+            appendices/imagiyf
             appendices/imagcdsoftware
+            appendices/imagaddresses
+            appendices/imagimfv2
+            appendices/satcoding
+            appendices/imagimfv1
+            appendices/imagibf
+            appendices/iaga2002
             appendices/imagcdfformat
             appendices/minutefilter
             appendices/secondfilter

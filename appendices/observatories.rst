@@ -1,3 +1,5 @@
+.. _app_obs:
+
 OBSERVATORIES PARTICIPATING IN INTERMAGNET
 ==========================================
 

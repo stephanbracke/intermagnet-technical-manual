@@ -5,6 +5,9 @@ Data Viewer
 
 .. include:: ../../shared/variables.rst
 
+.. include:: ../../appendices/appendices.rst
+
+
 INTERMAGNET provides software to work with the data on the
 CD-ROM/DVD/USB. This software can be installed from the DVD, or
 downloaded from |imag_software| .
@@ -63,5 +66,5 @@ precision is unacceptably low, particularly for angular measurements.
 
 Prior to the current software, INTERMAGNET distributed a
 DOS-based program for working with the DVD/CD-ROM data. For
-historical purposes this software is documented in Appendix C-4.
+historical purposes this software is documented in |app_imag_cd|.
 

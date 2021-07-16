@@ -3,6 +3,9 @@
 Description
 ===========
 
+.. include:: ../../appendices/appendices.rst
+
+
 Because of recent developments in instrumentation, data
 acquisition, and data dissemination, an increasing number of
 observatories have begun to produce a filtered one-second data
@@ -39,7 +42,7 @@ historically transmitted such data.
 
 Within 3-months, observatories may transmit quasi-definitive
 data to one of the INTERMAGNET GINs provided these data meet
-the provisional baseline conditions outlined in :ref:`ap_imag_term`.
+the provisional baseline conditions outlined in |app_imag_term|.
 Quasi-definitive data submission is by the same method as
 preliminary data submission (described in :numref:`sub_dat_prel_data`).
 Observatories may submit quasi-definitive data in place of

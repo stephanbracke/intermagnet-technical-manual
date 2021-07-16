@@ -1,7 +1,7 @@
+.. _app_iaf:
 
-
-IAF: INTERMAGNET ARCHIVE FORMAT
-===============================
+INTERMAGNET ARCHIVE FORMAT : IAF
+================================
 
 
 IAFV2.11 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS

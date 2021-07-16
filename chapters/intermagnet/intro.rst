@@ -2,6 +2,8 @@
 
 Introduction
 ============
+.. include:: ../../shared/variables.rst
+
 
 The Genesis of INTERMAGNET resulted from a convergence of
 scientific need and emerging technology. The growing interest

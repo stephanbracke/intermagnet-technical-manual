@@ -3,6 +3,9 @@
 Data Sampling And Filtering
 ===========================
 
+.. include:: ../../appendices/appendices.rst
+
+
 In its Resolution 12 from the 1979 Assembly in Canberra, IAGA
 noted the desirability of digital magnetic observatories using
 a sampling rate no slower than once every 10 seconds. In that
@@ -59,7 +62,7 @@ natural field with increasing frequency.
 
 Examples of other acceptable sets of filter coefficients, for
 use with various sampling rates of properly anti-aliased
-signals are presented in :ref:`ap_1min_filter`.
+signals are presented in |app_1min_filter|.
 
 A scalar magnetometer must provide a sample centered on the
 same time as the output of the digital filter used with the

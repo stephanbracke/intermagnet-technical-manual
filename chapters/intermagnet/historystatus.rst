@@ -3,6 +3,9 @@
 History And Status Of INTERMAGNET
 =================================
 
+.. include:: ../../appendices/appendices.rst
+
+
 
 The possibility of worldwide data communication between
 magnetic observatories was first raised seriously at the
@@ -25,7 +28,7 @@ of the pilot scheme, the IAGA Executive Committee endorsed
 INTERMAGNET. The Study of the Earth's Deep Interior (SEDI)
 Steering Committee has also endorsed INTERMAGNET.
 
-At present the observatories shown in Appendix B are
+At present the observatories shown in |app_obs| are
 transmitting daily over the Internet, or through satellites to
 Geomagnetic Information Node (GINs). More stations are coming
 online rapidly. GINs are now operating in Edinburgh (BGS),

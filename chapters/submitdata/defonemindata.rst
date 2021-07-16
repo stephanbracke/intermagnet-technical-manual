@@ -5,6 +5,7 @@ Definitive 1-Minute Data
 
 .. include:: ../../shared/variables.rst
 
+.. include:: ../../appendices/appendices.rst
 
 In January 1992 the Executive Council and Operations Committee
 decided to produce a CD-ROM of definitive minute data values
@@ -240,11 +241,11 @@ inclusion in the annual data publication. INTERMAGNET will send
 out a "call for data" to each observatory, specifying the
 deadline for providing data. Observatories should provide data
 in the INTERMAGNET Archive Format (IAF) which is described in
-Appendix C-1. Data can be converted to IAF using INTERMAGNET’s
+|app_iaf|. Data can be converted to IAF using INTERMAGNET’s
 "imcdview" DVD/CD-ROM viewing software, which can be obtained
 from |imag_software|
 Baseline data will accompany the definitive data, and will be
-provided in format IBFV2.00 as described in Appendix E-4.
+provided in format IBFV2.00 as described in |app_imag_ibf|.
 
 .. _sub_dat_1min_data_enc_gen:
 
@@ -255,7 +256,7 @@ The first INTERMAGNET CD-ROM contains data from 41
 observatories provided by 11 countries for the year 1991. The
 1992 and subsequent DVD/CD-ROMs also contain baseline data for
 the year for each observatory in the form of text and plots.
-Appendix B of this manual provides a list of observatories
+|app_obs| of this manual provides a list of observatories
 currently contributing to the data publication.
 
 .. _sub_dat_1min_data_enc_iaf:
@@ -293,7 +294,7 @@ allow for a missing instrument designator affecting words 6 and
 15 in the header, and words 4337 to 5776 in the data section.
 In 2014, IAFV2.11 was introduced to add a data type flag in
 word 15 to indicate whether the data is definitive or
-quasi-definitive. Appendix C-1 provides a schematic
+quasi-definitive. |app_iaf| provides a schematic
 representation of the record structure.
 
 Each 1-day record requires 23,552 bytes, so a month-file for
@@ -311,8 +312,8 @@ Observatories should provide new definitive data to INTERMAGNET
 in IAF V2.11, which is described here. In order to allow users
 of historic CD-ROM/DVD/USB data to understand the format of the
 data for each year of production, previous versions (and the
-years they are associated with) are fully described in Appendix
-C-1.
+years they are associated with) are fully described in |app_iaf|.
+
 
 .. _sub_dat_1min_data_enc_iaf_211:
 
@@ -407,7 +408,7 @@ INTERMAGNET CD-ROM/DVD/USB Directory Structure
 
 This section describes the structure of the DVD (2011). The
 structure of older CD-ROM/DVD/USB drives is described in
-Appendix C-2.
+|app_imag_dir|.
 
 The files on the INTERMAGNET DVD are set up in a particular
 directory structure. The root directory contains a "README.TXT"
@@ -448,10 +449,10 @@ for Brorfelde, for 1991, for August. In addition,
 there are "README.XXX" files for the individual observatory,
 a YEARMEAN.XXX containing annual mean data in plain text format f
 or all years that the observatory has operated
-(see Appendix C-3 for details of the format)
+(see |app_iyf| for details of the format)
 and an XXX2011.BLV file that contains absolute observation and
-baseline data in the INTERMAGNET baseline format (see Appendix
-E-4) where XXX indicates the 3-letter observatory ID.
+baseline data in the INTERMAGNET baseline format (see |app_imag_ibf|)
+where XXX indicates the 3-letter observatory ID.
 
 This sub-directory may also contain a file labeled XXXYRK.DKA,
 where XXX is the 3-letter observatory ID, YR is the 2-character
@@ -531,8 +532,7 @@ measurements.
 
 Prior to the current software, INTERMAGNET distributed a
 DOS-based program for working with the DVD/CD-ROM data. For
-historical purposes this software is documented in Appendix
-C-4.
+historical purposes this software is documented in |app_imag_cd|.
 
 Copies of CD-ROM/DVD/USB may be obtained from:
 

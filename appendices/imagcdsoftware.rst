@@ -1,3 +1,5 @@
+.. _app_imag_cd:
+
 INTERMAGNET CD-ROM SOFTWARE
 ===========================
 
