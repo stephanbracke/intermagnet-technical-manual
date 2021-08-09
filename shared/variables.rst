@@ -34,5 +34,3 @@
 .. |matzka_hansen| replace:: http://agp2.igf.edu.pl/agp/files/C-99/Matzka_Hansen.pdf
 .. |matzka_qd| replace:: http://iaga_workshop_2012.roa.es/IAGA%20Extended%20Abstract%20Volume.pdf
 
-
-.. |ap_imag_term| replace:: :ref:`APPENDIX B <ap_imag_term>`
