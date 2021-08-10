@@ -1,5 +1,6 @@
 .. _app_imag_ibf:
 
+
 INTERMAGNET BASELINE FORMAT : IBF
 =================================
 

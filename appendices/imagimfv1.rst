@@ -4,6 +4,7 @@ INTERMAGNET GIN DISSEMINATION FORMAT FOR MINUTE VALUES : IMF VERSION 1
 ======================================================================
 
 
+
 IMFV1.23
 --------
 
