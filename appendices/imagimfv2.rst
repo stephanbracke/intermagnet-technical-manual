@@ -31,7 +31,6 @@ the satellite will be in byte sequence low-byte first, then high-byte. Refer to
     Flags #2                                     8 Bits  9
     Colatitude in 1/10 degrees (0 - 1800)        12 bits 10 - 12 \*
     East Longitude in 1/10 degrees (0 - 3600)    12 bits 10 - 12 \*
-    ---------------------------------------------------------------------
     .. centered:: FREE SPACE 8 BYTES
     ---------------------------------------------------------------------
     .. centered:: REFERENCE MEASUREMENT (RM) SPACE OR FREE SPACE 10 BYTES

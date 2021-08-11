@@ -256,25 +256,160 @@ preamble, recommends that the length of time for data block be at least
 set. A base-44 coding algorithm was developed for converting binary data
 to the GMS character set. The coded data format follows:
 
-.. tabularcolumns:: |p{3cm}|p{2.5cm}|p{2.5cm}|p{3cm}|p{3cm}|
+.. tabularcolumns:: |p{3.5cm}|p{2cm}|p{2.5cm}|p{2.5cm}|p{3.5cm}|
 
 .. table::
     :widths: auto
     :align: center
 
-    ==================== ============ ============= =============== ====================
+    =============================== ================= ================== ================  ===================
     .. centered:: **HEADER 21 BYTES**
-    ------------------------------------------------------------------------------------
-    Field                Length (bit) Length (word) Position        Frame
-    Time Day of the year 12 Bits      3/4 word      0 word - 0.75
-    Minute of the day    12 Bits      3/4 word      0.75 word - 1.5
-    Offset for C1        8 Bits       1/2 word      1.5 word - 2.0
-    Offset for C2        8 Bits       1/2 word      2.0 word - 2.5
-    Offset for C3        8 Bits       1/2 word      2.5 word - 3.0
-    Offset for C4        8 Bits       1/2 word      3.0 word - 3.5
-    Flag #1 & #2         16 Bits      1 word        3.5 word - 4.5
-    Station colatitude   12 Bits      3/4 word      4.5 word - 5.25
-    Station longitude    12 Bits      3/4 word      5.25 word - 6.0 -18 byte
-    \                                                               (CR-CR-LF)-21 byte
-    ==================== ============ ============= =============== ====================
+    ----------------------------------------------------------------------------------------------------------
+    **Field**                       **Length (bit)**  **Length (word)**  **Position**      **Frame**
+    Time Day of the year            12 Bits           3/4 word           0 word - 0.75
+    Minute of the day               12 Bits           3/4 word           0.75 word - 1.5
+    Offset for C1                   8 Bits            1/2 word           1.5 word - 2.0
+    Offset for C2                   8 Bits            1/2 word           2.0 word - 2.5
+    Offset for C3                   8 Bits            1/2 word           2.5 word - 3.0
+    Offset for C4                   8 Bits            1/2 word           3.0 word - 3.5
+    Flag #1 & #2                    16 Bits           1 word             3.5 word - 4.5
+    Station colatitude              12 Bits           3/4 word           4.5 word - 5.25
+    Station longitude               12 Bits           3/4 word           5.25 word - 6.0   -18 byte
+    \                                                                                      (CR-CR-LF)-21 byte
+    .. centered:: **FREE SPACE 27 BYTES CODED**
+    ----------------------------------------------------------------------------------------------------------
+    **Field**                       **Length (bit)**  **Length (word)**  **Position**      **Frame**
+    D1 Indices and Basline control  8 Bits            1/2 word           6.0 word - 6.5
+    ...
+    D18 Indices and Basline control 8 Bits            1/2 word           15.5 word - 15.0  -48 byte
+    \                                                                                      (CR-CR-LF)-51 byte
+    .. centered:: **MINUTE VALUES 157 BYTES CODED**
+    ----------------------------------------------------------------------------------------------------------
+    **Field**                       **Length (bit)**  **Length (word)**  **Position**      **Frame**
+    C1 for t+0 minute               16 Bits           1 word             15.0 word - 16.0  -54 byte
+    C2 for t+0 minute               16 Bits           1 word             16.0 word - 17.0  -57 byte
+    C3 for t+0 minute               16 Bits           1 word             17.0 word - 18.0  -60 byte
+    C4 for t+0 minute               16 Bits           1 word             18.0 word - 19.0  -63 byte
+    ...
+    C4 for t+4 minute               16 Bits           1 word             34.0 word - 35.0  -111 byte
+    \                                                                                      (CR-CR-LF)-114 byte
+    C1 for t+5 minute               16 Bits           1 word             35.0 word - 36.0  -117 byte
+    ...
+    C4 for t+9 minute               16 Bits           1 word             54.0 word - 55.0  -174 byte
+    \                                                                                      (CR-CR-LF)-177 byte
+    C1 for t+10 minute              16 Bits           1 word             55.0 word - 56.0  -180 byte
+    ...
+    C1 for t+11 minute              16 Bits           1 word             59.0 word - 60.0  -192 byte
+    C2 for t+11 minute              16 Bits           1 word             60.0 word - 61.0  -195 byte
+    C3 for t+11 minute              16 Bits           1 word             61.0 word - 62.0  -198 byte
+    C4 for t+11 minute              16 Bits           1 word             62.0 word - 63.0  -201 byte
+    CRC                             16 Bits           1 word             63.0 word - 64.0  -204 byte
+    \                                                                                      (CR-CR-LF)-208 byte
+    =============================== ================= ================== ================  ===================
 
+Time framing for GMS
+````````````````````
+
+A multiple data transmission (12-minute data block repeated 3 times) may be used to satisfy
+the GMS minimum block transmission time of approximately 63 seconds. The time framing for GMS
+would be:
+
+.. highlight:: none
+
+::
+
+     no-signal carrier          5.0 second   : 5.0 sec
+     bit synchronization        2.5          : 7.5
+     word synchronization       0.15         : 7.65
+     address                    0.31         : 7.96
+     first (64*3+16-1)*8/100   16.56         :24.52 (177 bytes)
+     second (64*3+16-1)*8/100  16.56         :41.08 (177 bytes)
+     last (64*3+16)*8/100      16.64         :57.72 (178 bytes)
+     EOT-EOT-EOT                0.24         :57.96
+
+The following table shows time slots assigned to DCPs. Each table line represents 60 seconds,
+the station ID is placed at the beginning of a data transmission block, '....' is for the
+no-signal (carrier only) period, '--' is for synchronization sequence, and '==' is for the
+data block.
+
+Assigned time slots for the GMS coding would allow 58 seconds per transmission and 7 seconds
+guard time. This would allow 11 observatories to transmit every 12 minutes.
+
+.. highlight:: none
+
+::
+
+     min sec0....*....1....*....2....*....3....*....4....*....5....*....
+     12*(n) .....--M01================================================__
+     +01    _____.....--M02=============================================
+     +02    ===_______.....--M03========================================
+     +03    ========_______.....--M04===================================
+     +04    =============_______.....--M05==============================
+     +05    ==================_______.....--M06=========================
+     +06    =======================_______.....--M07====================
+     +07    ============================_______.....--M08===============
+     +08    =================================_______.....--M09==========
+     +09    ======================================_______.....--M10=====
+     +10    ===========================================_______.....--M11
+     +11    ================================================____________
+     12(n+1).....--M01================================================__
+
+Base-44 Coding for GMS
+``````````````````````
+
+
+The characters used on the GMS system are: LF CR SP ' ( ) + , - . / 0 1 2 3 4 5 6 7 8 9 : = ?
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (TOTAL 50). The base-44 character set is
+shown in the table below.
+
+Each IMFV2.83 data block is encoded by dividing the data block into 16-bit integers. Signed
+integers are represented by 2's complement. Each integer value is converted to 3 base-44
+numbers, <n1,-n2,n3>, the most significant being n1 and the least significant n3. Each base-44
+number may be represented by a base-44 character from Table 1. Example conversions are shown
+below:
+
+.. highlight: none
+
+::
+
+ decimal   base-44     base-44
+ number    number      char
+      0    < 0, 0, 0>  000
+      1    < 0, 0, 1>  001
+     43    < 0, 0,43>  00?
+     44    < 0, 1, 0>  010
+  32767    <16,40,31>  G-V
+     -1    <43,43,43>  ???
+    -44    <43,43, 0>  ??0
+  -1935    <43, 0, 1>  ?01
+ -32768    <27, 3,12>  R3C
+
+
+
+.. table::
+    :widths: auto
+    :align: center
+
+    ===== ======= ===== ===========
+    DIGIT BASE-44 DIGIT BASE-44
+    ===== ======= ===== ===========
+    0     0       22    M
+    1     1       23    N
+    2     2       24    O
+    3     3       25    P
+    4     4       26    Q
+    5     5       27    R
+    6     6       28    S
+    7     7       29    T
+    8     8       30    U
+    9     9       31    V
+    10    A       32    W
+    11    B       33    X
+    12    C       34    Y
+    13    D       35    Z
+    14    E       36    (
+    15    F       37    )
+    16    G       38    \+
+    17    H       39    , (comma)
+    18    I       40    \- (hyphen)
+    ===== ======= ===== ===========

@@ -31,7 +31,7 @@ version = release
 # -- General configuration ---------------------------------------------------
 # Activate autosectionlabel plugin
 # default_role = 'obj'
-autosectionlabel_prefix_document = True
+#autosectionlabel_prefix_document = True
 numfig = True
 #navtree_shift = True
 #navtree_root_links = True
@@ -43,7 +43,7 @@ numfig = True
 
 extensions = ['sphinx_rtd_theme',
               #'sphinx.ext.imgmath',
-              'sphinx.ext.autosectionlabel',
+              #'sphinx.ext.autosectionlabel',
               'sphinx.ext.autodoc']
 
 

@@ -4,6 +4,7 @@
 INTERMAGNET BASELINE FORMAT : IBF
 =================================
 
+
 IBFV2.00 (2009 and AFTER)
 -------------------------
 
