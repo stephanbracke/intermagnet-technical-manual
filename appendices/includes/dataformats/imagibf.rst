@@ -1,12 +1,12 @@
 .. _app_imag_ibf:
 
-INTERMAGNET BASELINE FORMAT : IBF
-=================================
+Intermagnet Baseline Format : IBF
+---------------------------------
 
 .. _app_imag_ibf_v2:
 
-IBFV2.00 (2009 and AFTER)
--------------------------
+IBFV2.00 (2009 And After)
+`````````````````````````
 
 This file format is to be used to provide baselines for use in examining
 equipment and environmental quality (mainly thermal stability of the
@@ -123,8 +123,8 @@ File name convention is IAGYEAR.BLV e.g. BFE2008.BLV where:
 
 .. _app_imag_ibf_v1_20:
 
-IBFV1.20 (2008 and BEFORE)
---------------------------
+IBFV1.20 (2008 And Before)
+``````````````````````````
 
 This format is to be used to provide baselines for use in examining
 equipment performance and for inclusion on the INTERMAGNET DVD. The

@@ -1,7 +1,7 @@
 .. _app_imag_dir:
 
-INTERMAGNET CD-ROM/DVD/USB DIRECTORY STRUCTURE
-==============================================
+Intermagnet CD-ROM/DVD/USB Directory Structure
+----------------------------------------------
 
 The structure of files and folders on the INTERMAGNET
 CD-ROM/DVD/USB has remained broadly the same since its
@@ -12,7 +12,7 @@ first CD-ROM (1991) and lists year by year differences in the
 files and folders on the CD-ROM/DVD/USB.
 
 Structure of current (2015) USB
--------------------------------
+```````````````````````````````
 
 
 ::
@@ -53,7 +53,7 @@ Structure of current (2015) USB
 
 
 Structure of (2011) DVD
------------------------
+```````````````````````
 
 
 ::
@@ -110,7 +110,7 @@ Structure of (2011) DVD
 
 
 Structure of first (1991) CD-ROM
---------------------------------
+````````````````````````````````
 
 ::
 
@@ -144,7 +144,7 @@ Structure of first (1991) CD-ROM
 
 
 CD-ROM/DVD/USB Directory Structure
-----------------------------------
+``````````````````````````````````
 
 The files on the INTERMAGNET CD-ROM/DVD/USB are set up in a
 particular directory structure. The root directory contains a
@@ -225,7 +225,7 @@ are much faster to access than paging through the binary
 records on the CD-ROM/DVD/USB.
 
 List of changes to the structure since the first (1991) CD-ROM
---------------------------------------------------------------
+``````````````````````````````````````````````````````````````
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{1cm}|p{12cm}|
 

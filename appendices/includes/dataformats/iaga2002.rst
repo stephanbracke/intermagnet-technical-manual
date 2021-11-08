@@ -1,7 +1,7 @@
 .. _app_iaga_2002:
 
-IAGA2002 INTERMAGNET EXCHANGE FORMAT (Spreadsheet compatible)
-=============================================================
+IAGA2002 Intermagnet Exchange Format (Spreadsheet compatible)
+-------------------------------------------------------------
 
 This ASCII Exchange Format, adopted in August 2001 and revised in
 December 2001, July 2003 and in August 2011, is intended as a data
@@ -24,7 +24,7 @@ Use missing data values (8's or 9's) if fewer than 4 elements are
 available.
 
 The 12 Mandatory File Header Records
-------------------------------------
+````````````````````````````````````
 
 Mandatory header and optional comment records begin with a space
 character in column 1 and end with the vertical bar \| (ASCII 124) in
@@ -69,7 +69,7 @@ column 25.
   cannot be modified (e.g. Publication date 2014-10-20).
 
 The Optional Comment Header Records
------------------------------------
+```````````````````````````````````
 
 Use these records to record important information concerning the data
 that is not contained in the defined fields. Types of information may
@@ -118,7 +118,7 @@ filled element field).
   comment header lines (see sample data header and data record for 1-second values).
 
 The Mandatory Data Header Record
---------------------------------
+````````````````````````````````
 
 The mandatory data-header record contains column headers useful for
 multi-station analysis. Elements, both type and order, are indicated in
@@ -132,7 +132,7 @@ the file-header field Reported.
 - The end of each record is indicated with a vertical bar \| (ASCII 124) in column 70.
 
 The Data Records
-----------------
+````````````````
 
 The data records contain the date, time, and magnetic field elements
 reported. Report data to the least significant digit. Indicate missing
@@ -158,7 +158,7 @@ line feed.
   in nanotesla and a fraction of nT.
 
 Recommended File Name Procedure
--------------------------------
+````````````````````````````````
 
 To improve the ease with which data are exchanged and recognized, IAGA
 recommends the following guidelines and style for naming files
@@ -273,10 +273,10 @@ Where:
    June 2003, starting at 13:20:00
 
 Sample Of IAGA-2002 Format July 2003 Revision
----------------------------------------------
+`````````````````````````````````````````````
 
 Sample Data Header And Data Record For 1-minute Values
-``````````````````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
 
@@ -318,7 +318,7 @@ Sample Data Header And Data Record For 1-minute Values
 
 
 Sample Data Header And Data Record For Hourly Values
-````````````````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
 | The header record for Data Interval Type might read:
@@ -334,7 +334,7 @@ Sample Data Header And Data Record For Hourly Values
 
 
 Sample Data Header And Data Record For Monthly Values
-`````````````````````````````````````````````````````
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
 | The header record for Data Interval Type might read:
@@ -351,7 +351,7 @@ Sample Data Header And Data Record For Monthly Values
 
 
 Sample Data Header And Data Record For 1-second Values
-``````````````````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
 
@@ -389,7 +389,7 @@ Sample Data Header And Data Record For 1-second Values
 
 
 SAMPLE DATA HEADER AND DATA RECORD FOR 5-MILLISECOND VALUES
-```````````````````````````````````````````````````````````
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
 | The header record for Data Interval Type might read:

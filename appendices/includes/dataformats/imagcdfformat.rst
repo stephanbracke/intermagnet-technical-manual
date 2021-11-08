@@ -2,7 +2,7 @@
 
 
 IMAGCDFV1.2 INTERMAGNET EXCHANGE FORMAT
-=======================================
+---------------------------------------
 
 .. include:: ../shared/variables.rst
 
@@ -15,10 +15,10 @@ here.
 .. _app_cdf_design:
 
 Design Details And CDF Concepts
--------------------------------
+```````````````````````````````
 
 General Design Details
-``````````````````````
+""""""""""""""""""""""
 
 
 Geomagnetic data is held in CDF variables, one variable per
@@ -55,10 +55,10 @@ will have four entries (in this order): "nT"; "Degrees of arc";
 "nT"; "nT".
 
 Data Types Used For Variables And Attributes
-````````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""""
 
 Real Numbers
-""""""""""""
+############
 
 
 ImagCDF uses double precision CDF_DOUBLE (8-byte) floating point
@@ -75,7 +75,7 @@ is 0.1pT in 80,000nT. This equates to 1 part in 80,000 x 1,000 x
 within the dynamic range available.
 
 Dates / Times
-"""""""""""""
+#############
 
 All date / time values in ImagCDF are held as CDF TT2000 dates,
 which are based on 8-byte integers. TT2000 uses an epoch (midday
@@ -84,12 +84,12 @@ on 1st January 2000) to store dates and times, has a precision of
 epoch date. The TT2000 type can correctly handle leap seconds.
 
 Strings
-"""""""
+#######
 
 Text data is held using CDF_CHAR variables in ImagCDF.
 
 Compression
-```````````
+"""""""""""
 
 The CDF library allows the user to specify whether all, part or
 none of a CDF file is compressed at the time it is written. Once
@@ -108,7 +108,7 @@ option. A day file of four element minute data can occupy under
 .. _app_cdf_optain_soft:
 
 Where To Obtain The CDF Software
---------------------------------
+````````````````````````````````
 
 
 
@@ -124,7 +124,7 @@ see section :ref:`app_cdf_tools`.
 .. _app_cdf_data:
 
 ImagCDF Data
-------------
+````````````
 
 All variables holding geomagnetic data have the following
 features:
@@ -209,7 +209,7 @@ variables and attributes read from an ImagCDF file.
 .. _app_cdf_gattr:
 
 ImagCDF Global Attributes
--------------------------
+`````````````````````````
 
 The following attributes apply to all the data in an ImagCDF file.
 The "Entries" column shows whether the attribute has:
@@ -231,7 +231,7 @@ Superscript numbers following the attribute name show:
 .. _app_cdf_gattr_describe_data:
 
 Attributes That Describe The Data Format
-````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""
 
 These are 'constant' values that will be the same for all ImagCDF
 files. They allow 'generic' CDF programs to understand and process
@@ -255,7 +255,7 @@ the data correctly.
 .. _app_cdf_gattr_unique_id:
 
 Attributes That Uniquely Identify The Data
-``````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""
 
 The attributes in this section are sufficient, along with the
 start date and duration of the time series, to uniquely identify a
@@ -314,7 +314,7 @@ piece of geomagnetic data.
 .. _app_cdf_gattr_obs:
 
 Attributes That Describe The Observatory
-````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""
 
 These attributes are available from other metadata systems (given
 an IAGA code), but are included for convenience of the user.
@@ -354,7 +354,7 @@ an IAGA code), but are included for convenience of the user.
 .. _app_cdf_gattr_stand_q:
 
 Attributes That Relate To Data Standards And Quality
-````````````````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 These attributes describe the standards, if any, that the data
 meets.
@@ -399,7 +399,7 @@ meets.
     +-------------------------+-----------+---------+------------------------------------------------+
 
 Attributes That Relate To Publication Of The Data
-`````````````````````````````````````````````````
+"""""""""""""""""""""""""""""""""""""""""""""""""
 
 These attributes are needed when that data is published.
 
@@ -450,7 +450,7 @@ These attributes are needed when that data is published.
 .. _app_cdf_gattr_valid_codes:
 
 Valid Codes For Elements Recorded
-`````````````````````````````````
+"""""""""""""""""""""""""""""""""
 
 - 'X', 'Y', or 'Z' indicate that the variable holds the strength
   of the magnetic field vector in the standard geographic
@@ -484,7 +484,7 @@ understood.
 .. _app_cdf_gattr_rel_stand:
 
 Relevant Data Standards
-```````````````````````
+"""""""""""""""""""""""
 
 Different geomagnetic data products have different standards
 associated with them. This table shows what standards are being
@@ -636,7 +636,7 @@ meets the time stamp accuracy and thermal stability sections of the
     +-------------------+--------------------------------------------------------------+
 
 ImagCDF Variable Attributes
----------------------------
+```````````````````````````
 
 The following attributes apply to individual variables - there is an
 attribute entry for each geomagnetic field element or temperature in an
@@ -696,7 +696,7 @@ GeomagneticVectorTimes and GeomagneticScalarTimes.
     +----------------+--------+---------+-----------------------------------------------------------+
 
 ImagCDF File Names
-------------------
+``````````````````
 
 ImagCDF files are named using the convention::
 
@@ -712,7 +712,7 @@ Filenames are in lower case. Files may contain arbitrary amounts of data, howeve
 is not coded into the filename.
 
 ISO 8601 Duration Strings For Common Geomagnetic Sample Periods
-```````````````````````````````````````````````````````````````
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. tabularcolumns:: |p{3cm}|>{\centering\arraybackslash}p{5cm}|
 
@@ -734,7 +734,7 @@ The table above is a set of examples. Other sample periods may be used provided 
 period used represents the vector data and conforms to ISO 8601.
 
 Format Of Date/Time Portion Of Filename And Examples
-````````````````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The date/time portion of the filename is formatted differently for different data with different
 data intervals:
@@ -778,7 +778,7 @@ data intervals:
 .. _app_cdf_tools:
 
 Tools To Look At CDF Data
--------------------------
+`````````````````````````
 
 Once you have some CDF data you will want to look at it. The CDF toolset (that is installed for you
 when you install CDF) provides programs to do this. The simplest way is (using a command shell or
@@ -799,7 +799,7 @@ Octave may be able to read CDF data:|octave|. The Wolfram Language can
 use CDF data via its NASACDF data format - |wolfgram|
 
 Example Data File
------------------
+`````````````````
 
 The data in this example was converted from an IAGA-2002 day file of Hartland DIF data for 1st
 January 1983. The contents of the TermsOfUse attribute have been truncated, as have the data records

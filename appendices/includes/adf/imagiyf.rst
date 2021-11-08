@@ -1,8 +1,8 @@
 .. _app_iyf:
 
 
-INTERMAGNET DVD/CD-ROM FORMAT FOR YEARMEAN FILE : IYF V1.02
-===========================================================
+Intermagnet DVD/CD-ROM Format For Yearmean File : IYF V1.02
+-----------------------------------------------------------
 
 
 Magnetic data with 1nT or 0.1min of arc resolution are organized
@@ -18,7 +18,8 @@ values. The file must contain a table of annual means for ALLDAYS,
 but may also contain tables of annual means for QUIET-DAYS and
 DISTURBED-DAYS.
 
-.. rubric:: Description of the header block
+Description Of The Header Block
+```````````````````````````````
 
 The header contains information on observatory name, ID-code,
 Colatitude, Longitude and Elevation to WGS-84 datum. It further
@@ -104,7 +105,8 @@ for positive values is optional.
   minutes). This applies to all types of records, including jump
   records.
 
-.. rubric:: Description of the footer
+Description Of The Footer
+`````````````````````````
 
 
 At the end of the file is added a footer describing the data. The
@@ -137,9 +139,8 @@ footer looks like this:
          1993. Why and when is unknown.
 
 
-.. rubric:: Sample of a yearmean file
-     :name: sample-of-a-yearmean-file
-
+Sample Of A Yearmean File
+`````````````````````````
 
 ::
 
@@ -253,8 +254,8 @@ footer looks like this:
                  between spring 1989 and autumn 1993. Why and when
                  is unknown.
 
-.. rubric:: Sample of missing values
-    :name: sample-of-missing-values
+Sample Of Missing Values
+````````````````````````
 
 ::
 

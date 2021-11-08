@@ -25,29 +25,11 @@ INTERMAGNET Technical Reference Manual
 .. only:: html
 
         .. toctree::
-            :maxdepth: 1
+            :maxdepth: 5
 
             appendices/terminology
             appendices/observatories
-            appendices/imagiaf
-            appendices/imagdirstructure
-            appendices/imagiyf
-            appendices/imagcdsoftware
+            appendices/archivedataformats
             appendices/imagaddresses
-            appendices/imagimfv2
-            appendices/satcoding
-            appendices/imagimfv1
-            appendices/imagibf
-            appendices/iaga2002
-            appendices/imagcdfformat
-            appendices/minutefilter
-            appendices/secondfilter
-
-
-
-.. raw:: latex
-
-  \listoffigures
-  \listoftables
-
-
+            appendices/dataformats
+            appendices/filters

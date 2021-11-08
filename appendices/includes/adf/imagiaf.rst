@@ -1,11 +1,12 @@
+
 .. _app_iaf:
 
-INTERMAGNET ARCHIVE FORMAT : IAF
-================================
+Intermagnet Archive Format : IAF
+--------------------------------
 
 
-IAFV2.11 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
---------------------------------------------------
+IAFV2.11 Binary Data Structure Format-32 Bit Words
+``````````````````````````````````````````````````
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{1cm}|p{4cm}|p{6cm}|
 
@@ -156,8 +157,9 @@ See  :numref:`sub_dat_1min_data_enc_iaf_211` for details.
 
 
 
-IAFV2.10 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
---------------------------------------------------
+
+IAFV2.10 Binary Data Structure Format-32 Bit Words
+``````````````````````````````````````````````````
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{1cm}|p{4cm}|p{6cm}|
 
@@ -299,7 +301,7 @@ IAFV2.10 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
 
 
 IAFV2.10 (2010 to 2013)
-```````````````````````
+"""""""""""""""""""""""
 
 
 Words 1 to 16 comprise the header section containing a mixture
@@ -377,8 +379,8 @@ fourth element) the value "888888" should be used instead of
 "999999". Missing K-Index values are stored as "999".
 
 
-IAFV2.00 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
---------------------------------------------------
+IAFV2.00 Binary Data Structure Format-32 Bit Words
+``````````````````````````````````````````````````
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{1cm}|p{4cm}|p{6cm}|
 
@@ -513,7 +515,7 @@ IAFV2.00 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
 
 
 IAFV2.00 (2009)
-```````````````
+"""""""""""""""
 
 Words 1 to 16 comprise the header section containing a mixture
 of text and numeric fields, including a 3-letter observatory
@@ -584,8 +586,8 @@ institution. Missing data for minute, hour, and day values are
 stored as "999999". Missing K-Index values are stored as "999".
 
 
-IAFV1.10 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
---------------------------------------------------
+IAFV1.10 Binary Data Structure Format-32 Bit Words
+``````````````````````````````````````````````````
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{1cm}|p{4cm}|p{6cm}|
 
@@ -718,7 +720,7 @@ IAFV1.10 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
     +-----------------+-------------+-----------------+-----------------+
 
 IAFV1.10 (2008)
-```````````````
+"""""""""""""""
 
 Words 1 to 16 comprise the header section containing a mixture
 of text and numeric fields, including a 3-letter observatory
@@ -778,8 +780,8 @@ minute, hour, and day values are stored as "999999". Missing
 K-Index and Ak values are stored as "999".
 
 
-IAFV1.00 BINARY DATA STRUCTURE FORMAT-32 BIT WORDS
---------------------------------------------------
+IAFV1.00 Binary Data Structure Format-32 Bit Words
+``````````````````````````````````````````````````
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{1cm}|p{4cm}|p{6cm}|
 

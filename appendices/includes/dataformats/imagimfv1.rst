@@ -1,12 +1,12 @@
 .. _app_imag_imfv_1:
 
-INTERMAGNET GIN DISSEMINATION FORMAT FOR MINUTE VALUES : IMF VERSION 1
-======================================================================
+Intermagnet Gin Dissemination Format For Minute Values : IMFV1
+--------------------------------------------------------------
 
 .. _app_imag_imfv_123:
 
 IMFV1.23
---------
+````````
 
 Magnetic data, with tenth-nanotesla resolution, are organized on a day
 file basis. One file contains 24 one-hour blocks, each containing 60
@@ -21,7 +21,7 @@ three-letter code as an extension. eg: MAR1591.BOU for Boulder, March
 .. _app_imag_imfv_123_header:
 
 Description Of The Header Block (64 characters including CrLf)
-``````````````````````````````````````````````````````````````
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
 
@@ -139,8 +139,8 @@ Missing values for the scalar component must be coded as six 9 digits: 999999
 
 .. _app_imag_imfv_123_data:
 
-Description of data space (64 characters per line including CrLf)
-`````````````````````````````````````````````````````````````````
+Description Of Data Space (64 characters per line including CrLf)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Component values are coded as signed integers, right-justified with a
 field width of 7. Total field (F) values are coded as unsigned integers,
@@ -191,7 +191,7 @@ minutes of the hour.
 .. _app_imag_imfv_122:
 
 IMFV1.22
---------
+````````
 
 Magnetic data, with tenth-nanotesla resolution, are organized on a day
 file basis. One file contains 24 one-hour blocks, each containing 60
@@ -205,8 +205,8 @@ three-letter code as an extension. eg: MAR1591.BOU for Boulder, March
 
 .. _app_imag_imfv_122_header:
 
-Description Of the header block (64 characters including CrLf)
-``````````````````````````````````````````````````````````````
+Description Of The Header Block (64 characters including CrLf)
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
 
@@ -301,8 +301,8 @@ by six 9 digits: \_999999.
 
 Missing values for the scalar component must be coded as six 9 digits: 999999
 
-Description of data space (64 characters per line including CrLf)
-`````````````````````````````````````````````````````````````````
+Description Of Data Space (64 characters per line including CrLf)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Component values are coded as signed integers, right-justified with a
 field width of 7. Total field (F) values are coded as unsigned integers,
 right-justified with a field width of 6. The field widths must be

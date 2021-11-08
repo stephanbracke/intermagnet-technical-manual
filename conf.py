@@ -31,7 +31,7 @@ version = release
 # -- General configuration ---------------------------------------------------
 # Activate autosectionlabel plugin
 # default_role = 'obj'
-#autosectionlabel_prefix_document = True
+autosectionlabel_prefix_document = False
 numfig = True
 #navtree_shift = True
 #navtree_root_links = True
@@ -44,7 +44,8 @@ numfig = True
 extensions = ['sphinx_rtd_theme',
               #'sphinx.ext.imgmath',
               #'sphinx.ext.autosectionlabel',
-              'sphinx.ext.autodoc']
+              #'sphinx.ext.autodoc'
+              ]
 
 
 
@@ -55,7 +56,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build','docs', 'Thumbs.db', '.DS_Store','venv']
+exclude_patterns = ['_build','docs', 'Thumbs.db', '.DS_Store','venv','appendices/includes']
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -81,19 +82,10 @@ latex_use_xindy = False
 
 latex_appendices = ['appendices/terminology',
                     'appendices/observatories',
-                    'appendices/imagiaf',
-                    'appendices/imagdirstructure',
-                    'appendices/imagiyf',
-                    'appendices/imagcdsoftware',
+                    'appendices/archivedataformats',
                     'appendices/imagaddresses',
-                    'appendices/imagimfv2',
-                    'appendices/satcoding',
-                    'appendices/imagimfv1',
-                    'appendices/imagibf',
-                    'appendices/iaga2002',
-                    'appendices/imagcdfformat',
-                    'appendices/minutefilter',
-                    'appendices/secondfilter'
+                    'appendices/dataformats',
+                    'appendices/filters'
                     ]
 
 
@@ -114,10 +106,27 @@ latex_elements = {
      # Latex figure (float) alignment
      #
      # 'figure_align': 'htbp',
-    'preamble': '\\addto\\captionsenglish{\\renewcommand{\\contentsname}{Table of contents}}',
+    #'preamble': '\\addto\\captionsenglish{\\renewcommand{\\contentsname}{Table of contents}}',
+    'preamble': '''\
+    \\makeatletter
+      \\fancypagestyle{normal}{
+        \\fancyhf{}
+        \\fancyfoot[LE,RO]{{\\py@HeaderFamily\\thepage}}
+        \\fancyfoot[LO]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
+        \\fancyfoot[RE]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
+        \\fancyhead[LE,RO]{{\\py@HeaderFamily \\@title, \\py@release}}
+        \\renewcommand{\\headrulewidth}{0.4pt}
+        \\renewcommand{\\footrulewidth}{0.4pt}
 
-    'extraclassoptions': 'openany',
+      }
+    \makeatother
+    ''',
+
+    'extraclassoptions': 'openany'
 }
+
+
+
 latex_documents = [
     ('index', 'technical_manual_'+release+'.tex',
      u'INTERMAGNET Technical Reference Manual',

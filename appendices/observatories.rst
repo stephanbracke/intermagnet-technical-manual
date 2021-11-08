@@ -1,6 +1,6 @@
 .. _app_obs:
 
-OBSERVATORIES PARTICIPATING IN INTERMAGNET
+Observatories Participating In Intermagnet
 ==========================================
 
 .. include:: ../shared/variables.rst

@@ -1,10 +1,10 @@
 .. _app_imag_addr:
 
 
-INTERMAGNET ADDRESSES
-=====================
+Contacts
+========
 
-INTERMAGNET EXECUTIVE COUNCIL ADDRESSES
+Intermagnet Executive Council Addresses
 ---------------------------------------
 
 .. hlist::
@@ -59,7 +59,7 @@ INTERMAGNET EXECUTIVE COUNCIL ADDRESSES
     \newpage
 
 
-INTERMAGNET OPERATIONS COMMITTEE ADDRESSES
+Intermagnet Operations Committee Addresses
 ------------------------------------------
 
 .. hlist::

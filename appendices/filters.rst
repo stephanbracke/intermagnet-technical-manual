@@ -1,7 +1,12 @@
+.. _app_filters:
+
+Filter Coefficients
+===================
+
 .. _app_1min_filter:
 
-FILTER COEFFICIENTS TO PRODUCE ONE MINUTE VALUES
-================================================
+Filter Coefficients To Produce One Minute Values
+````````````````````````````````````````````````
 
 
 .. tabularcolumns:: |c|l|l|l|
@@ -116,3 +121,9 @@ FILTER COEFFICIENTS TO PRODUCE ONE MINUTE VALUES
     +----------------+----------------+----------------+----------------+
     | t\ :sub:`50`   |                |                | 0.0017886      |
     +----------------+----------------+----------------+----------------+
+
+.. _app_1sec_filter:
+
+Filter Coefficients To Produce One Second Values
+````````````````````````````````````````````````
+

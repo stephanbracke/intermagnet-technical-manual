@@ -1,7 +1,7 @@
 .. _app_imag_imfv_2:
 
-INTERMAGNET SATELLITE TRANSMISSION FORMAT IMFV2.83
-===================================================
+Intermagnet Satellite Transmission Format IMFV2.83
+--------------------------------------------------
 
 .. include:: ./appendices.rst
 
@@ -126,7 +126,7 @@ See section :ref:`app_imag_imfv_2_header`.
 .. _app_imag_imfv_2_header:
 
 IMFV2.83 Header Encoding
-------------------------
+````````````````````````
 
 In IMFV2.83 format, the time stamp and site identification code are encoded
 in 3-byte strings formed from two 12-bit fields combined as described below:
@@ -172,7 +172,7 @@ in 3-byte strings formed from two 12-bit fields combined as described below:
     ======================== == == = = = = = = = = = = ===
 
 IMFV2.83 Data Value Encoding
-----------------------------
+````````````````````````````
 
 Constraints on the bandwidth of a GOES satellite communications
 channel dictate a maximum transmission block of 126 bytes of data
