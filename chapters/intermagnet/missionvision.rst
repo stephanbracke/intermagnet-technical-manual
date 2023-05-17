@@ -1,6 +1,6 @@
 .. _inter_vis:
 
-Intermagnet Vision, Mission And Objectives
+Intermagnet Vision, Mission and Objectives
 ==========================================
 
 The main objective of INTERMAGNET is to establish a global
