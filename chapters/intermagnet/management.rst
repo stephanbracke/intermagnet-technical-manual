@@ -1,6 +1,6 @@
 .. _inter_man:
 
-Intermagnet Management
+INTERMAGNET Management
 ======================
 
 The  Executive Council establishes policy for INTERMAGNET, deals
