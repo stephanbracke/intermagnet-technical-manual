@@ -1,6 +1,6 @@
 .. _inter_hist_status:
 
-History And Status Of INTERMAGNET
+History and Status of INTERMAGNET
 =================================
 
 .. include:: ../../appendices/appendices.rst
