@@ -1,6 +1,6 @@
 .. _use_dat_imag_web:
 
-Intermagnet Web Site
+INTERMAGNET WEB Site
 ====================
 .. include:: ../../shared/variables.rst
 
