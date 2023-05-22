@@ -120,9 +120,7 @@ latex_elements = {
 
       }
     \makeatother
-    ''',
-
-    'extraclassoptions': 'openany'
+    '''
 }
 
 
