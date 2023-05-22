@@ -1,6 +1,6 @@
 .. _inter_cond_use:
 
-Conditions Of Use
+Conditions of Use
 =================
 
 .. include:: ../../shared/variables.rst
