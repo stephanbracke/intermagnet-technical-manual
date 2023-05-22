@@ -1,6 +1,6 @@
 .. _sub_dat_prel_data:
 
-Submission Of Preliminary Data
+Submission of Preliminary Data
 ==============================
 
 .. include:: ../../shared/variables.rst
