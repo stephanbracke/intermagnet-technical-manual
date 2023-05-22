@@ -20,11 +20,8 @@ condition of acceptance is that the observatory agrees to
 comply with the INTERMAGNET Observatory Participation Policy as
 described below.
 
-Applications forms are available on the `INTERMAGNET web site`_.
-
-
-and forms should be sent to the IMO Applications and Standards
-
+Applications forms are available on the `INTERMAGNET web site`and
+forms should be sent to the IMO Applications and Standards
 Subcommittee chair:
 
 | Chris Turbitt
