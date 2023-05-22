@@ -1,7 +1,7 @@
 .. _mem_part:
 
 ***************************
-How To Apply For Membership
+How to Apply for Membership
 ***************************
 
 .. toctree::
