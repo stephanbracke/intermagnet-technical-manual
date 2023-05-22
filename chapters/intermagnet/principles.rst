@@ -1,6 +1,6 @@
 .. _inter_princ:
 
-The INTERMAGNET Principles And Conditions
+The INTERMAGNET Principles and Conditions
 =========================================
 
 INTERMAGNET is operated according to principles and conditions
