@@ -1,6 +1,6 @@
 .. _abs_mes_calc_diff_pill:
 
-Calculation Of The Difference Between F Pillar and Absolute Pillar
+Calculation of the Difference Between F Pillar and Absolute Pillar
 ===================================================================
 
 If :math:`F_v` is the magnetude of the magnetic vector at the
