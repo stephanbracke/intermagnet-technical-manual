@@ -28,8 +28,8 @@ resubmission).
 
 .. _sub_dat_intro_df:
 
-Data Format
------------
+Data Formats
+------------
 
 A number of data formats are in use in INTERMAGNET. In some
 cases this diversity exists to support handling of different
