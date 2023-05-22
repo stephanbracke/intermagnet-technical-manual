@@ -29,7 +29,7 @@ on the DVD, as well as a data export to other common formats
 
 .. _use_dat_cd_content:
 
-Content Of The CD-ROM/DVD/USB
+Content of the CD-ROM/DVD/USB
 -----------------------------
 
 The CD-ROM/DVD/USB's content is organized in a number of
@@ -109,7 +109,7 @@ recent version of the definitive one-minute data.
 
 .. _use_dat_cd_obtain:
 
-How To Obtain CD-ROM/DVD/USB
+How to Obtain CD-ROM/DVD/USB
 ----------------------------
 
 Send your request to |contact_ipgp| indicating clearly the
