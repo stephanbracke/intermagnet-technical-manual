@@ -1,6 +1,6 @@
 .. _proc_dat_dqc:
 
-Data Quality Control & Processing tasks
+Data Quality Control & Processing Tasks
 =======================================
 
 .. include:: ../../shared/variables.rst
