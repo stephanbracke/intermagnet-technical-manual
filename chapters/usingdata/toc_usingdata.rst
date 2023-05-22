@@ -1,7 +1,7 @@
 .. _use_dat:
 
 **********************
-Using Intermagnet Data
+Using INTERMAGNET Data
 **********************
 
 .. toctree::
