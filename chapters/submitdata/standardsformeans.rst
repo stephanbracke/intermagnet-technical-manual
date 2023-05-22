@@ -1,6 +1,6 @@
 .. _sub_dat_mean_std:
 
-Standards For Calculating Hourly, Daily And Annual Means
+Standards for Calculating Hourly, Daily and Annual Means
 ========================================================
 
 INTERMAGNET requires that all mean values be calculated using
@@ -46,7 +46,7 @@ rules:
 
 .. _sub_dat_mean_std_missing:
 
-Rule For Missing 1-minute Values
+Rule for Missing 1-minute Values
 --------------------------------
 
 When mean values are to be calculated the question of how to
