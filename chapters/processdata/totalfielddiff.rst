@@ -1,6 +1,6 @@
 .. _proc_dat_tot_f_dif:
 
-The Computation Of Total Field Differences
+The Computation of Total Field Differences
 ==========================================
 
 Whenever possible, observatories should measure the scalar
