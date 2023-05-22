@@ -1,6 +1,6 @@
 .. _use_dat_cond_use:
 
-Condition Of Use
+Condition of Use
 ================
 
 .. include:: ../../shared/variables.rst
