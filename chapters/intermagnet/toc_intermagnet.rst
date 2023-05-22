@@ -1,7 +1,7 @@
 .. _inter:
 
 ***********
-Intermagnet
+INTERMAGNET
 ***********
 
 .. toctree::
