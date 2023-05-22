@@ -37,7 +37,7 @@ types of data, in other cases a new format has superseded (or
 partially superseded) an older one.
 
 
-IMFV1.23 Gin Dissemination Format
+IMFV1.23 GIN Dissemination Format
 `````````````````````````````````
 
 .. tabularcolumns:: |p{3.5cm}|p{9cm}|
