@@ -14,7 +14,7 @@ and auxiliary pillar used to measure scalar F, then:
 
 
 If we set :math:`F_s = F_s^0 +  δ` , where :math:`F_s^0`
-is constant typical value and the δ is time-dependent variation :
+is constant typical value and the δ is time-dependent variation
 
 .. math::
 
