@@ -1,6 +1,6 @@
 .. _1sec_imo_sampling:
 
-Data sampling and filtering
+Data Sampling and Filtering
 ===========================
 
 .. include:: ../../appendices/appendices.rst
