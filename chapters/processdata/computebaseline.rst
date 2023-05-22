@@ -1,6 +1,6 @@
 .. _proc_dat_baseline_comp:
 
-Computation Of Baseline Values
+Computation of Baseline Values
 ==============================
 
 .. include:: ../../appendices/appendices.rst
