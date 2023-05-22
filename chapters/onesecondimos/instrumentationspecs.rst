@@ -42,12 +42,17 @@ absolute observations can be determined by the observer based
 on the stability of the variometer, its operating environment
 and its baselines.
 
+The definitive one-second data standard is
+described in more detail in INTERMAGNET
+Technical Note TN6.
+
 .. _1sec_imo_instspec_am:
 
 Absolute Measurements
 ---------------------
 
-See :numref:`Chapter %s <abs_mes>`
+The requirements are the same as for 1 minute
+data. See :numref:`Chapter %s <abs_mes>`
 
 
 .. _1sec_imo_instspec_vm:
