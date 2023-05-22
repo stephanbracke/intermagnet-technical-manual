@@ -1,6 +1,6 @@
 .. _app_imag_term:
 
-Intermagnet Terminology
+INTERMAGNET Terminology
 =======================
 
 .. include:: ./appendices.rst
