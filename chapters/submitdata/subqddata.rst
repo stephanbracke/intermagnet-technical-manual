@@ -1,6 +1,6 @@
 .. _sub_dat_qd_data:
 
-Submission Of Quasi-Definitive Data
+Submission of Quasi-Definitive Data
 ====================================
 
 .. include:: ../../shared/variables.rst
@@ -15,7 +15,7 @@ their acquisition.
 
 .. _sub_dat_qd_data_upf:
 
-Update Frequencies And Formats For Preliminary Data
+Update Frequencies and Formats for Preliminary Data
 ---------------------------------------------------
 
 Typical update frequencies are updates on a daily or monthly
@@ -24,20 +24,20 @@ basis. For the formats, please refer to :numref:`sub_dat_prel_upf`.
 
 .. _sub_dat_qd_data_ws:
 
-Submission Via Web Service
+Submission via WEB Service
 --------------------------
 Please refer to the description for preliminary data in :numref:`sub_dat_prel_ws`.
 
 .. _sub_dat_qd_email:
 
-Submission Via Email
+Submission via Email
 --------------------
 
 Please refer to the description for preliminary data in :numref:`sub_dat_prel_email`.
 
 .. _sub_dat_qd_check:
 
-How To Check If Your Data Has Been Received
+How to Check if Your Data Has Been Received
 -------------------------------------------
 
 Please refer to the description for preliminary data in :numref:`sub_dat_prel_check` .
