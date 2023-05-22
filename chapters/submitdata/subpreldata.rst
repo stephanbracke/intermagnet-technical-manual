@@ -19,7 +19,7 @@ data.
 
 .. _sub_dat_prel_upf:
 
-Update Frequencies And Formats For Preliminary Data
+Update Frequencies and Formats for Preliminary Data
 ---------------------------------------------------
 
 GINs can receive data in IAGA-2002 and IMFV1.23 formats. These
@@ -90,7 +90,7 @@ per file).
 
 .. _sub_dat_prel_types:
 
-Types Of Preliminary Data
+Types of Preliminary Data
 -------------------------
 
 In the past INTERMAGNET has collected Reported (or Variometer)
@@ -114,7 +114,7 @@ to send quasi-definitive data in near real-time.
 
 .. _sub_dat_prel_ws:
 
-Submission Via Web Service
+Submission via WEB Service
 --------------------------
 
 Data can be submitted to INTERMAGNET GINs using a web service.
@@ -248,7 +248,7 @@ For more detailed information see INTERMAGNET Technical Note 9:
 
 .. _sub_dat_prel_email:
 
-Submission Via Email
+Submission via Email
 --------------------
 
 All GINs support receipt of data by email. An entire day of
