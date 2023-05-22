@@ -1,6 +1,6 @@
 .. _mem_part_pol:
 
-Intermagnet Participation Policy
+INTERMAGNET Participation Policy
 ================================
 
 .. include:: ../../shared/variables.rst
@@ -61,7 +61,7 @@ changes will not be applied retrospectively.
 
 .. _mem_part_pol_obs_apl:
 
-Observatory Application To The Intermagnet Network
+Observatory Application to the INTERMAGNET Network
 --------------------------------------------------
 
 Observatories intending to join the INTERMAGNET network are
@@ -86,7 +86,7 @@ the application. There is no restriction on re-application.
 
 .. _mem_part_pol_on_par:
 
-Ongoing Participation In The Intermagnet Network
+Ongoing Participation in the INTERMAGNET Network
 ------------------------------------------------
 
 On a regular basis, the Operations Committee will monitor the
@@ -129,7 +129,7 @@ by the Operations Committee.
 
 .. _mem_part_pol_with_drawal:
 
-Withdrawal Of Intermagnet Status
+Withdrawal of INTERMAGNET Status
 --------------------------------
 
 Under certain circumstances and on the recommendation of the
