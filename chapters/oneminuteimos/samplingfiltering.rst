@@ -1,6 +1,6 @@
 .. _1min_imo_sampling:
 
-Data Sampling And Filtering
+Data Sampling and Filtering
 ===========================
 
 .. include:: ../../appendices/appendices.rst
