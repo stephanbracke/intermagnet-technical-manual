@@ -1,7 +1,7 @@
 .. _sub_dat_def_calc:
 
-Definitive Data Calculation Based On Most Common Orientation
-============================================================
+Definitive Data Calculation Based on Most Common Orientations
+=============================================================
 
 Fluxgate variometers usually have 3 orthogonal fluxgate
 sensors. These sensors can be oriented in various ways. Most
@@ -138,7 +138,7 @@ derived from (1a) to (1c):
  (2c)\qquad  D_0(t_1) &= D(t_1) - atan{(\frac{E_{var}(t_1)}{N_0(t_1)+V_{var}(t_1)})} \\
 
 
-In the case of the absolute values :math:`H(t_1)`,
+Note that in the case of the absolute values :math:`H(t_1)`,
 :math:`D(t_1)` and :math:`Z(t_1)` all appropriate pillar
 differences have to be included such that the absolute values
 represent the magnetic field at the observatory's main pillar.
@@ -149,7 +149,7 @@ they also incorporate the pillar difference between the main
 pillar and the variometer pillar. From the resulting observed
 baseline values :math:`N_0(t_1)`, :math:`D_0(t_1)` and :math:`V_0(t_1)`
 the continuous final baselines :math:`N_0(t)`, :math:`D_0(t)`
-and math:`V_0(t)` are adopted and used for the calculation
+and :math:`V_0(t)` are adopted and used for the calculation
 of definitive data as described above in formula (1a) to (1c).
 
 If the XYZ-orientation is used, we label the fluxgates X, Y and
