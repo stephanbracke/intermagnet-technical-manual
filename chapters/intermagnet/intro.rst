@@ -34,6 +34,7 @@ distributed to users. These are used in a variety of ways:
 magnetic reference field model production; space weather
 forecasts; directional drilling; magnetic surveying; and
 scientific research.
+
 However, user needs change, and to maintain its relevance
 INTERMAGNET must evolve accordingly. To ensure the continued
 success of the organization, INTERMAGNET liaises with users to
