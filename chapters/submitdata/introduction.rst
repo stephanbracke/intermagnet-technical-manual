@@ -389,7 +389,7 @@ data transmission and formatting problems.
 
 .. _sub_dat_intro_gin_addr:
 
-Gin Manager Addresses
+GIN Manager Addresses
 `````````````````````
 
 Any enquiries to individual GINs should be made to the
@@ -456,7 +456,7 @@ INTERMAGNET GIN Manager at the following addresses:
 
 .. _sub_dat_intro_gin_email:
 
-Gin Email Addresses
+GIN Email Addresses
 ```````````````````
 
 -  Ottawa: charles.blais@canada.ca
@@ -467,7 +467,7 @@ Gin Email Addresses
 
 
 
-INTERMAGNET Gin Types
+INTERMAGNET GIN Types
 `````````````````````
 
 The five INTERMAGNET GINs can be classified into two types,
