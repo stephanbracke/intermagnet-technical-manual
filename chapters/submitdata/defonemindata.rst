@@ -223,7 +223,7 @@ XYZFIDH, and also detects format errors.
 
 .. _sub_dat_1min_data_soft:
 
-Obtaining The Checking Software
+Obtaining the Checking Software
 -------------------------------
 
 See the following web page to download the checking software:
@@ -232,7 +232,7 @@ See the following web page to download the checking software:
 
 .. _sub_dat_1min_data_enc:
 
-Data Encoding For Publication
+Data Encoding for Publication
 -----------------------------
 
 1-minute definitive data for an IMO are to be provided to
