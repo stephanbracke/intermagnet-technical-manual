@@ -1,6 +1,6 @@
 .. _abs_mes_deffreq:
 
-Definition And Frequency
+Definition and Frequency
 ========================
 
 Absolute control at a magnetic observatory requires periodic
