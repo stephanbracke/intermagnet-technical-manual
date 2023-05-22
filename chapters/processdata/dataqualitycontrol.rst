@@ -150,8 +150,8 @@ by INTERMAGNET. The process for submitting data to INTERMAGNET
 
 .. _proc_dat_dqc_despike:
 
-Despiking And Removal Of Artificially Disturbed
------------------------------------------------
+Despiking and Removal of Artificially Disturbed Data
+----------------------------------------------------
 
 Single data points that are further away from the true signal
 than the typical noise of the time series are referred to as
