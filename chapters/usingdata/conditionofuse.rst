@@ -11,7 +11,7 @@ for the INTERMAGNET conditions of use.
 
 .. _use_dat_cond_use_ack:
 
-Acknowledgment Of Data From Observatories Participating In Intermagnet
+Acknowledgment of Data from Observatories Participating in INTERMAGNET
 ----------------------------------------------------------------------
 
 Publications making use of INTERMAGNET data should include an
