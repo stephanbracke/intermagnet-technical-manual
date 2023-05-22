@@ -93,7 +93,7 @@ IAGA-2002
 
 This format is fully defined in |app_iaga_2002|.
 
-Intermagnet Archive Format
+INTERMAGNET Archive Format
 ``````````````````````````
 .. tabularcolumns:: |p{6.5cm}|p{8cm}|
 
@@ -130,7 +130,7 @@ ImagCDF
 
 This format is fully defined in |app_cdf|.
 
-IYF INTERMAGNET Year-mean File
+IYF INTERMAGNET Year-Mean File
 ``````````````````````````````
 .. tabularcolumns:: |p{3.5cm}|p{9cm}|
 
