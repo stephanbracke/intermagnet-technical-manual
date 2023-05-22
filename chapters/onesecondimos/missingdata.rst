@@ -1,6 +1,6 @@
 .. _1sec_imo_missing:
 
-Missing data
+Missing Data
 ============
 
 When mean or filtered values are to be calculated, the question
