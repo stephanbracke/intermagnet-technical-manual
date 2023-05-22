@@ -26,7 +26,7 @@ screen readers, often used by the visually impaired.
 
 .. _use_dat_imag_web_addr:
 
-Web Site Address
+WEB Site Address
 ----------------
 
 The INTERMAGNET web site address is: |intermagnet_website|
