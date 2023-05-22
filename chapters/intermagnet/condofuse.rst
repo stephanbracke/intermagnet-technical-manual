@@ -39,3 +39,12 @@ By accessing these data you signify your acceptance of these
 terms and conditions. For commercial applications of
 observatory data, please contact the operating Institute
 directly.
+
+The Operations Committee advises the Executive
+Council on matters relating to magnetic sensors, data
+capture and data processing, and on communications
+options, protocols, etc. The Operations Committee
+is also responsible for establishing and maintaining
+standards of operation and uniform data formats and
+transmission characteristics which optimize global
+exchange.
