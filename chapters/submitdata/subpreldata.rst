@@ -510,7 +510,7 @@ environmental data gathering services.
 
 .. _sub_dat_prel_transfer:
 
-Transferring Data From GINs To Web Site
+Transferring Data from GINs to WEB Site
 ---------------------------------------
 
 GINs receive non-definitive data from observatories in either
@@ -537,7 +537,7 @@ INTERMAGNET web site, contact your GIN manager.
 
 .. _sub_dat_prel_check:
 
-How To Check If Your Data Has Been Received
+How to Check if Your Data Has Been Received
 -------------------------------------------
 
 
@@ -582,7 +582,7 @@ manager.
 
 .. _sub_dat_prel_probs:
 
-Common Problems With Data Transmission
+Common Problems with Data Transmission
 --------------------------------------
 
 The two most common problems are in incorrectly implemented
