@@ -9,6 +9,9 @@ INTERMAGNET Technical Reference Manual
            :align: center
            :alt: Intermagnet
 
+    version : |version|
+    ===================
+
 .. toctree::
     :maxdepth: 5
     :numbered:

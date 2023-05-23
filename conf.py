@@ -27,6 +27,14 @@ author = 'Technical Manual Team'
 release = re.sub('^v', '', os.popen('git describe').read().strip())
 version = release
 
+variables_to_export = [
+    "project",
+    "copyright",
+    "version",
+]
+frozen_locals = dict(locals())
+rst_epilog = '\n'.join(map(lambda x: f".. |{x}| replace:: {frozen_locals[x]}", variables_to_export))
+del frozen_locals
 
 # -- General configuration ---------------------------------------------------
 # Activate autosectionlabel plugin
@@ -128,7 +136,7 @@ latex_elements = {
 latex_documents = [
     ('index', 'technical_manual_'+release+'.tex',
      u'INTERMAGNET Technical Reference Manual',
-     u'' +author, 'manual'),
+     u'', 'manual'),
 ]
 
 
