@@ -87,8 +87,8 @@ IAFV2.11 Binary Data Structure Format-32 Bit Words
     |                 |             |                 | (00 =           |
     |                 |             |                 | definitive, 01  |
     |                 |             |                 | =               |
-    |                 |             |                 | qu              |
-    |                 |             |                 | asi-definitive) |
+    |                 |             |                 | quasi-          |
+    |                 |             |                 | definitive)     |
     +                 +-------------+-----------------+-----------------+
     |                 | 16          | Reserved for    |                 |
     |                 |             | future use      |                 |
