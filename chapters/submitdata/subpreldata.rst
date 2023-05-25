@@ -213,9 +213,8 @@ further detail.
 
 On successful upload, the following message will be returned:
 
-Success
-
-Data loaded OK, data file id = <ID>
+   | Success
+   | Data loaded OK, data file id = <ID>
 
 Capturing the ID of the transaction from the response allows
 you to confirm that the upload was successful and to download
@@ -231,20 +230,18 @@ load on the GIN – these occurrences are very rare.
 An example of the web service (as implemented at the Edinburgh
 GIN) can be seen here:
 
-|gin_edin_up|
+    |gin_edin_up|
 
 Detailed descriptions of the interface to the web service along
 with some example software to upload data to the web service
 are available here:
 
-|gin_edin_up_help|
+    |gin_edin_up_help|
 
 Note that this web site is password protected – for access
 apply to the GIN manager.
 
-For more detailed information see INTERMAGNET Technical Note 9:
-
-|tn_9|
+For more detailed information see INTERMAGNET Technical Note 9: |tn_9|
 
 .. _sub_dat_prel_email:
 
@@ -399,7 +396,7 @@ to a GIN:
    ensure that they are not contravening any transmission laws
    in force in their country.
 #. Application must be made to the operators of whichever
-   satellite is accessible from the observatory. |app_sat_cod|
+   satellite is accessible from the observatory. |app_obs|
    shows the footprints of geostationary satellites and from
    this users can decide which satellite should provide the
    best transmission path. Since satellite positions are

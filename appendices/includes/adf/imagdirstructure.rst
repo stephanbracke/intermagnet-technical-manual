@@ -208,22 +208,6 @@ even though the data are in the binary records, because they
 are much faster to access than paging through the binary
 records on the CD-ROM/DVD/USB.
 
-This sub-directory may also contain a file labeled as
-XXXYRK.DKA, where the XXX is the 3-letter observatory ID, the
-YR is the 2-character year value and the K indicates a K-Index
-file. Originally the DKA extension was used to indicate that
-the data were generated from a digital algorithm in an ASCII
-format, however subsequently these files have been used to hold
-both digitally derived and hand-scaled K indices. Since 2005
-the DKA files have been created by INTERMAGNET, using data from
-the binary IAF file (before 2005 these files were provided by
-the observatories). The consequence is that DKA ASCII files
-provided by IMOs are ignored during final compilation of
-CD-ROM/DVD/USB. These ASCII K-Index files are published on,
-even though the data are in the binary records, because they
-are much faster to access than paging through the binary
-records on the CD-ROM/DVD/USB.
-
 List of changes to the structure since the first (1991) CD-ROM
 ``````````````````````````````````````````````````````````````
 
