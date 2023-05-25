@@ -12,7 +12,7 @@ INTERMAGNET Technical Reference Manual
     version : |version|
     ===================
 small test
-
+Small test from BEnoit
 .. toctree::
     :maxdepth: 5
     :numbered:
