@@ -915,7 +915,7 @@ IAFV1.00 Binary Data Structure Format-32 Bit Words
     +-----------------+-------------+-----------------+-----------------------------------------+
 
 IAFV1.00 (2007 and before)
-``````````````````````````
+""""""""""""""""""""""""""
 
 Words 1 to 16 comprise the header section containing a mixture
 of text and numeric fields, including a 3-letter observatory
