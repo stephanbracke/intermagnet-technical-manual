@@ -1,6 +1,6 @@
 .. _app_imag_cd:
 
-Intermagnet CD-ROM Software
+INTERMAGNET CD-ROM Software
 ---------------------------
 
 The INTERMAGNET CD-ROM software is a menu-driven program that
