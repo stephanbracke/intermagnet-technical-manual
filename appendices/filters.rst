@@ -5,7 +5,7 @@ Filter Coefficients
 
 .. _app_1min_filter:
 
-Filter Coefficients To Produce One Minute Values
+Filter Coefficients to Produce One Minute Values
 ````````````````````````````````````````````````
 
 
@@ -124,6 +124,6 @@ Filter Coefficients To Produce One Minute Values
 
 .. _app_1sec_filter:
 
-Filter Coefficients To Produce One Second Values
+Filter Coefficients to Produce One Second Values
 ````````````````````````````````````````````````
 
