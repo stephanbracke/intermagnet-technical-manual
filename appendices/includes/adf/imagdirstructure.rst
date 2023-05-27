@@ -1,6 +1,6 @@
 .. _app_imag_dir:
 
-Intermagnet CD-ROM/DVD/USB Directory Structure
+INTERMAGNET CD-ROM/DVD/USB Directory Structure
 ----------------------------------------------
 
 The structure of files and folders on the INTERMAGNET
@@ -208,7 +208,7 @@ even though the data are in the binary records, because they
 are much faster to access than paging through the binary
 records on the CD-ROM/DVD/USB.
 
-List of changes to the structure since the first (1991) CD-ROM
+List of Changes to the Structure since the first (1991) CD-ROM
 ``````````````````````````````````````````````````````````````
 
 .. tabularcolumns:: |>{\centering\arraybackslash}p{1cm}|p{12cm}|
