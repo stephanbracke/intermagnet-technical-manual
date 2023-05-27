@@ -1,7 +1,7 @@
 .. _app_imag_imfv_2:
 
-Intermagnet Satellite Transmission Format IMFV2.83
---------------------------------------------------
+INTERMAGNET Satellite Transmission Format : IMFV2.83
+----------------------------------------------------
 
 .. include:: ./appendices.rst
 
