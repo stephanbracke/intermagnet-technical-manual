@@ -1,6 +1,6 @@
 .. _app_iaga_2002:
 
-IAGA2002 Intermagnet Exchange Format (Spreadsheet compatible)
+IAGA2002 NTERMAGNET Exchange Format (Spreadsheet compatible)
 -------------------------------------------------------------
 
 This ASCII Exchange Format, adopted in August 2001 and revised in
