@@ -1,7 +1,7 @@
 
 .. _app_iaf:
 
-Intermagnet Archive Format : IAF
+INTERMAGNET Archive Format : IAF
 --------------------------------
 
 

@@ -1,7 +1,7 @@
 .. _app_iyf:
 
 
-Intermagnet DVD/CD-ROM Format For Yearmean File : IYF V1.02
+INTERMAGNET DVD/CD-ROM Format for Yearmean File : IYF V1.02
 -----------------------------------------------------------
 
 
@@ -18,7 +18,7 @@ values. The file must contain a table of annual means for ALLDAYS,
 but may also contain tables of annual means for QUIET-DAYS and
 DISTURBED-DAYS.
 
-Description Of The Header Block
+Description of the Header Block
 ```````````````````````````````
 
 The header contains information on observatory name, ID-code,
@@ -105,7 +105,7 @@ for positive values is optional.
   minutes). This applies to all types of records, including jump
   records.
 
-Description Of The Footer
+Description of the Footer
 `````````````````````````
 
 
@@ -139,7 +139,7 @@ footer looks like this:
          1993. Why and when is unknown.
 
 
-Sample Of A Yearmean File
+Sample of a Yearmean File
 `````````````````````````
 
 ::
@@ -254,7 +254,7 @@ Sample Of A Yearmean File
                  between spring 1989 and autumn 1993. Why and when
                  is unknown.
 
-Sample Of Missing Values
+Sample of Missing Values
 ````````````````````````
 
 ::

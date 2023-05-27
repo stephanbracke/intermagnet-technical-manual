@@ -1,7 +1,7 @@
 .. _app_imag_imfv_1:
 
-Intermagnet Gin Dissemination Format For Minute Values : IMFV1
---------------------------------------------------------------
+INTERMAGNET Gin Dissemination Format for Minute Values : IMFV
+-------------------------------------------------------------
 
 .. _app_imag_imfv_123:
 
@@ -20,7 +20,7 @@ three-letter code as an extension. eg: MAR1591.BOU for Boulder, March
 
 .. _app_imag_imfv_123_header:
 
-Description Of The Header Block (64 characters including CrLf)
+Description of the Header Block (64 characters including CrLf)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
@@ -139,7 +139,7 @@ Missing values for the scalar component must be coded as six 9 digits: 999999
 
 .. _app_imag_imfv_123_data:
 
-Description Of Data Space (64 characters per line including CrLf)
+Description of Data Space (64 characters per line including CrLf)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Component values are coded as signed integers, right-justified with a
@@ -205,7 +205,7 @@ three-letter code as an extension. eg: MAR1591.BOU for Boulder, March
 
 .. _app_imag_imfv_122_header:
 
-Description Of The Header Block (64 characters including CrLf)
+Description of the Header Block (64 characters including CrLf)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
@@ -301,7 +301,7 @@ by six 9 digits: \_999999.
 
 Missing values for the scalar component must be coded as six 9 digits: 999999
 
-Description Of Data Space (64 characters per line including CrLf)
+Description of Data Space (64 characters per line including CrLf)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Component values are coded as signed integers, right-justified with a
 field width of 7. Total field (F) values are coded as unsigned integers,

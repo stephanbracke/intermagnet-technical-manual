@@ -59,6 +59,7 @@ extensions = ['sphinx_rtd_theme',
 
 
 # Add any paths that contain templates here, relative to this directory.
+# some comment
 templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and

@@ -1,11 +1,11 @@
 .. _app_imag_ibf:
 
-Intermagnet Baseline Format : IBF
+INTERMAGNET Baseline Format : IBF
 ---------------------------------
 
 .. _app_imag_ibf_v2:
 
-IBFV2.00 (2009 And After)
+IBFV2.00 (2009 and after)
 `````````````````````````
 
 This file format is to be used to provide baselines for use in examining
@@ -123,7 +123,7 @@ File name convention is IAGYEAR.BLV e.g. BFE2008.BLV where:
 
 .. _app_imag_ibf_v1_20:
 
-IBFV1.20 (2008 And Before)
+IBFV1.20 (2008 and before)
 ``````````````````````````
 
 This format is to be used to provide baselines for use in examining

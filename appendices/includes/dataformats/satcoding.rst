@@ -3,7 +3,7 @@
 Satellite Coding Examples
 -------------------------
 
-Coding Example For Goes Satellite
+Coding Example for Goes Satellite
 `````````````````````````````````
 
 Each block of 126 bytes in IMFV2.83 must be encoded in 189 NESS-BINARY
@@ -91,7 +91,7 @@ FD C8 DF 43 D0 D5 FE 58 D3 79 F4 D0 7C 7C DF 43 4C D5 FE 4C D3 79 70 D0
 7C 70 DF C2 F8 D5 FE C8 D3 79 7C D0 7C 68 DF C2 70 D5 FD F8 D3 79 7C D0
 7C 70 DF C2 F4 D5 FD F8 D3 7A 40 D0 7C F8 DF C2 F4 D5 FD 7C D3**
 
-Coding Example For Meteosat Satellite
+Coding Example for Meteosat Satellite
 `````````````````````````````````````
 
 As the duration between two time slots on the METEOSAT satellite is one
@@ -247,7 +247,7 @@ DB 1F 2F 15 E4 13 A4 10 DB 1F 2F 15 E2 13 A4 10 DA 1F 2D 15 E1 13 A7 10
 D9 1F 2D 15 E2 13 A7 10 D8 1F 2C 15 E1 13 AC 10 DB 1F 2F 15 E6 13 AF 10
 DF 1F 31 15 E9 13 00 00 00 00 00 00 00 00 00 00**
 
-Coding Example For GMS Satellite
+Coding Example for GMS Satellite
 ````````````````````````````````
 
 The GMS satellite system requires that DCP data transmission use a long
@@ -307,7 +307,7 @@ to the GMS character set. The coded data format follows:
     \                                                                                      (CR-CR-LF)-208 byte
     =============================== ================= ================== ================  ===================
 
-Time framing for GMS
+Time Framing for GMS
 ````````````````````
 
 A multiple data transmission (12-minute data block repeated 3 times) may be used to satisfy

@@ -1,6 +1,6 @@
 .. _app_iaga_2002:
 
-IAGA2002 Intermagnet Exchange Format (Spreadsheet compatible)
+IAGA2002 INTERMAGNET Exchange Format (Spreadsheet compatible)
 -------------------------------------------------------------
 
 This ASCII Exchange Format, adopted in August 2001 and revised in
@@ -272,10 +272,10 @@ Where:
 #. File contains part-day of 1-second variation data from CLF for 12
    June 2003, starting at 13:20:00
 
-Sample Of IAGA-2002 Format July 2003 Revision
+Sample of IAGA-2002 Format July 2003 Revision
 `````````````````````````````````````````````
 
-Sample Data Header And Data Record For 1-minute Values
+Sample Data Header and Data Record for 1-minute Values
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
@@ -317,7 +317,7 @@ Sample Data Header And Data Record For 1-minute Values
      2001-03-13 00:03:00.000 072     10803.12 -6100.23   99999.00  54801.12
 
 
-Sample Data Header And Data Record For Hourly Values
+Sample Data Header and Data Record for Hourly Values
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -333,7 +333,7 @@ Sample Data Header And Data Record For Hourly Values
      2001-03-13 03:00:00.000 072     10803.12 -6100.23   99999.00  88888.00
 
 
-Sample Data Header And Data Record For Monthly Values
+Sample Data Header and Data Record for Monthly Values
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -350,7 +350,7 @@ Sample Data Header And Data Record For Monthly Values
     2001-04-15 00:00:00.000 105     10803.12 -6100.23   99999.00  88888.00
 
 
-Sample Data Header And Data Record For 1-second Values
+Sample Data Header and Data Record for 1-second Values
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. highlight:: none
@@ -388,7 +388,7 @@ Sample Data Header And Data Record For 1-second Values
    2001-03-13 00:00:03.000 072       803.12   -100.23  99999.00  54803.43
 
 
-SAMPLE DATA HEADER AND DATA RECORD FOR 5-MILLISECOND VALUES
+Sample Data Header and Data Record for 5-Millisecond Values
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
