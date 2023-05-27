@@ -1,7 +1,7 @@
 .. _app_cdf:
 
 
-IMAGCDFV1.2 INTERMAGNET EXCHANGE FORMAT
+IMAGCDFV1.2 INTERMAGNET Exchange Format
 ---------------------------------------
 
 .. include:: ../shared/variables.rst
@@ -14,7 +14,7 @@ here.
 
 .. _app_cdf_design:
 
-Design Details And CDF Concepts
+Design Details and CDF Concepts
 ```````````````````````````````
 
 General Design Details
@@ -54,7 +54,7 @@ example, in an ImagCDF file holding HDZF data, the attribute Units
 will have four entries (in this order): "nT"; "Degrees of arc";
 "nT"; "nT".
 
-Data Types Used For Variables And Attributes
+Data Types Used for Variables and Attributes
 """"""""""""""""""""""""""""""""""""""""""""
 
 Real Numbers
@@ -107,7 +107,7 @@ option. A day file of four element minute data can occupy under
 
 .. _app_cdf_optain_soft:
 
-Where To Obtain The CDF Software
+Where to Obtain the CDF Software
 ````````````````````````````````
 
 
@@ -230,7 +230,7 @@ Superscript numbers following the attribute name show:
 
 .. _app_cdf_gattr_describe_data:
 
-Attributes That Describe The Data Format
+Attributes that Describe the Data Format
 """"""""""""""""""""""""""""""""""""""""
 
 These are 'constant' values that will be the same for all ImagCDF
@@ -254,7 +254,7 @@ the data correctly.
 
 .. _app_cdf_gattr_unique_id:
 
-Attributes That Uniquely Identify The Data
+Attributes that Uniquely Identify the Data
 """"""""""""""""""""""""""""""""""""""""""
 
 The attributes in this section are sufficient, along with the
@@ -313,7 +313,7 @@ piece of geomagnetic data.
 
 .. _app_cdf_gattr_obs:
 
-Attributes That Describe The Observatory
+Attributes that Describe the Observatory
 """"""""""""""""""""""""""""""""""""""""
 
 These attributes are available from other metadata systems (given
@@ -353,7 +353,7 @@ an IAGA code), but are included for convenience of the user.
 
 .. _app_cdf_gattr_stand_q:
 
-Attributes That Relate To Data Standards And Quality
+Attributes that Relate to Data Standards and Quality
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 
 These attributes describe the standards, if any, that the data
@@ -398,7 +398,7 @@ meets.
     | PartialStandDesc        | String    | 0 - 1   | See section :ref:`app_cdf_gattr_rel_stand`     |
     +-------------------------+-----------+---------+------------------------------------------------+
 
-Attributes That Relate To Publication Of The Data
+Attributes that Relate to Publication of the Data
 """""""""""""""""""""""""""""""""""""""""""""""""
 
 These attributes are needed when that data is published.
@@ -449,7 +449,7 @@ These attributes are needed when that data is published.
 
 .. _app_cdf_gattr_valid_codes:
 
-Valid Codes For Elements Recorded
+Valid Codes for Elements Recorded
 """""""""""""""""""""""""""""""""
 
 - 'X', 'Y', or 'Z' indicate that the variable holds the strength
@@ -711,7 +711,7 @@ ImagCDF files are named using the convention::
 Filenames are in lower case. Files may contain arbitrary amounts of data, however the amount of data
 is not coded into the filename.
 
-ISO 8601 Duration Strings For Common Geomagnetic Sample Periods
+ISO 8601 Duration Strings for Common Geomagnetic Sample Periods
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. tabularcolumns:: |p{3cm}|>{\centering\arraybackslash}p{5cm}|
@@ -733,7 +733,7 @@ ISO 8601 Duration Strings For Common Geomagnetic Sample Periods
 The table above is a set of examples. Other sample periods may be used provided that the sample
 period used represents the vector data and conforms to ISO 8601.
 
-Format Of Date/Time Portion Of Filename And Examples
+Format of Date/Time Portion of Filename and Examples
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 
 The date/time portion of the filename is formatted differently for different data with different
@@ -777,7 +777,7 @@ data intervals:
 
 .. _app_cdf_tools:
 
-Tools To Look At CDF Data
+Tools to Look at CDF Data
 `````````````````````````
 
 Once you have some CDF data you will want to look at it. The CDF toolset (that is installed for you
