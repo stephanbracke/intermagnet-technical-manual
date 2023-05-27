@@ -4,7 +4,7 @@
 Contacts
 ========
 
-Intermagnet Executive Council Addresses
+INTERMAGNET Executive Council Addresses
 ---------------------------------------
 
 .. hlist::
@@ -59,7 +59,7 @@ Intermagnet Executive Council Addresses
     \newpage
 
 
-Intermagnet Operations Committee Addresses
+INTERMAGNET Operations Committee Addresses
 ------------------------------------------
 
 .. hlist::
