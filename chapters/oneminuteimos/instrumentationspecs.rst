@@ -3,7 +3,7 @@
 Instrumentation/Specifications
 ==============================
 
-INTERMAGNET test does not specify the type of magnetometer that must
+INTERMAGNET does not specify the type of magnetometer that must
 be used (although a list of instrument suppliers can be
 provided on request), however an IMO must try to meet the
 recommendations listed below. These specifications are used by
