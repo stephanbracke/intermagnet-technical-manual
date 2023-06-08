@@ -155,7 +155,7 @@ Proton Gyromagnetic Ratio
 -------------------------
 
 In 2009, INTERMAGNET adopted the new proton gyromagnetic ratio (for H\ :sub:`2`\ O, sphere, 25°C) 
-published by the CODATA group in 2006 (see https://physics.nist.gov/cuu/pdf/all_2006.pdf):
+published by the CODATA group in 2006 (see |codata_2006_proton_gr|):
 
 .. math::
 
