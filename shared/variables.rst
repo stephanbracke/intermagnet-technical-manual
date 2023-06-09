@@ -24,7 +24,7 @@
 .. |autoplot| replace:: http://autoplot.org/
 .. |octave| replace:: http://lists.gnu.org/archive/html/help-octave/2007-04/txtyRdYjKU85H.txt
 .. |wolfgram| replace:: http://reference.wolfram.com/language/guide/NumericalDataFormats.html.
-
+.. |codata_2006_proton_gr| replace:: https://physics.nist.gov/cuu/pdf/all_2006.pdf
 
 
 .. |floating_point_arithmetic|  replace:: http://flint.cs.yale.edu/cs422/doc/art-of-asm/pdf/CH14.PDF

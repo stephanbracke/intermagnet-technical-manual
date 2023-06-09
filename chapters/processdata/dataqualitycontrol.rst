@@ -156,14 +156,14 @@ Despiking and Removal of Artificially Disturbed Data
 Single data points that are further away from the true signal
 than the typical noise of the time series are referred to as
 spikes. In the variometer data, their origin are typically
-analogue signals that are shorter than the sampling time
-resolution (e.g. voltages in cables or magnetic fields arising
-from lightning strikes or electric components) or single errors
+analogue signals that are short compared to the sampling rate, 
+e.g. voltages in cables or magnetic fields arising
+from lightning strikes) or a single error
 in the analogue-digital conversion in the ADC, or single errors
 arising in the transmission of digital data. Spikes are best
-identified and removed from the original spot readings. In any
+identified and removed from the original spot readings, in any
 subsequently filtered time series (like minute means) they are
-smoothed, difficult to identify, and still lead to a corruption
+smoothed and hence difficult to identify, but still lead to degradation
 of the data. Spikes can also occur in absolute scalar
 magnetometer (e.g. proton magnetometers) data.
 
@@ -171,51 +171,57 @@ Spikes with an offset from the signal that significantly
 exceeds the maximum natural variation between two consecutive
 data points can be easily identified by computer algorithms and
 automatically removed from the spot-reading time series. For
-example, a change of 100 nT per second will not be reached by
+example, a change of say 100 nT per second will not be reached by
 natural geomagnetic field variations and consequently, an
 algorithm that removes data points that are more than 100 nT
 away from the previous and consecutive data point can safely be
-removed.
+used.
 
 Other short-term artificial disturbances in the data could
 arise from magnetic objects passing by the magnetometer sensors
-or from other sources, like interference of the magnetometer
-with radio wave or voltage variations in the power. Typical
+or from interference of the magnetometer
+with radio wave or voltage variations in the power supply. Typical
 problems of the first type occur if cars get too close to an
 observatory or the grass is cut around a magnetometer hut, or
 if a magnetometer hut is entered with magnetic objects.
 
-With two magnetometers, spikes usually don’t occur
-simultaneously and magnetic objects usually affect the
+When two magnetometers are operated in an observatory, such spikes usually don’t occur
+simultaneously. Also, moving magnetic objects usually affect the
 magnetometers differently because of the differences in
 distance and/or direction they are with respect to the two
-magnetometers. Then, they can best be recognised by looking at
-the difference between these two magnetometers, either looking
-at the vector component difference, or by comparing the total
-field between a vector and a scalar magnetometer
+magnetometers. Therefore, spikes and disturbances can best be recognized by looking at
+the difference between these two magnetometers, as this will eliminate 
+the natural geomagnetic field variations that are identical at both magnetometers, 
+but not the signal from moving moving magnetic objects. For two scalar magnetometers, 
+calculating the total field difference is simple.  For a vector and a scalar magnetometer,
+the total field difference between the two magnetometers can be calculated 
 (see :numref:`proc_dat_tot_f_dif` computation of total field differences)
-or between two scalar magnetometers.
+or between two scalar magnetometers. For two vector magnetometers, 
+one can calculate the difference between the individual components 
+(but note that the sensor orientation might not be identical for the two variometers). 
 
 Another good way to facilitate the visual identification of
-spikes and short term artificial disturbances, especially in
+spikes and other short term artificial disturbances, especially in
 the absence of a second magnetometer, is to plot the first
 difference of a time series (e.g. a component of the
 variometer, or total field). This acts like a high-pass filter
 and the slow natural field changes give almost no signal in the
-first difference. Spikes always and artificial disturbances
-often appear prominent due to their high rate of field change.
+first difference. Spikes appear always and artificial disturbances
+appear often prominently due to their high rate of field change.
 Such first differences can be compared with first differences
-from observatories many hundreds or thousands kilometer away
-and yield important information on the large scale natural or
-regional artificial source of the signal.
+from observatories many hundreds or thousands of kilometers away.
+The time derivative of natural signals appears often as very similar 
+(though not identical) over large areas. Thus, spikes and short term 
+artificial signals (appearing only at one station) can be distinguished 
+from natural signals (appearing at neighboring stations).
 
 Once a spike or artificially disturbed data is identified, it
 should not be used for calculating calibrated data. Often, such
-data was deleted and thus removed from the archive. A more
+corrupted data was deleted and thus removed from the archive. A more
 modern approach would be to keep the corrupted raw data in the
-archive and to flag it such that is replace by data from a
-back-up system or that it is not used for the calculation of
-calibrated data.
+archive and to flag it such that it is replaced by data from a
+back-up system or flag it such that it is not used for the calculation of
+calibrated data (possibly leading to a data gap).
 
 .. _proc_dat_dqc_absq_cont:
 

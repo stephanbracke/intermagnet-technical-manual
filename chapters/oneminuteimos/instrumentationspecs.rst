@@ -3,6 +3,8 @@
 Instrumentation/Specifications
 ==============================
 
+.. include:: ../../shared/variables.rst
+
 INTERMAGNET does not specify the type of magnetometer that must
 be used (although a list of instrument suppliers can be
 provided on request), however an IMO must try to meet the
@@ -154,10 +156,11 @@ Other
 Proton Gyromagnetic Ratio
 -------------------------
 
-In 2009, INTERMAGNET adopted the new proton gyromagnetic ratio
-published by the CODATA group in 2006:
+In 2009, INTERMAGNET adopted the new proton gyromagnetic ratio (for H\ :sub:`2`\ O, sphere, 25°C) 
+published by the CODATA group in 2006 (see |codata_2006_proton_gr| ):
 
 .. math::
 
-   g_p = 2.675153362*10^8 . T^{-1}S^{-11}
+   g_p = 2.675153362*10^8 . T^{-1}S^{-1}
 
+This ratio divided by 2 pi relates the magnetic field strength in T to the output frequency (Larmor frequency) of a proton magnetometer in Hz. For example, a field strength of 50000.00 nT gives a Larmor frequency of 2128.819 Hz.
