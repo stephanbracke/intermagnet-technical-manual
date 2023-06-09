@@ -19,6 +19,7 @@
 import re
 import os
 import sys
+import datetime as dt
 
 
 project = 'Technical Reference Manual'
@@ -26,7 +27,9 @@ copyright = '2020, INTERMAGNET'
 author = 'Technical Manual Team'
 release = re.sub('^v', '', os.popen('git describe').read().strip())
 version = release
-
+file_dir = os.path.dirname(os.path.realpath(__file__))
+year = dt.datetime.now().year
+print(str(year))
 variables_to_export = [
     "project",
     "copyright",
@@ -97,7 +100,39 @@ latex_appendices = ['appendices/terminology',
                     'appendices/filters'
                     ]
 
+preamble = '''\
+    \\makeatletter
+      \\fancypagestyle{normal}{
+        \\fancyhf{}
+        \\fancyfoot[LE,RO]{{\\py@HeaderFamily\\thepage}}
+        \\fancyfoot[LO]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
+        \\fancyfoot[RE]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
+        \\fancyhead[LE,RO]{{\\py@HeaderFamily \\@title, \\py@release}}
+        \\renewcommand{\\headrulewidth}{0.4pt}
+        \\renewcommand{\\footrulewidth}{0.4pt}
 
+      }
+    \makeatother
+    '''
+
+latex_maketitle =  r'''
+        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
+        \begin{titlepage}
+            \begin{figure}
+                \includegraphics[width = 1\textwidth,scale=1.2]{''' +file_dir + r'''/img/cover_intermagnet.png}
+            \end{figure}
+            \centering
+            \vspace{10mm}
+            \Huge \textbf{{Intermagnet}} \\
+            \vspace{5mm}
+            \Large \textbf{{Technical Reference Manual}} \\
+            \vspace{70mm}
+            \Large version : \version \ (''' + str(year) +r''') 
+            \vspace*{0mm}
+        \end{titlepage}
+        \clearpage
+        \pagenumbering{roman}
+        '''
 #added to avoid empty pages
 latex_elements = {
      # The paper size ('letterpaper' or 'a4paper').
@@ -115,21 +150,8 @@ latex_elements = {
      # Latex figure (float) alignment
      #
      # 'figure_align': 'htbp',
-    #'preamble': '\\addto\\captionsenglish{\\renewcommand{\\contentsname}{Table of contents}}',
-    'preamble': '''\
-    \\makeatletter
-      \\fancypagestyle{normal}{
-        \\fancyhf{}
-        \\fancyfoot[LE,RO]{{\\py@HeaderFamily\\thepage}}
-        \\fancyfoot[LO]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
-        \\fancyfoot[RE]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
-        \\fancyhead[LE,RO]{{\\py@HeaderFamily \\@title, \\py@release}}
-        \\renewcommand{\\headrulewidth}{0.4pt}
-        \\renewcommand{\\footrulewidth}{0.4pt}
-
-      }
-    \makeatother
-    '''
+    'preamble': preamble,
+    'maketitle':latex_maketitle
 }
 
 
