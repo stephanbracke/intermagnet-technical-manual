@@ -13,7 +13,7 @@ The component baseline values are calculated as described in
 
 .. figure:: ../../img/baseline_belsk.png
     :align: center
-    :scale: 80 %
+    :scale: 40 %
     :alt: baseline value Belsk 2003
 
     Baseline values for Belsk observatory 2003
