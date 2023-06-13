@@ -4,6 +4,7 @@ Introduction
 ============
 
 .. include:: ../../appendices/appendices.rst
+.. include:: ../../shared/variables.rst
 
 
 Observatories send their data to INTERMAGNET via two different
@@ -459,11 +460,11 @@ INTERMAGNET GIN Manager at the following addresses:
 GIN Email Addresses
 ```````````````````
 
--  Ottawa: charles.blais@canada.ca
--  Paris: par_gin@ipgp.fr
--  Golden: aclaycomb@usgs.gov
--  Edinburgh: e_gin@mail.nmh.ac.uk
--  Kyoto: kyoto-gin@swdcdb.kugi.kyoto-u.ac.jp
+-  Ottawa: |contact_gin_ottawa|
+-  Paris: |contact_gin_paris|
+-  Golden: |contact_gin_golden|
+-  Edinburgh:|contact_gin_edin|
+-  Kyoto: |contact_gin_kyoto|
 
 
 

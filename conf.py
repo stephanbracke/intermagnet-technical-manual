@@ -23,13 +23,14 @@ import datetime as dt
 
 
 project = 'Technical Reference Manual'
-copyright = '2020, INTERMAGNET'
+copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
 release = re.sub('^v', '', os.popen('git describe').read().strip())
-version = release
+#version = release
+version ='5.1.0-draft'
 file_dir = os.path.dirname(os.path.realpath(__file__))
 year = dt.datetime.now().year
-print(str(year))
+copyright = str(year) + copyright
 variables_to_export = [
     "project",
     "copyright",
@@ -97,7 +98,8 @@ latex_appendices = ['appendices/terminology',
                     'appendices/archivedataformats',
                     'appendices/imagaddresses',
                     'appendices/dataformats',
-                    'appendices/filters'
+                    'appendices/filters',
+                    'appendices/acknowledgements'
                     ]
 
 preamble = '''\

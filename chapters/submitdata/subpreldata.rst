@@ -241,7 +241,7 @@ are available here:
 Note that this web site is password protected – for access
 apply to the GIN manager.
 
-For more detailed information see INTERMAGNET Technical Note 9: |tn_9|
+For more detailed information see INTERMAGNET Technical Note 9: |tn_9|.
 
 .. _sub_dat_prel_email:
 
@@ -396,7 +396,7 @@ to a GIN:
    ensure that they are not contravening any transmission laws
    in force in their country.
 #. Application must be made to the operators of whichever
-   satellite is accessible from the observatory. |app_obs|
+   satellite is accessible from the observatory. |app_sat_cod|
    shows the footprints of geostationary satellites and from
    this users can decide which satellite should provide the
    best transmission path. Since satellite positions are

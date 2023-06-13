@@ -1,2 +1,2 @@
 .. _INTERMAGNET web site: http://www.intermagnet.org/
-.. _application form: https://www.intermagnet.org/imos/apply-eng.php
+.. _application form: https://intermagnet.org/membership.html
