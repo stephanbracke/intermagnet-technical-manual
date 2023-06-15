@@ -25,9 +25,11 @@ import datetime as dt
 project = 'Technical Reference Manual'
 copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
-release = re.sub('^v', '', os.popen('git describe').read().strip())
-#version = release
-version ='5.1.0-draft'
+#release = re.sub('^v', '', os.popen('git describe').read().strip())
+release ='5.1.0-draft'
+version = release
+
+
 file_dir = os.path.dirname(os.path.realpath(__file__))
 year = dt.datetime.now().year
 copyright = str(year) + copyright
@@ -112,9 +114,7 @@ preamble = '''\
         \\fancyhead[LE,RO]{{\\py@HeaderFamily \\@title, \\py@release}}
         \\renewcommand{\\headrulewidth}{0.4pt}
         \\renewcommand{\\footrulewidth}{0.4pt}
-
       }
-    \makeatother
     '''
 
 latex_maketitle =  r'''

@@ -17,6 +17,7 @@ INTERMAGNET Technical Reference Manual
 
 
 .. toctree::
+    :caption: Table of Contents
     :maxdepth: 5
     :numbered:
 
