@@ -23,13 +23,16 @@ import datetime as dt
 
 
 project = 'Technical Reference Manual'
-copyright = '2020, INTERMAGNET'
+copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
-release = re.sub('^v', '', os.popen('git describe').read().strip())
+#release = re.sub('^v', '', os.popen('git describe').read().strip())
+release ='5.1.0-draft'
 version = release
+
+
 file_dir = os.path.dirname(os.path.realpath(__file__))
 year = dt.datetime.now().year
-print(str(year))
+copyright = str(year) + copyright
 variables_to_export = [
     "project",
     "copyright",
@@ -97,22 +100,23 @@ latex_appendices = ['appendices/terminology',
                     'appendices/archivedataformats',
                     'appendices/imagaddresses',
                     'appendices/dataformats',
-                    'appendices/filters'
+                    'appendices/filters',
+                    'appendices/acknowledgements'
                     ]
 
-preamble = '''\
-    \\makeatletter
-      \\fancypagestyle{normal}{
-        \\fancyhf{}
-        \\fancyfoot[LE,RO]{{\\py@HeaderFamily\\thepage}}
-        \\fancyfoot[LO]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
-        \\fancyfoot[RE]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
-        \\fancyhead[LE,RO]{{\\py@HeaderFamily \\@title, \\py@release}}
-        \\renewcommand{\\headrulewidth}{0.4pt}
-        \\renewcommand{\\footrulewidth}{0.4pt}
-
+preamble = r'''
+    \makeatletter
+      \fancypagestyle{normal}{
+        \fancyhf{}
+        \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
+        \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\leftmark}}}
+        \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
+        \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release}}
+        \renewcommand{\headrulewidth}{0.4pt}
+        \renewcommand{\footrulewidth}{0.4pt}
       }
-    \makeatother
+    \usepackage[none]{hyphenat}
+    \setlength\parindent{12pt}
     '''
 
 latex_maketitle =  r'''
@@ -129,6 +133,12 @@ latex_maketitle =  r'''
             \vspace{70mm}
             \Large version : \version \ (''' + str(year) +r''') 
             \vspace*{0mm}
+            \break     
+            \break     
+            \break     
+            \break     
+            \break     
+            \break     
         \end{titlepage}
         \clearpage
         \pagenumbering{roman}

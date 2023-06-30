@@ -86,6 +86,7 @@ filled element field).
 - For transmission of incomplete day files include two additional
   optional comment headers stating the start time and duration in
   seconds. These records must have the form:
+
   | #Start Time hh:mm:ss
   | #Duration-in-seconds sssss
 
@@ -101,6 +102,7 @@ filled element field).
   convert angular units into nT or vice versa. The possible conversions
   are:
 
+      - E = D \* Ha \* arc(1')
       - V = I \* Fa \* arc(1')
       - X = H \* cos(Da) – E\* sin(Da)
       - Y = H \* sin(Da) + E\* cos(Da)
@@ -111,9 +113,12 @@ filled element field).
       - V = Z \* cos(Ia) – H \* sin(Ia)
 
   X, Y, Z, H, F, E, V in nT; D, I in minutes of arc
+
   arc(1') = 2.9089E-04 = 0.00029089
+
   Ha, Fa, Da, Ia : approximate values of H, F, D, I (eg the most recent
   annual mean value or a value from the IGRF)
+
   The formula and constants are to be given in additional optional
   comment header lines (see sample data header and data record for 1-second values).
 
@@ -238,7 +243,9 @@ Where:
    from Narsarsuaq.
 
 Additional format to handle multiple fragments of data starting at
-different times: iagyyyymmddhhMMsstint.int
+different times:
+
+iagyyyymmddhhMMsstint.int
 
 Where:
 

@@ -527,7 +527,7 @@ the StandardsLevel attribute is set to Partial.
 
 .. [#f1]  INTERMAGNET Technical Note 6
 .. [#f2]  :numref:`1min_imo_descr`
-.. [#f3]  Quasi-definitive definition on the INTERMAGNET web site: |q_def|
+.. [#f3]  Quasi-definitive definition on the INTERMAGNET web site: |faq_qd|
 
 If a standard is met in full or not met at all, PartialStandDesc can be
 omitted. Where a standard is partially met (e.g. the time stamp accuracy
@@ -644,8 +644,8 @@ ImagCDF file and the value of that entry applies only to that field
 element or temperature. The "Entries" column shows whether the attribute
 is:
 
--  Mandatory (number of entries per variable is exactly 1)
--  Optional (number of entries per variable may be 0 or 1)
+-  Mandatory (number of entries per variable is exactly :sup:`1`)
+-  Optional (number of entries per variable may be :sup:`0` or :sup:`1`)
 
 Superscript numbers following the attribute name show:
 
@@ -796,7 +796,7 @@ A number of packages provide access to CDF data. These include Matlab and IDL. A
 on the NASA CDF website: |cdf_software_list|
 
 Octave may be able to read CDF data:|octave|. The Wolfram Language can
-use CDF data via its NASACDF data format - |wolfgram|
+use CDF data via its NASACDF data format - |wolfram|.
 
 Example Data File
 `````````````````

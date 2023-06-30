@@ -31,9 +31,14 @@ Step 2 - sign extend in byte 1, bit 6=1, bit 7=odd parity.
 .. figure:: ../img/ness.png
     :align: center
 
+
+After encoding, the 12-minute block is sent to the data collection platform (DCP) to be transmitted.
+
 .. raw:: latex
 
     \newpage
+
+
 
 Consider the following data set:
 
@@ -329,7 +334,7 @@ would be:
 
 The following table shows time slots assigned to DCPs. Each table line represents 60 seconds,
 the station ID is placed at the beginning of a data transmission block, '....' is for the
-no-signal (carrier only) period, '--' is for synchronization sequence, and '==' is for the
+no-signal (carrier only) period, '- -' is for synchronization sequence, and '==' is for the
 data block.
 
 Assigned time slots for the GMS coding would allow 58 seconds per transmission and 7 seconds

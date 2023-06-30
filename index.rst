@@ -9,10 +9,15 @@ INTERMAGNET Technical Reference Manual
            :align: center
            :alt: Intermagnet
 
-    version : |version|
-    ===================
+    **version :** |version|
+
+
+
+.. include:: ./description.rst
+
 
 .. toctree::
+    :caption: Table of Contents
     :maxdepth: 5
     :numbered:
 
@@ -36,3 +41,6 @@ INTERMAGNET Technical Reference Manual
             appendices/imagaddresses
             appendices/dataformats
             appendices/filters
+            appendices/acknowledgements
+
+
