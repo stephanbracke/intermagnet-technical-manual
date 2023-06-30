@@ -1,35 +1,56 @@
 .. include:: ./shared/variables.rst
 
+.. raw:: latex
+
+    \setcounter{page}{-1}
+    \thispagestyle{empty}
 
 This document has been prepared by the INTERMAGNET Operations Committee and Executive Council.
 Every effort has been made to ensure that the information is accurate and current.
 The document is distributed in the hope that it will be a useful reference not only for those participating formally in INTERMAGNET,
 but also for the greater geomagnetic community.
 
+.. raw:: latex
+
+   \begingroup\centering
 
 **Acknowledgements**
+
+.. raw:: latex
+
+   \endgroup
 
 We gratefully acknowledge the many significant contributions and
 comments provided by our colleagues.
 
-Cite as:
-
+| Cite as:
 | St-Louis, B. (Ed.), INTERMAGNET Operations Committee and Executive Council, |copyright| Technical Reference Manual, Version |version|
 
-The INTERMAGNET Office :
-    |
-    | c/o British Geological Survey
-    | The Lyell Centre
-    | Research Avenue South
-    | Edinburgh EH14 4AP
-    |
+
+                    | The INTERMAGNET Office :
+                    |
+                    | INTERMAGNET
+                    | c/o British Geological Survey
+                    | The Lyell Centre
+                    | Research Avenue South
+                    | Edinburgh EH14 4AP
+                    | UK
 
 .. raw:: latex
 
     \newpage
+    \thispagestyle{empty}
+
+
+.. raw:: latex
+
+   \begingroup\centering
 
 **Quick References**
 
+.. raw:: latex
+
+   \endgroup
 
 
 .. hlist::

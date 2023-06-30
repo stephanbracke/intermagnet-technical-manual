@@ -396,7 +396,7 @@ to a GIN:
    ensure that they are not contravening any transmission laws
    in force in their country.
 #. Application must be made to the operators of whichever
-   satellite is accessible from the observatory. |app_sat_cod|
+   satellite is accessible from the observatory. |app_obs|
    shows the footprints of geostationary satellites and from
    this users can decide which satellite should provide the
    best transmission path. Since satellite positions are

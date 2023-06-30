@@ -104,17 +104,19 @@ latex_appendices = ['appendices/terminology',
                     'appendices/acknowledgements'
                     ]
 
-preamble = '''\
-    \\makeatletter
-      \\fancypagestyle{normal}{
-        \\fancyhf{}
-        \\fancyfoot[LE,RO]{{\\py@HeaderFamily\\thepage}}
-        \\fancyfoot[LO]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
-        \\fancyfoot[RE]{{\\py@HeaderFamily\\nouppercase{\\leftmark}}}
-        \\fancyhead[LE,RO]{{\\py@HeaderFamily \\@title, \\py@release}}
-        \\renewcommand{\\headrulewidth}{0.4pt}
-        \\renewcommand{\\footrulewidth}{0.4pt}
+preamble = r'''
+    \makeatletter
+      \fancypagestyle{normal}{
+        \fancyhf{}
+        \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
+        \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\leftmark}}}
+        \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
+        \fancyhead[LE,RO]{{\py@HeaderFamily \@title, \py@release}}
+        \renewcommand{\headrulewidth}{0.4pt}
+        \renewcommand{\footrulewidth}{0.4pt}
       }
+    \usepackage[none]{hyphenat}
+    \setlength\parindent{12pt}
     '''
 
 latex_maketitle =  r'''
@@ -131,6 +133,12 @@ latex_maketitle =  r'''
             \vspace{70mm}
             \Large version : \version \ (''' + str(year) +r''') 
             \vspace*{0mm}
+            \break     
+            \break     
+            \break     
+            \break     
+            \break     
+            \break     
         \end{titlepage}
         \clearpage
         \pagenumbering{roman}
