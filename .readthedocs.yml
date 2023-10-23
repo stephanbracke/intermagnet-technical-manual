@@ -1,7 +1,7 @@
 version: 2
 # Build documentation in the docs/ directory with Sphinx
 build:
-  image: stable
+  os: ubuntu-22.04
 
 sphinx:
   configuration: conf.py
