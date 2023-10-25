@@ -391,6 +391,9 @@ below:
 
 
 
+
+.. tabularcolumns:: |c|c|c|c|
+
 .. table::
     :widths: auto
     :align: center

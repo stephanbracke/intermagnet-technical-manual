@@ -65,6 +65,8 @@ Vector Magnetometer
 General Specifications
 ``````````````````````
 
+.. tabularcolumns:: |l|l|
+
 .. table::
     :widths: auto
     :align: center
@@ -93,6 +95,7 @@ General Specifications
 
 Pass Band Specifications [DC to 8mHz (120s)]
 ````````````````````````````````````````````
+.. tabularcolumns:: |l|l|
 
 .. table::
     :widths: auto
@@ -187,6 +190,8 @@ Node (GIN) must be within 72 hours of acquisition or sooner
 
 Other
 -----
+
+.. tabularcolumns:: |l|l|
 
 .. table::
     :widths: auto

@@ -184,9 +184,13 @@ software. The first line of the response indicates whether the
 attempt was successful. It will contain one of the following
 words:
 
+.. tabularcolumns:: |p{2cm}|p{14cm}|
+
 .. table::
-    :widths: auto
+    :widths: 2, 2
     :align: center
+
+
 
     +-------------+-------------------------------------------------------+
     | Word        | Description                                           |

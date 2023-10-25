@@ -62,7 +62,7 @@ This format is fully defined in |app_imag_imfv_1|.
 
 IMFV2.83 Satellite Transmission Format
 ``````````````````````````````````````
-.. tabularcolumns:: |p{3.5cm}|p{9cm}|
+.. tabularcolumns:: |p{6cm}|p{8cm}|
 
 .. table::
     :widths: auto
@@ -79,7 +79,7 @@ This format is fully defined in |app_imag_imfv_2|.
 
 IAGA-2002
 `````````
-.. tabularcolumns:: |p{3.5cm}|p{9cm}|
+.. tabularcolumns:: |p{6cm}|p{8cm}|
 
 .. table::
     :widths: auto
@@ -96,7 +96,7 @@ This format is fully defined in |app_iaga_2002|.
 
 INTERMAGNET Archive Format
 ``````````````````````````
-.. tabularcolumns:: |p{6.5cm}|p{8cm}|
+.. tabularcolumns:: |p{6cm}|p{8cm}|
 
 .. table::
     :widths: auto
@@ -116,7 +116,7 @@ This format is fully defined in |app_iaf|.
 ImagCDF
 ```````
 
-.. tabularcolumns:: |p{3.5cm}|p{9cm}|
+.. tabularcolumns:: |p{5cm}|p{9cm}|
 
 .. table::
     :widths: auto
@@ -149,6 +149,8 @@ This format is fully defined in |app_iyf|.
 
 IBF INTERMAGNET Baseline File
 `````````````````````````````
+.. tabularcolumns:: |p{7cm}|p{8cm}|
+
 .. table::
     :widths: auto
     :align: center

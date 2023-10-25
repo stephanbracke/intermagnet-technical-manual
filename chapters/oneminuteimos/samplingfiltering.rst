@@ -25,6 +25,8 @@ One digital filter that is widely used by INTERMAGNET can be
 achieved by applying the following coefficients (for a Gaussian
 filter) to a series of 19 samples of 5-second data :
 
+.. tabularcolumns:: |l|l|
+
 .. table:: filter 5 sec
     :widths: auto
     :align: center

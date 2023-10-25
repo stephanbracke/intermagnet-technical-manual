@@ -85,13 +85,9 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-'''
-html_context = {
-    'css_files': [
-        '_static/theme_overrides.css',  # overrides for wide tables in RTD theme
-        ],
-    }
-'''
+
+html_css_files = ['theme_overrides.css',]
+
 
 latex_engine = 'xelatex'
 latex_use_xindy = False
@@ -121,6 +117,7 @@ preamble = r'''
     \setlength\parindent{12pt}
     \usepackage{enumitem}
     \setlist{noitemsep}
+    \setlength{\parindent}{0cm}
     '''
 
 latex_maketitle =  r'''
