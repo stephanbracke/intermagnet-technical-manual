@@ -52,7 +52,7 @@ transmission characteristics which optimize global exchange.
 
 .. figure:: ../../img/inter_man_chart.png
     :align: center
-    :scale: 60 %
+    :scale: 100 %
     :alt: Intermagnet organigram
 
     Intermagnet organigram
