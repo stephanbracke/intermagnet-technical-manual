@@ -40,6 +40,7 @@ See :numref:`Chapter %s <abs_mes>`
 
 Vector Magnetometer
 -------------------
+.. tabularcolumns:: |l|l|
 
 .. table::
     :widths: auto
@@ -66,6 +67,7 @@ Vector Magnetometer
 
 Scalar Magnetometer
 -------------------
+.. tabularcolumns:: |l|l|
 
 .. table::
     :widths: auto
@@ -82,6 +84,8 @@ Scalar Magnetometer
 
 Clock Timekeeping
 -----------------
+
+.. tabularcolumns:: |l|l|
 
 .. table::
     :widths: auto
@@ -128,6 +132,8 @@ acquisition or sooner (see :numref:`sub_dat_intro_rtpd` ).
 
 Other
 -----
+
+.. tabularcolumns:: |l|l|
 
 .. table::
     :widths: auto

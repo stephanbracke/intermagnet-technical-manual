@@ -403,7 +403,7 @@ Attributes that Relate to Publication of the Data
 
 These attributes are needed when that data is published.
 
-.. tabularcolumns:: |p{3cm}|p{2cm}|>{\centering\arraybackslash}p{1.5cm}|p{8cm}|
+.. tabularcolumns:: |p{3cm}|p{2cm}|c|p{8cm}|
 
 .. table::
     :widths: auto
@@ -411,7 +411,7 @@ These attributes are needed when that data is published.
 
     +-------------------+------------+-----------+--------------------------------------------------+
     | Attribute Name    | Type       | Entries   | Description                                      |
-    +-------------------+------------+-----------+--------------------------------------------------+
+    +===================+============+===========+==================================================+
     | Source            | String     | 1         | Set to one of: "institute" (if the named         |
     |                   |            |           | institution provided the data- see section       |
     |                   |            |           | :ref:`app_cdf_gattr_obs`                         |
@@ -502,19 +502,19 @@ the StandardsLevel attribute is set to Partial.
 
     +---------------------------+---------------------------------+---------------------------+
     | Data product              | Relevant Standard               | Contents of StandardName  |
-    +---------------------------+---------------------------------+---------------------------+
+    +===========================+=================================+===========================+
     | One second definitive     | INTERMAGNET Definitive          | INTERMAGNET_1-Second      |
     | data                      | One-second Data                 |                           |
-    |                           | Standard [#f1]_                 |                           |
+    |                           | Standard [#f2]_                 |                           |
     +---------------------------+---------------------------------+---------------------------+
     | One minute definitive     | INTERMAGNET magnetic            | INTERMAGNET_1-Minute      |
     | data                      | observatory –                   |                           |
-    |                           | specifications [#f2]_           |                           |
+    |                           | specifications [#f3]_           |                           |
     +---------------------------+---------------------------------+---------------------------+
     | One minute                | INTERMAGNET magnetic            | INTERMAGNET_1-Minute_QD   |
     | quasi-definitive data     | observatory –                   |                           |
-    |                           | specifications [#f2]_,modified  |                           |
-    |                           | for baseline accuracy [#f3]_    |                           |
+    |                           | specifications [#f3]_,modified  |                           |
+    |                           | for baseline accuracy [#f4]_    |                           |
     +---------------------------+---------------------------------+---------------------------+
     | Hourly means              | No relevant standard            |                           |
     +---------------------------+---------------------------------+---------------------------+
@@ -525,9 +525,9 @@ the StandardsLevel attribute is set to Partial.
     | Annual means              | No relevant standard            |                           |
     +---------------------------+---------------------------------+---------------------------+
 
-.. [#f1]  INTERMAGNET Technical Note 6
-.. [#f2]  :numref:`1min_imo_descr`
-.. [#f3]  Quasi-definitive definition on the INTERMAGNET web site: |faq_qd|
+.. [#f2]  INTERMAGNET Technical Note 6
+.. [#f3]  :numref:`1min_imo_descr`
+.. [#f4]  Quasi-definitive definition on the INTERMAGNET web site: |faq_qd|
 
 If a standard is met in full or not met at all, PartialStandDesc can be
 omitted. Where a standard is partially met (e.g. the time stamp accuracy
@@ -714,7 +714,7 @@ is not coded into the filename.
 ISO 8601 Duration Strings for Common Geomagnetic Sample Periods
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-.. tabularcolumns:: |p{3cm}|>{\centering\arraybackslash}p{5cm}|
+.. tabularcolumns:: |p{3cm}|c|
 
 .. table::
     :widths: auto
@@ -722,6 +722,7 @@ ISO 8601 Duration Strings for Common Geomagnetic Sample Periods
 
     ============= ========================
     Sample Period ISO 8601 duration string
+    ============= ========================
     1 second      PT1S
     1 minute      PT1M
     Hourly means  PT1H
@@ -747,7 +748,7 @@ data intervals:
 
     +---------------+------------------+---------------------------------------------------------------+
     | Data Interval | Date/time format | Example filename                                              |
-    +---------------+------------------+---------------------------------------------------------------+
+    +===============+==================+===============================================================+
     | Annual means  | YYYY             | esk_2000_4.cdf – final annual mean data from Eskdalemuir      |
     |               |                  | starting in the year 2000                                     |
     +---------------+------------------+---------------------------------------------------------------+

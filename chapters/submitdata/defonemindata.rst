@@ -536,10 +536,6 @@ historical purposes this software is documented in |app_imag_cd|.
 
 Copies of CD-ROM/DVD/USB may be obtained from:
 
-.. raw:: latex
-
-    \newpage
-
 | INTERMAGNET data distribution office
 | Observatoire Magnétique National
 | Carrefour des 8 routes

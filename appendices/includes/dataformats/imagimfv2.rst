@@ -5,89 +5,106 @@ INTERMAGNET Satellite Transmission Format : IMFV2.83
 
 .. include:: ./appendices.rst
 
+
 The INTERMAGNET satellite data transmission format IMFV2.83 defines the structure of 126
 bytes of magnetic observatory information. METEOSAT users, who must transmit once per hour,
 will send five 12-minute IMFV2.83 data blocks. GOES users transmit at 12-minute intervals
 one IMFV2.83 data block encoded in NESS-BINARY (189 bytes). The order of transmission to
 the satellite will be in byte sequence low-byte first, then high-byte. Refer to
-|app_sat_cod| for satellite coding examples.
+|app_sat_cod| for satellite coding examples.REFERENCE MEASUREMENT (RM) or  FREE SPACE
 
-.. tabularcolumns:: |p{8cm}|p{3cm}|p{3cm}|
+.. tabularcolumns:: |p{3.5cm}|p{8cm}|p{2cm}|p{2cm}|
 
 .. table::
     :widths: auto
     :align: center
 
-    ============================================ ======= ================
-    .. centered::  HEADER 12 BYTES
-    ---------------------------------------------------------------------
-    Day of first sample (1-365/366)              12 Bits 1 - 3 \*
-    Minute of the day of first sample (0 - 1439) 12 Bits 1 - 3 \*
-    Offset for C1                                8 Bits  4
-    Offset for C2                                8 Bits  5
-    Offset for C3                                8 Bits  6
-    Offset for C4                                8 Bits  7
-    Flags #1                                     8 Bits  8
-    Flags #2                                     8 Bits  9
-    Colatitude in 1/10 degrees (0 - 1800)        12 bits 10 - 12 \*
-    East Longitude in 1/10 degrees (0 - 3600)    12 bits 10 - 12 \*
-    .. centered:: FREE SPACE 8 BYTES
-    ---------------------------------------------------------------------
-    .. centered:: REFERENCE MEASUREMENT (RM) SPACE OR FREE SPACE 10 BYTES
-    ---------------------------------------------------------------------
-    .. centered::  MINUTE VALUES 96 BYTES
-    ---------------------------------------------------------------------
-    C1 for sample 1                              16 Bits 31-32
-    C2 for sample 1                              16 Bits 33-34
-    C3 for sample 1                              16 Bits 34-35
-    ...                                          ...     ...
-    C1 for sample 12                             16 Bits 119-120
-    C2 for sample 12                             16 Bits 121-122
-    C3 for sample 12                             16 Bits 123-124
-    C4 for sample 12                             16 Bits 125-126
-    ============================================ ======= ================
+    +--------------------------+-------------------------------------------------+------------+--------------------------+
+    |                          | Day of first sample (1-365/366)                 |  12 Bits   | 1 - 3 [#f1]_             |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | Minute of the day of first sample (0 - 1439)    |  12 Bits   | 1 - 3 [#f1]_             |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | Offset for C1                                   |  8 Bits    | 4                        |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    | |                        | Offset for C2                                   |  8 Bits    | 5                        |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |   **HEADER**             | Offset for C3                                   |  8 Bits    | 6                        |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |   **12 BYTES**           | Offset for C4                                   |  8 Bits    | 7                        |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | Flag #1                                         |  8 Bits    | 8                        |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | Flag #2                                         |  8 Bits    | 9                        |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | Colatitude in 1/10 degrees (0 - 1800)           |  12 Bits   | 10 - 12 [#f1]_           |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | Flag #2                                         |  12 Bits   | 10 - 12 [#f1]_           |
+    +--------------------------+-------------------------------------------------+------------+--------------------------+
+    |  **08 BYTES**            | FREE SPACE                                      |  64 Bits   | 13 - 20                  |
+    +--------------------------+-------------------------------------------------+------------+--------------------------+
+    |  **10 BYTES**            | REFERENCE MEASUREMENT (RM) or  FREE SPACE       |  80 Bits   | 21 - 30                  |
+    +--------------------------+-------------------------------------------------+------------+--------------------------+
+    |                          | C1 for Sample 1                                 |  16 Bits   | 31 - 32                  |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | C2 for Sample 1                                 |  16 Bits   | 33 - 34                  |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    ||                         | C3 for Sample 1                                 |  16 Bits   | 34 - 35                  |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |  **MIN VALUES**          | ...                                             | ...        | ...                      |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |  **96 BYTES**            | C1 for Sample 12                                |  16 Bits   | 119 - 120                |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | C2 for Sample 12                                |  16 Bits   | 121 - 122                |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | C3 for Sample 12                                |  16 Bits   | 123 - 124                |
+    |                          +-------------------------------------------------+------------+--------------------------+
+    |                          | C4 for Sample 12                                |  16 Bits   | 125 - 126                |
+    +--------------------------+-------------------------------------------------+------------+--------------------------+
 
-See section :ref:`app_imag_imfv_2_header`.
+
+.. [#f1] See section :ref:`app_imag_imfv_2_header`.
 
 .. tabularcolumns:: |p{1cm}|p{13cm}|
 
 .. table:: Flag#1
-    :widths: auto
+    :widths: 20,10
     :align: center
 
-    +--------+---------------------------------------------------------------------+
-    | MSB    |               Description                                           |
-    +========+=====================================================================+
-    | 8      |                                                                     |
-    |        | .. highlight:: none                                                 |
-    |        | .. code::                                                           |
-    |        |                                                                     |
-    |        |    Orientation Code Component 1 Component 2 Component 3 Component 4 |
-    |        |          0              X           Y           Z           F       |
-    |        |          1              H           D           Z           F       |
-    |        |          2                          D           I           F       |
-    |        |          3              Other                                       |
-    |        |                                                                     |
-    +--------+                                                                     |
-    | 7      |                                                                     |
-    +--------+---------------------------------------------------------------------+
-    | 6      | Scale factor for X or H                                             |
-    +--------+---------------------------------------------------------------------+
-    | 5      | Scale factor for Y or D                                             |
-    +--------+---------------------------------------------------------------------+
-    | 4      | Scale factor for Z or I                                             |
-    +--------+---------------------------------------------------------------------+
-    | 3      | Scale factor for F                                                  |
-    +--------+---------------------------------------------------------------------+
-    | 2      | Filtering - 0: INTERMAGNET approved filtering,                      |
-    |        | 1: non-approved filtering. See INTERMAGNET                          |
-    |        | terminology "filtering".                                            |
-    +--------+---------------------------------------------------------------------+
-    | 1      | Alert capability - The IMO has the ability to                       |
-    |        | detect magnetic events if the flag is set to 1.                     |
-    |        | 0: not active                                                       |
-    |        | 1: active                                                           |
-    +--------+---------------------------------------------------------------------+
+    +--------+----------------------------------------------------------------------------------+
+    | MSB    |               Description                                                        |
+    +========+==================================================================================+
+    | 8      |                                                                                  |
+    |        | .. highlight:: none                                                              |
+    |        | .. code::                                                                        |
+    |        |                                                                                  |
+    |        |    Orientation Code Component 1 Component 2 Component 3 Component 4              |
+    |        |          0              X           Y           Z           F                    |
+    |        |          1              H           D           Z           F                    |
+    |        |          2                          D           I           F                    |
+    |        |          3              Other                                                    |
+    |        |                                                                                  |
+    +--------+                                                                                  |
+    | 7      |                                                                                  |
+    +--------+----------------------------------------------------------------------------------+
+    | 6      | Scale factor for X or H                                                          |
+    +--------+----------------------------------------------------------------------------------+
+    | 5      | Scale factor for Y or D                                                          |
+    +--------+----------------------------------------------------------------------------------+
+    | 4      | Scale factor for Z or I                                                          |
+    +--------+----------------------------------------------------------------------------------+
+    | 3      | Scale factor for F                                                               |
+    +--------+----------------------------------------------------------------------------------+
+    | 2      |  Filtering - 0: INTERMAGNET approved filtering, 1: non-approved filtering.       |
+    |        |                                                                                  |
+    |        |  See INTERMAGNET terminology "filtering".                                        |
+    +--------+----------------------------------------------------------------------------------+
+    | 1      | Alert capability - The IMO has the ability to                                    |
+    |        | detect magnetic events if the flag is set to 1.                                  |
+    |        |                                                                                  |
+    |        | 0: not active                                                                    |
+    |        |                                                                                  |
+    |        | 1: active                                                                        |
+    +--------+----------------------------------------------------------------------------------+
 
 .. tabularcolumns:: |p{1cm}|p{13cm}|
 
@@ -95,32 +112,37 @@ See section :ref:`app_imag_imfv_2_header`.
     :widths: auto
     :align: center
 
-    +--------+-------------------------------------------------+
-    | MSB    | Description                                     |
-    +========+=================================================+
-    | 8      | Sudden storm commencement detected              |
-    +--------+-------------------------------------------------+
-    | 7      | Storm in progress - A storm is in progress if   |
-    |        | the level of magnetic activity is equivalent to |
-    |        | K > 4 for past one-hour period. The flag will   |
-    |        | be reset to zero when the equivalent level of   |
-    |        | activity drops to K <= 4.                       |
-    +--------+-------------------------------------------------+
-    | 6      | 0: No Reference Measurement (RM) capability     |
-    |        | bytes 13-30 are user free space                 |
-    |        | 1: Base Reference Measurement data available in |
-    |        | bytes 21-30. Bytes' 13-20 are user free space.  |
-    +--------+-------------------------------------------------+
-    | 5      | Free (user defined)                             |
-    +--------+-------------------------------------------------+
-    | 4      | Free (user defined)                             |
-    +--------+-------------------------------------------------+
-    | 3      | Free (user defined)                             |
-    +--------+-------------------------------------------------+
-    | 2      | Free (user defined)                             |
-    +--------+-------------------------------------------------+
-    | 1      | Free (user defined)                             |
-    +--------+-------------------------------------------------+
+    +--------+-------------------------------------------------------------------+
+    | MSB    | Description                                                       |
+    +========+===================================================================+
+    | 8      | Sudden storm commencement detected                                |
+    +--------+-------------------------------------------------------------------+
+    | 7      | Storm in progress                                                 |
+    |        |                                                                   |
+    |        | A storm is in progress if  the level of magnetic activity         |
+    |        | is equivalent to K > 4   for past one-hour                        |
+    |        |                                                                   |
+    |        | period.                                                           |
+    |        | The flag will be reset to zero when the equivalent level of       |
+    |        | activity drops to K <= 4.                                         |
+    +--------+-------------------------------------------------------------------+
+    | 6      | 0: No Reference Measurement (RM) capability                       |
+    |        | bytes 13-30 are user free space                                   |
+    |        |                                                                   |
+    |        | 1: Base Reference Measurement data available inbytes 21-30.       |
+    |        |                                                                   |
+    |        | Bytes' 13-20 are user free space.                                 |
+    +--------+-------------------------------------------------------------------+
+    | 5      | Free (user defined)                                               |
+    +--------+-------------------------------------------------------------------+
+    | 4      | Free (user defined)                                               |
+    +--------+-------------------------------------------------------------------+
+    | 3      | Free (user defined)                                               |
+    +--------+-------------------------------------------------------------------+
+    | 2      | Free (user defined)                                               |
+    +--------+-------------------------------------------------------------------+
+    | 1      | Free (user defined)                                               |
+    +--------+-------------------------------------------------------------------+
 
 
 .. _app_imag_imfv_2_header:
@@ -130,6 +152,8 @@ IMFV2.83 Header Encoding
 
 In IMFV2.83 format, the time stamp and site identification code are encoded
 in 3-byte strings formed from two 12-bit fields combined as described below:
+
+.. tabularcolumns:: |p{4cm}|p{4cm}|
 
 .. table::
     :widths: auto
@@ -144,6 +168,7 @@ in 3-byte strings formed from two 12-bit fields combined as described below:
     Most sig. 8 bits of minute  Byte 3
     =========================== ============================
 
+.. tabularcolumns:: |p{5cm}|p{4cm}|
 
 .. table::
     :widths: auto
@@ -161,6 +186,8 @@ in 3-byte strings formed from two 12-bit fields combined as described below:
 | Example:
 | The time stamp for day 30, minute 684 would be encoded as:
 
+.. tabularcolumns:: |p{4cm}|c|c|c|c|c|c|c|c|c|c|c|c|c|
+
 .. table:: Input fields
     :widths: auto
     :align: center
@@ -171,6 +198,8 @@ in 3-byte strings formed from two 12-bit fields combined as described below:
     Minute 684 (second item) 0  0  1 0 1 0 1 0 1 1 0 0 2AC
     ======================== == == = = = = = = = = = = ===
 
+
+.. tabularcolumns:: |p{1cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|
 
 .. table:: Output Encoded field
     :widths: auto
@@ -184,7 +213,7 @@ in 3-byte strings formed from two 12-bit fields combined as described below:
     +--------+--------+-------------+----------------+-----------+--------+----------------+
     | Hex    | 1      | E           | C              | 0         | 2      | A              |
     +--------+--------+-------------+----------------+-----------+--------+----------------+
-    | Value  | 8 LSB Day            | 4 LSB Minute   | 4 MSB Day | 8 MSB Minute            |
+    | Value  |      8 LSB Day       | 4 LSB Minute   | 4 MSB Day | 8 MSB Minute            |
     +--------+--------+-------------+----------------+-----------+--------+----------------+
 
 
@@ -214,6 +243,8 @@ and SF apply to all measurements of a component within an IMFV2.83
 data block.
 
 We define the terms used in encoding as follows:
+
+.. tabularcolumns:: |p{2cm}|p{9cm}|
 
 .. table:: Input fields
     :widths: auto

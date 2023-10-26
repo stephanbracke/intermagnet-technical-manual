@@ -162,6 +162,8 @@ Two (2) minutes of data are concatenated on the same line
     AAAAAAA_BBBBBBB_CCCCCCC_FFFFFF__AAAAAAA_BBBBBBB_CCCCCCC_FFFFFFCrLf
     (values for minute 58) (values for minute 59)
 
+.. tabularcolumns:: |p{2cm}|p{7cm}|
+
 .. table::
     :widths: auto
     :align: center
@@ -324,6 +326,7 @@ Two (2) minutes of data are concatenated on the same line
     (values for minute 58) (values for minute 59)
 
 
+.. tabularcolumns:: |p{2cm}|p{7cm}|
 
 .. table::
     :widths: auto

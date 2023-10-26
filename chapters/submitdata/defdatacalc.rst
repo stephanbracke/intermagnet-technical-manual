@@ -103,11 +103,12 @@ be derived from :numref:`sub_dat_def_calc_vario`:
 
 .. figure:: ../../img/vario_orientation.png
     :align: center
-    :scale: 100 %
+    :scale: 90 %
     :alt: vario HDZ orientation
 
     Horizontal field component H and horizontal sensors of the variometer
     for the HDZ orientation.
+
 
 
 .. math::
