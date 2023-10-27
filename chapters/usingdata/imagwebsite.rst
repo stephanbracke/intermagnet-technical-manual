@@ -4,7 +4,7 @@ INTERMAGNET WEB Site
 ====================
 .. include:: ../../shared/variables.rst
 
-The `INTERMAGNET web site`_ provides background information about
+The INTERMAGNET web site provides background information about
 INTERMAGNET, its structure, and its participating
 organizations, countries and IMOs (INTERMAGNET Magnetic
 Observatories). The web site offers access to various products
