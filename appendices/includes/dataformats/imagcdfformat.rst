@@ -178,7 +178,7 @@ set to zero).
 
 Recommended names for time stamp variables are:
 
-.. tabularcolumns:: |p{6cm}|p{8.5cm}|
+.. tabularcolumns:: |p{7.5cm}|p{7.5cm}|
 
 .. table::
     :widths: auto

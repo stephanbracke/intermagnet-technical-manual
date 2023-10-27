@@ -7,82 +7,126 @@ The structure of files and folders on the INTERMAGNET
 CD-ROM/DVD/USB has remained broadly the same since its
 inception in 1991, however there have been some differences.
 This appendix documents the structure for the current USB
-(2015), then describes the structure of the DVD (2012) and the
+(2014), then describes the structure of the DVD (2011) and the
 first CD-ROM (1991) and lists year by year differences in the
 files and folders on the CD-ROM/DVD/USB.
 
-Structure of current (2015) USB
+Structure of current (2014) USB
 ```````````````````````````````
-
 
 ::
 
     .
     ├── errata
     │    └── errata.txt
-    ├── intermagnet_1991_2015.png
-    ├── IMCDViewer
-    │     └── imcdview1.93.jar
-    ├── mag1991
-    ├── ...
-    └── mag2015
-        ├── 2015maps
-        │    ├── alg.png
-        │    ├── all.png
-        │    ├── aus.png
-        │    ├── ...
-        │
-        ├── aaa
-        │   ├── aaa15jan.bin
-        │   ├── aaa15feb.bin
-        │   ├── ...
-        │   ├── aaa15k.dka
-        │   ├── aaa2015.blv
-        │   ├── readme.aaa
-        │   └── yearmean.aaa
-        ├── ...
-        ├── ctry_inf
-        │   ├── algsrn.png
-        │   ├── aussrn.png
-        │   ├── ...
-        │   ├── readme.alg
-        │   ├── readme.all
-        │
-        ├── obsy_inf
-
+    ├── mag2014
+    │   ├── 2014maps
+    │   │    ├── alg.png
+    │   │    ├── all.png
+    │   │    ├── aus.png
+    │   │    ├── ...
+    │   │
+    │   ├── ctry_inf
+    │   │   ├── algsrn.png
+    │   │   ├── aussrn.png
+    │   │   ├── ...
+    │   │   ├── readme.alg
+    │   │   ├── readme.arg
+    │   │   ├── ...
+    │   │
+    │   ├── aaa
+    │   │   ├── aaa14jan.bin
+    │   │   ├── aaa14feb.bin
+    │   │   ├── ...
+    │   │   ├── aaa14k.dka
+    │   │   ├── aaa2014.blv
+    │   │   ├── readme.aaa
+    │   │   └── yearmean.aaa
+    │   ├── ...
+    │   └──obsy_inf
+    ├── imcdview_install.txt
+    ├── readme.txt
+    └── software
+        └── Disk1
+            └── InstData
+                ├── GenericUnix
+                │   └──  IMCDView.bin
+                ├── Linux_32
+                │   │── NoVM
+                │   │   └── IMCDView.bin
+                │   └── VM
+                │       └── IMCDView.bin
+                ├── Linux_64
+                │   │── NoVM
+                │   │   └── IMCDView.bin
+                │   └── VM
+                │       └── IMCDView.bin
+                ├── MacOSX
+                │   │── NoVM
+                │   │   └── IMCDView.bin
+                │   └── VM
+                │       └── IMCDView.bin
+                ├── Solaris
+                │   │── NoVM
+                │   │   └── IMCDView.bin
+                │   └── VM
+                │       └── IMCDView.bin
+                ├── Unix_with_VM
+                │   └── VM
+                │       └── IMCDView.bin
+                ├── Windows_32_or_64_bit
+                │   │── NoVM
+                │   │   └── IMCDView.exe
+                │   └── VM
+                │       └── IMCDView.exe
+                ├── Windows_Pure_64_bit
+                │   │── NoVM
+                │   │   └── IMCDView.exe
+                │   └── VM
+                │       └── IMCDView.exe
+                ├── MediaId.properties
+                └── Resource1.zip
 
 
 Structure of (2011) DVD
 ```````````````````````
-
 
 ::
 
     .
     ├── errata
     │     └── errata.txt
-    ├── mag2012
-    │ 	├── 2012maps
+    ├── mag2011
+    │ 	├── 2011maps
     │ 	│   ├── alg.png
     │ 	│   ├── all.png
     │ 	│   ├── aus.png
     │ 	│   ├── ...
     │ 	│
-    │ 	├── aaa
-    │ 	│   ├── aaa12jan.bin
-    │ 	│   ├── aaa12feb.bin
-    │ 	│   ├── ...
-    │ 	│   ├── aaa2012.blv
-    │ 	│   ├── aaa11k.dka
-    │ 	│   ├── readme.aaa
-    │ 	│   └── yearmean.aaa
-    │ 	├── ...
-    │ 	├── ctry_inf
+    │   ├── ctry_inf
     │ 	│   ├── algsrn.png
     │ 	│   ├── aussrn.png
     │ 	│   ├── ...
     │ 	│   ├── readme.alg
     │ 	│   ├── readme.all
+    │ 	│   ├── ...
+    │ 	├── aaa
+    │ 	│   ├── aaa11jan.bin
+    │ 	│   ├── aaa11feb.bin
+    │ 	│   ├── ...
+    │ 	│   ├── aaa2011.blv
+    │ 	│   ├── aaa11k.dka
+    │ 	│   ├── readme.aaa
+    │ 	│   └── yearmean.aaa
+    │  	├── aae
+    │ 	│   ├── aae11jan.bin
+    │ 	│   ├── aae11feb.bin
+    │ 	│   ├── ...
+    │ 	│   ├── aae2011.blv
+    │ 	│   ├── aae11k.dka
+    │ 	│   ├── readme.aae
+    │ 	│   └── yearmean.aae
+    │ 	├── ...
     │ 	│
     │ 	└── obsy_inf
     ├── imcdview_install.txt
@@ -90,22 +134,20 @@ Structure of (2011) DVD
     └── software
         └── Disk1
             └── InstData
-            ├── Linux
-            │   └── NoVM
-            │       └── IMCDView.bin
-            ├── Mac
-            │   └── NoVM
-            │       └── IMCDView.app
-            │           └── Contents
-            │               ├── Info.plist
-            ├── MediaId.properties
-            ├── Resource1.zip
-            ├── Solaris
-            │   └── NoVM
-            │       └── IMCDView.bin
-            └── Windows
-                └── NoVM
-                    └── IMCDView.exe
+                ├── Linux
+                │   └── NoVM
+                │       └── IMCDView.bin
+                ├── Mac
+                │   └── NoVM
+                │       └── IMCDView.app
+                ├── MediaId.properties
+                ├── Resource1.zip
+                ├── Solaris
+                │   └── NoVM
+                │       └── IMCDView.bin
+                └── Windows
+                    └── NoVM
+                        └── IMCDView.exe
 
 
 
