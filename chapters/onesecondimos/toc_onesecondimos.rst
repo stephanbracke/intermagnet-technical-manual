@@ -1,8 +1,8 @@
 .. _1sec_imo:
 
-***************
-One Second IMOs
-***************
+****************************************************
+INTERMAGNET Magnetic Observatories - One Second IMOs
+****************************************************
 
 .. toctree::
     :maxdepth: 4
