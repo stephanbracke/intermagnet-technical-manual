@@ -273,6 +273,6 @@ INTERMAGNET and should not be used for the baseline adoption.
 .. [#] Matzka, J. and Hansen, T. L.: On the various published
        formulas to determine sensor offset and sensor misalignment
        for the DI-flux, Publs. Inst. Geophys. Pol. Acad. Sci.,
-       C-99, 298–303, 2007: |matzka_hansen|
+       C-99, 298–303, 2007
 
 

@@ -640,13 +640,13 @@ the data files from being downloaded until the following day.
 -  **Plotting delay**
 
    The INTERMAGNET website offers online plotting utilities.
-   |obs_plots| . A delay (in days) can be added to prevent the user from
+   |download_plot_data| . A delay (in days) can be added to prevent the user from
    plotting the data.
 
 -  **Download delay**
 
-   Data can be download via the website or the FTP.
-   |download_data| . A delay (in days) can be added to prevent the user from
+   Data can be download via the website.
+   |download_plot_data| . A delay (in days) can be added to prevent the user from
    downloading the data.
 
 -  **Exception**
@@ -655,5 +655,5 @@ the data files from being downloaded until the following day.
    the delay requested by the institute, INTERMAGNET will
    generate hourly range values from the data and will use
    these values for the INTERMAGNET Geomagnetic Activity Map.
-   |geo_act| It was determined by INTERMAGNET that hourly range
+   It was determined by INTERMAGNET that hourly range
    values are too low resolution to be of any use.

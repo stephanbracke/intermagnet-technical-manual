@@ -437,7 +437,7 @@ files that pertain to each country's geomagnetism program
 (including a README for the ALL option). The OBSY_INF
 subdirectory is empty, but is required to identify to software
 that the this folder holds data in the INTERMAGNET DVD/CD-ROM
-structure.
+structure.see :numref:`sub_dat_1min_data_soft`
 
 The individual sub-directories (e.g. BFE for Brorfelde, TUC for
 Tucson, etc.) contain the 12 months of data labeled with the
@@ -544,5 +544,7 @@ Copies of CD-ROM/DVD/USB may be obtained from:
 | Tel: 33 (0) 2-38-33-95-01
 | Internet: |contact_ipgp|
 
-
+From 2015 INTERMAGNET stopped the distribution on a physical medium.
+Definitive data is now yearly published and identified in the form of Digital Object Identifiers (DOIS) see
+:numref:`use_dat_imag_web_down_data_def`.
 Individual (monthly) IAF data files are available from the INTERMAGNET web site.

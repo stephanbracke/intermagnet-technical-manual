@@ -55,8 +55,7 @@ commercial users.
 #. Each INTERMAGNET GIN will provide annually to each
    participating institution or observatory a statement of data
    received by the GIN. Each week, INTERMAGNET will provide
-   data download statistics to the community via FTP (see
-   :numref:`use_dat_ftp`).
+   data download statistics to the community.
 
 
 
