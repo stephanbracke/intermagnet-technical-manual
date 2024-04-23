@@ -647,12 +647,9 @@ is:
 -  Mandatory (number of entries per variable is exactly :sup:`1`)
 -  Optional (number of entries per variable may be :sup:`0` or :sup:`1`)
 
-Superscript numbers following the attribute name show:
+.. raw:: latex
 
-#. That the attribute is a recommended attribute for use with NASA's CDF
-   tools
-#. That the attribute is part of the ISTP/IACG guidelines - |istp_vattr|
-
+    \newpage
 
 None of these attributes are required for the time stamp variables
 GeomagneticVectorTimes and GeomagneticScalarTimes.
@@ -660,40 +657,44 @@ GeomagneticVectorTimes and GeomagneticScalarTimes.
 .. tabularcolumns:: |p{3cm}|p{1.5cm}|>{\centering\arraybackslash}p{1.5cm}|p{8cm}|
 
 .. table::
-    :widths: auto
+    :widths: 24,10,6,60
     :align: center
 
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | Attribute Name | Type   | Entries | Description                                               |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | FIELDNAM1      | String | 1       | Set to "Geomagnetic Field Element " + the element code    |
-    |                |        |         | (e.g. H, D, Z,… - see section                             |
-    |                |        |         | :ref:`app_cdf_gattr_valid_codes` for a list of valid      |
-    |                |        |         | codes); or set to "Temperature " + the name of the        |
-    |                |        |         | location where the temperature was recorded.              |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | UNITS1         | String | 1       | Must be one of "nT", "Degrees of arc" or "Celsius"        |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | FILLVAL1       | Double | 1       | The value used to show that a data sample is missing. Set |
-    |                |        |         | to 99999.0 for compatibility with other formats. The      |
-    |                |        |         | values must either less than VALIDMIN or greater than     |
-    |                |        |         | VALIDMAX.                                                 |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | VALIDMIN1      | Double | 1       | The smallest allowed numeric value for the data in the    |
-    |                |        |         | corresponding variable.                                   |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | VALIDMAX1      | Double | 1       | The largest allowed numeric value for the data in the     |
-    |                |        |         | corresponding variable.                                   |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | DEPEND_02      | String | 0 - 1   | For geomagnetic data, set this to the name of the         |
-    |                |        |         | variable that holds time stamps for this time series. For |
-    |                |        |         | records containing time stamps, do not set this variable. |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | DISPLAY_TYPE2  | String | 1       | Set to "time_series"                                      |
-    +----------------+--------+---------+-----------------------------------------------------------+
-    | LABLAXIS2      | String | 1       | Set to the element code (as defined in section            |
-    |                |        |         | :ref:`app_cdf_gattr_valid_codes` )                        |
-    +----------------+--------+---------+-----------------------------------------------------------+
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | Attribute Name           | Type   | Entries | Description                                               |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | FIELDNAM [#f5]_          | String | 1       | Set to "Geomagnetic Field Element " + the element code    |
+    |                          |        |         | (e.g. H, D, Z,… - see section                             |
+    |                          |        |         | :ref:`app_cdf_gattr_valid_codes` for a list of valid      |
+    |                          |        |         | codes); or set to "Temperature " + the name of the        |
+    |                          |        |         | location where the temperature was recorded.              |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | UNITS [#f5]_             | String | 1       | Must be one of "nT", "Degrees of arc" or "Celsius"        |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | FILLVAL [#f5]_           | Double | 1       | The value used to show that a data sample is missing. Set |
+    |                          |        |         | to 99999.0 for compatibility with other formats. The      |
+    |                          |        |         | values must either less than VALIDMIN or greater than     |
+    |                          |        |         | VALIDMAX.                                                 |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | VALIDMIN [#f5]_          | Double | 1       | The smallest allowed numeric value for the data in the    |
+    |                          |        |         | corresponding variable.                                   |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | VALIDMAX   [#f5]_        | Double | 1       | The largest allowed numeric value for the data in the     |
+    |                          |        |         | corresponding variable.                                   |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | DEPEND_0  [#f6]_         | String | 0 - 1   | For geomagnetic data, set this to the name of the         |
+    |                          |        |         | variable that holds time stamps for this time series. For |
+    |                          |        |         | records containing time stamps, do not set this variable. |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | DISPLAY_TYPE  [#f6]_     | String | 1       | Set to "time_series"                                      |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+    | LABLAXIS [#f6]_          | String | 1       | Set to the element code (as defined in section            |
+    |                          |        |         | :ref:`app_cdf_gattr_valid_codes` )                        |
+    +--------------------------+--------+---------+-----------------------------------------------------------+
+
+.. [#f5]  The attribute is a recommended attribute for use with NASA's CDF tools
+.. [#f6]  The attribute is part of the ISTP/IACG guidelines - |istp_vattr|
+
 
 ImagCDF File Names
 ``````````````````
