@@ -248,7 +248,7 @@ the data correctly.
     ================= ====== ======= ================================================
     FormatDescription String 1       Always set to "INTERMAGNET CDF Format"
     FormatVersion     String 1       Set to the current version of the format – "1.2"
-    Title1            String 1       Always set to "Geomagnetic time series data"
+    Title             String 1       Always set to "Geomagnetic time series data"
     ================= ====== ======= ================================================
 
 
