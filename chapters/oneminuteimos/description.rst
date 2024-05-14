@@ -43,9 +43,8 @@ received within 72 hours of recording, but ideally faster (see
 
 At the end of a calendar year, data are to be prepared using
 final baselines and submitted as definitive data for inclusion
-on the INTERMAGNET DVD. The deadline for submission will be
-communicated by INTERMAGNET. Definitive data published on the
-DVD are also made available on the INTERMAGNET web site.
+in the INTERMAGNET Reference Data Set (IRDS). The deadline for submission will be
+communicated by INTERMAGNET.
 
 An observatory intending to participate in INTERMAGNET as an
 IMO must be able to meet the INTERMAGNET standards for
