@@ -112,7 +112,7 @@ Please note the following:
   magnetometer. INTERMAGNET is not accepting total field data
   calculated from a vector magnetometer.
 - K-indices should be included in the binary files only. DKA
-  files (as found on the DVD) are created by INTERMAGNET from
+  files are created by INTERMAGNET from
   the binary data. Any DKA file provided by an institute will
   be ignored.
 - INTERMAGNET needs information about changes (or lack of
@@ -134,7 +134,7 @@ In order to check the data for publication, it is necessary to
 create a directory structure on disk similar to the structure
 of the IRDS - this will allow the user to use the
 imcdview software to view the data (imcdview is the Java
-software. In order for imcdview to recognize that a directory contains
+software). In order for imcdview to recognize that a directory contains
 INTERMAGNET data, the subdirectories ctry_inf and yyyymaps are
 needed even if they are empty.
 
@@ -240,7 +240,7 @@ out a "call for data" to each observatory, specifying the
 deadline for providing data. Observatories should provide data
 in the INTERMAGNET Archive Format (IAF) which is described in
 |app_iaf|. Data can be converted to IAF using INTERMAGNET’s
-"imcdview" DVD/CD-ROM viewing software, which can be obtained
+"imcdview" viewing software, which can be obtained
 from |imag_software|
 Baseline data will accompany the definitive data, and will be
 provided in format IBFV2.00 as described in |app_imag_ibf|.
@@ -252,22 +252,22 @@ General Features
 
 The first INTERMAGNET CD-ROM contains data from 41
 observatories provided by 11 countries for the year 1991. The
-1992 and subsequent DVD/CD-ROMs also contain baseline data for
+1992 and subsequent IPMs also contain baseline data for
 the year for each observatory in the form of text and plots.
 |app_obs| of this manual provides a list of observatories
 currently contributing to the data publication.
 
 .. _sub_dat_1min_data_enc_iaf:
 
-IAF INTERMAGNET Archive Format (CD-ROM/DVD/USB)
-```````````````````````````````````````````````
+IAF INTERMAGNET Archive Format
+``````````````````````````````
 
 
-The INTERMAGNET CDs, DVDs, and USB drives contain a variety of
+The INTERMAGNET IRDS and IPM contain a variety of
 metadata, including contact information and quality control
-records. The geomagnetic data on the CDs, DVDs and USB drives
-is held in INTERMAGNET Archive Format. This format holds
-minute, hourly and daily mean values as well as K indices.
+records. The geomagnetic data is held in INTERMAGNET Archive
+Format. This format holds minute, hourly and daily mean values
+as well as K indices.
 
 The data are coded as 32-bit (long integer) binary words, with
 5888 words comprising a day-long record. Each file contains one
@@ -401,24 +401,25 @@ fourth element) the value "888888" should be used instead of
 
 .. _sub_dat_1min_data_enc_dir:
 
-INTERMAGNET CD-ROM/DVD/USB Directory Structure
-``````````````````````````````````````````````
+INTERMAGNET Reference Data Set and Physical Media Directory Structure
+`````````````````````````````````````````````````````````````````````
 
 This section describes the structure of the DVD (2011). The
-structure of older CD-ROM/DVD/USB drives is described in
-|app_imag_dir|.
+structure of the INTERMAGNET Reference Data Set (IRDS), which is also the 
+strucutre of the data on the INTERMAGNET Physical Media (IPM) at the example
+is described in |app_imag_dir|.
 
-The files on the INTERMAGNET DVD are set up in a particular
+The files are set up in a particular
 directory structure. The root directory contains a "README.TXT"
 file, which is an ASCII file describing the DVD and where to
 obtain information about it, the software, and documentation;
 
 On the 2011 DVD there are also three directories and a further
 file. The directory called "ERRATA" contains a file
-"ERRATA.TXT". This file lists errors on previous DVD/CD-ROMs. A
+"ERRATA.TXT". This file lists errors on previous IPMs. A
 second folder, called "SOFTWARE", holds the "imcdview"
-programme, software, for visualizing and working with the data
-on the DVD/CD-ROMs. This software is described in :numref:`sub_dat_1min_data_enc_soft`
+programme, software, for visualizing and working with the data.
+This software is described in :numref:`sub_dat_1min_data_enc_soft`
 The file "imcdview_install.txt" describes how to install the imcdview software.
 
 The final directory, MAG2011, contains a sub-directory for each
@@ -434,7 +435,7 @@ organizational Logo for the different countries, and the README
 files that pertain to each country's geomagnetism program
 (including a README for the ALL option). The OBSY_INF
 subdirectory is empty, but is required to identify to software
-that the this folder holds data in the INTERMAGNET DVD/CD-ROM
+that the this folder holds data in the IRDS
 structure.see :numref:`sub_dat_1min_data_soft`
 
 The individual sub-directories (e.g. BFE for Brorfelde, TUC for
@@ -463,17 +464,16 @@ DKA files have been created by INTERMAGNET using data from the
 binary IAF file (before 2005 these files were provided by the
 observatories). These ASCII K-Index files are used, even though
 the data are in the binary records, because they are much
-faster to access than paging through the binary records on the
-DVD/CD-ROM.
+faster to access than paging through the binary records.
 
 .. _sub_dat_1min_data_enc_soft:
 
-INTERMAGNET CD-ROM/DVD/USB SOFTWARE
-```````````````````````````````````
+INTERMAGNET Reference Data Set and Physical Media Software
+``````````````````````````````````````````````````````````
 
-INTERMAGNET provides software to work with the data on the
-CD-ROM/DVD/USB. This software can be installed from the
-DVD/USB, or downloaded from |imag_software| .
+INTERMAGNET provides software to work with the data.
+This software can be installed from the
+IPM, or downloaded from |imag_software| .
 The software is designed to be simple and easy to use. When the
 software starts for the first time on a new computer, a dialog
 is displayed describing how to tell the software where to find
@@ -495,10 +495,10 @@ software is running. If you close this window, the program will
 exit.
 
 There is also an Explorer window, available from the "View"
-menu. This window gives you an alternative view of data on a
-DVD/CD-ROM. The view of the data that the window presents is
+menu. This window gives you an alternative view of data.
+The view of the data that the window presents is
 similar in structure to the directory structure used to hold
-the data on the DVD/CD-ROM. To view an object in the Explorer
+the data on the IPM. To view an object in the Explorer
 window, double click the object. For example, to plot data from
 an observatory using the Explorer window, expand the tree until
 the observatory is listed, expand the observatory, select and
