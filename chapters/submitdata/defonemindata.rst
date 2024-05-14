@@ -132,13 +132,11 @@ Checking Procedure
 
 In order to check the data for publication, it is necessary to
 create a directory structure on disk similar to the structure
-on the INTERMAGNET DVD - this will allow the user to use the
+of the IRDS - this will allow the user to use the
 imcdview software to view the data (imcdview is the Java
-software that is packaged with the data on the annual DVD). In
-order for imcdview to recognize that a directory contains
+software. In order for imcdview to recognize that a directory contains
 INTERMAGNET data, the subdirectories ctry_inf and yyyymaps are
-needed even if they are empty (these subdirectories are part of
-the normal DVD directory structure).
+needed even if they are empty.
 
 A complete annual INTERMAGNET data structure includes the
 following files (the following example is for the year 2010):
