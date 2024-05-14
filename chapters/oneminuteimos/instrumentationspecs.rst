@@ -144,13 +144,13 @@ Other
     |                          | for satellite)                           |
     +--------------------------+------------------------------------------+
     | Definitive data          | to be submitted annually for inclusion   |
-    |                          | on the DVD in IAFV2.11 format            |
+    |                          | in the IRDS in IAFV2.11 format            |
     +--------------------------+------------------------------------------+
     | Instrument baseline data | to be submitted annually for inclusion   |
-    |                          | on the DVD in IBFV2.00 format            |
+    |                          | in the IRDS in IBFV2.00 format            |
     +--------------------------+------------------------------------------+
     | Annual means             | to be submitted annually for inclusion   |
-    |                          | on the DVD in IYFV1.02 format            |
+    |                          | in the IRDS in IYFV1.02 format            |
     +--------------------------+------------------------------------------+
     | Filtering                | to INTERMAGNET standard                  |
     |                          | (:numref:`1min_imo_sampling` )           |
