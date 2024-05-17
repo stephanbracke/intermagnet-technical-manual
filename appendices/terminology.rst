@@ -12,7 +12,7 @@ INTERMAGNET Terminology
     REPORTED Data
 
         Data as output by an observatory, transmitting through a
-        satellite or using E-Mail. REPORTED data have not had any
+        satellite or using email. REPORTED data have not had any
         baseline corrections applied, may contain spikes and may
         have missing values. When ADJUSTED data are available,
         REPORTED data are removed from online access.

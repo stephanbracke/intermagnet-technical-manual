@@ -9,7 +9,7 @@ Submission of Preliminary Data
 
 
 An observatory sends preliminary (non-definitive) data to its
-assigned GIN via e-mail, web upload or satellite transmission.
+assigned GIN via email, web upload or satellite transmission.
 INTERMAGNET encourages observatories to send data as close to
 real-time as possible. The best way to achieve this is using
 the web interface to submit data in IAGA-2002 format.
@@ -596,7 +596,7 @@ helpful if you can supply a sample of the data you will submit.
 This will give the GIN manager a chance to check the format you
 are using before you start regular transmissions.
 
-An increasing problem with e-mail transmission is the filtering
+An increasing problem with email transmission is the filtering
 of emails for unwanted and malicious messages. Whilst these
 filtering systems are necessary to protect users of email
 systems, they do frequently block data messages of the type

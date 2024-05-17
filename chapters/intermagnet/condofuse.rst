@@ -31,7 +31,7 @@ that
   Secretary |contact| for inclusion
   in a publications list on the INTERMAGNET web site.
 
-Your e-mail address, which you provide to INTERMAGNET when
+Your email address, which you provide to INTERMAGNET when
 requesting data, will be given to the Institute supplying the
 data so that it may monitor the use of its data.
 
