@@ -14,8 +14,7 @@ values for long-period, non-random error. A baseline adoption
 process may be used that provides confidence limits for
 component 1-minute and 1-second values. A tabular listing of
 annual baseline values and a description of baseline
-adjustments accompany the absolute data contained on
-INTERMAGNET DVDs/CD-ROMs. A graphic display of baselines and
+adjustments accompany the absolute data contained in
+the INTERMAGNET Reference data set (IRDS). A graphic display of baselines and
 differences in computed and recorded total field values are
-available to users for stations on the INTERMAGNET
-DVDs/CD-ROMs.
+available to users.

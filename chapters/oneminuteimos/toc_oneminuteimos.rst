@@ -1,8 +1,8 @@
 .. _1min_imo:
 
-***************
-One Minute IMOs
-***************
+****************************************************
+INTERMAGNET Magnetic Observatories - One Minute IMOs
+****************************************************
 
 .. toctree::
     :maxdepth: 4

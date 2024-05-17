@@ -70,8 +70,9 @@ comments provided by our colleagues.
       | Kyoto: |contact_gin_kyoto|
       |
 
-    * | **DVD/CD-ROM distribution office**
+    * | **INTERMAGNET PHYSICAL MEDIA (IPM) distribution office**
       |
+      | INTERMAGNET Physical Media distribution office
       | Observatoire Magnétique National
       | Carrefour des 8 routes
       | 45340 Chambon la Forêt

@@ -101,7 +101,8 @@ the INTERMAGNET data delivery requirements and the observatory
 will be notified of the breach by the Operations Committee.
 
 The Operations Committee will also assess definitive data
-submitted for inclusion on the annual DVD against the data
+submitted for inclusion in the INTERMAGNET Reference Data Set 
+(IRDS) against the data
 quality standards for one-minute data as defined in the
 Technical Manual. The deadline for submission of definitive
 data will be communicated by the Operations Committee in

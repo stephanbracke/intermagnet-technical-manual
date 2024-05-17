@@ -14,7 +14,7 @@ INTERMAGNET baseline format IBFV2.00, (|app_imag_ibf|). The
 format includes a section for comments pertaining to dates and
 times of baseline adjustments or changes in instrumentation.
 These files must be transmitted annually to INTERMAGNET along
-with 1-minute data for DVD production.
+with 1-minute data for the IRDS production.
 
 Statistics of the difference between the adopted and observed
 baseline can be generated to verify that confidence limits for

@@ -12,14 +12,16 @@
 
 .. |imag_imo_list| replace:: https://intermagnet.org/metadata/#/imos
 .. |intermagnet_website| replace:: https://www.intermagnet.org/
-.. |download_data| replace:: https://intermagnet.org/new_data_download.html
-.. |obs_plots| replace:: http://www.intermagnet.org/data-donnee/dataplot-eng.php
-.. |geo_act| replace:: http://www.intermagnet.org/activitymap/activitymap-eng.php
 .. |faq_qd| replace:: https://intermagnet.org/faq/04.what-is-quasi.html
+.. |faq_bgs_qd| replace:: https://intermagnet.org/faq/08.bgs-quasi.html
+.. |faq_ipgp_qd| replace:: https://intermagnet.org/faq/09.ipgp-quasi.html
+
 .. |imag_ftp| replace:: ftp://ftp.seismo.nrcan.gc.ca/intermagnet/
 .. |imag_software| replace:: https://intermagnet.org/software.html
+.. |imag_software_bgs| replace:: https://geomag.bgs.ac.uk/data_service/intermagnet/home.html
+
 .. |iaga_guide| replace:: http://www.iaga-aiga.org/data/uploads/pdf/guides/iaga-guide-observatories.pdf
-.. |web_toolkit| replace:: http://wet-boew.github.io/wet-boew/index-en.html
+.. |git_hub_pages| replace:: https://pages.github.com/
 .. |rfc1867| replace:: http://www.ietf.org/rfc/rfc1867.txt
 .. |curl| replace:: http://curl.haxx.se/
 .. |gin_paris| replace:: par-gin.ipgp.fr
@@ -38,6 +40,10 @@
 .. |istp_gattr| replace:: http://spdf.gsfc.nasa.gov/istp_guide/gattributes.html
 .. |istp_vattr| replace:: http://spdf.gsfc.nasa.gov/istp_guide/vattributes.html
 
-.. |matzka_hansen| replace:: http://agp2.igf.edu.pl/agp/files/C-99/Matzka_Hansen.pdf
-.. |matzka_qd| replace:: http://iaga_workshop_2012.roa.es/IAGA%20Extended%20Abstract%20Volume.pdf
+.. |def_data| replace:: https://intermagnet.org/data_conditions.html
+.. |download_plot_data| replace:: https://intermagnet.org/new_data_download.html
+
+.. |matzka_qd| replace:: https://publicaciones.defensa.gob.es/boletin-roa-n-3-2013-proceedings-of-the-xvth-iaga-workshop-on-geomagnetic-observatory-instruments-data-acquisition-and-processing.html
+.. |matzka_hansen| replace:: https://pub.igf.edu.pl/files/Pdf/Pubs/37.pdf?t=1702373167
+
 

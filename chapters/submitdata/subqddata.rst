@@ -4,6 +4,7 @@ Submission of Quasi-Definitive Data
 ====================================
 
 .. include:: ../../shared/variables.rst
+.. include:: ../../shared/targets.rst
 
 An observatory sends quasi-definitive data to its assigned GIN
 via e-mail or web upload. The best way to do this is to use the
@@ -52,14 +53,14 @@ on creating Quasi-Definitive Data.
 
 -  What is the BGS method for creating Quasi-Definitive Data:
 
-   |faq_qd|
+   |faq_bgs_qd|
 -  What is the IPGP method for creating Quasi-Definitive Data:
 
-   |faq_qd|
+   |faq_ipgp_qd|
 -  Matzka, J., 2013. Preparation of Quasi-Defintive (QD) data
    for the observatories Narsarsuaq, Qeqertarsuaq, and Tristan
    da Cunha. Boletin ROA, No. 03/13, pp 50 - 53.
 
-   |matzka_qd|
+   `publication xvth iaga workshop`_
 
 

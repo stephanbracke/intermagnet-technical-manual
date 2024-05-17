@@ -107,8 +107,9 @@ INTERMAGNET Archive Format
     +==================================+==================================+
     | Definitive and quasi-definitive  | The required format for          |
     | minute, hourly, daily values and | submission of definitive data.   |
-    | K-indices                        | Primarily used on the annual     |
-    |                                  | INTERMAGNET CD/DVD.              |
+    | K-indices                        | Primarily used in the annual     |
+    |                                  | INTERMAGNET Reference Data       |
+    |                                  | Set (IRDS).                      |
     +----------------------------------+----------------------------------+
 
 This format is fully defined in |app_iaf|.
@@ -142,7 +143,7 @@ IYF INTERMAGNET Year-Mean File
     =================== ================================================
     Data type supported Notes
     =================== ================================================
-    Annual mean values  Primarily used on the annual INTERMAGNET CD/DVD.
+    Annual mean values  Primarily used in the IRDS.
     =================== ================================================
 
 This format is fully defined in |app_iyf|.
@@ -158,8 +159,8 @@ IBF INTERMAGNET Baseline File
     +----------------------------------+----------------------------------+
     | Data type supported              | Notes                            |
     +==================================+==================================+
-    | Baseline values and absolute     | Primarily used on the annual     |
-    | observation data                 | INTERMAGNET CD/DVD.              |
+    | Baseline values and absolute     | Primarily used in the IRDS.      |
+    | observation data                 |                                  |
     +----------------------------------+----------------------------------+
 
 This format is fully defined in |app_imag_ibf|.
@@ -258,8 +259,7 @@ below.
     |                  |                        | observatory year books |
     |                  |                        | and for input to the   |
     |                  |                        | World Data Centers and |
-    |                  |                        | the annual INTERMAGNET |
-    |                  |                        | CD/DVD.                |
+    |                  |                        | the IRDS.              |
     +------------------+------------------------+------------------------+
 
 Where software is used to convert between formats (e.g. at GINs):
