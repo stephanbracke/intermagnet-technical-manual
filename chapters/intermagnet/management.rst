@@ -13,10 +13,12 @@ international scientific and funding agencies.
     :align: center
 
     ============== =========================
-    Alan Thomson   United Kingdom (Chairman)
-    David Boteler  Canada
+    David Boteler  Canada (Chairman)
+    Ellen Clarke   United Kingdom
     Gauthier Hulot France
     Kristen Lewis  United States of America
+    Andrew Lewis   Australia
+    Jürgen Matzka  Germany
     ============== =========================
 
 The Operations Committee advises the Executive Council on
@@ -35,7 +37,7 @@ transmission characteristics which optimize global exchange.
     Stephan Bracke         Belgium
     Simon M. Flower        United Kingdom
     Benoit Heumez          France
-    Sergey Khomutov        Russia
+    Shun Imajo             Japan
     Roman Leonhardt        Austria
     Andrew Lewis           Australia
     Jürgen Matzka          Germany
@@ -43,8 +45,6 @@ transmission characteristics which optimize global exchange.
     Achim Morschhauser     Germany
     Tero Raita             Finland
     Jan Reda               Poland
-    Benoit J. St-Louis     Canada
-    Hiroaki Toh            Japan
     Christopher W. Turbitt United Kingdom
     ====================== ==============
 
