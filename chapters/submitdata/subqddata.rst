@@ -7,7 +7,7 @@ Submission of Quasi-Definitive Data
 .. include:: ../../shared/targets.rst
 
 An observatory sends quasi-definitive data to its assigned GIN
-via e-mail or web upload. The best way to do this is to use the
+via email or web upload. The best way to do this is to use the
 IAGA-2002 data format. INTERMAGNET encourages observatories to
 send quasi-definitive data as soon as possible.
 Quasi-definitive data should be sent within 3 months after

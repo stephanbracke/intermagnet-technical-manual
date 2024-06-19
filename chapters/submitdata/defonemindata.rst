@@ -68,7 +68,7 @@ and on the INTERMAGNET web site: |imag_software|
 Usually, after the end of the calendar year, INTERMAGNET
 officers send an email to IMOs titled "Call For Data". This
 email informs, among other things, about the delivery deadline
-of definitive data. For this, the e-mail list
+of definitive data. For this, the email list
 |imag_imo_email| is used. The subject of this email
 starts traditionally with the words "Call for Data". The
 request always includes a submission date by which data must be
