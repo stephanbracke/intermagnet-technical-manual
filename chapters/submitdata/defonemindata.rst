@@ -529,12 +529,12 @@ precision is unacceptably low, particularly for angular
 measurements.
 
 Prior to the current software, INTERMAGNET distributed a
-DOS-based program for working with the DVD/CD-ROM data. For
+DOS-based program for working with the IPM data. For
 historical purposes this software is documented in |app_imag_cd|.
 
-Copies of CD-ROM/DVD/USB may be obtained from:
+Copies of INTERMAGNET Physical Media may be obtained from:
 
-| INTERMAGNET data distribution office
+| INTERMAGNET Physical Media (IPM) distribution office
 | Observatoire Magnétique National
 | Carrefour des 8 routes
 | 45340 Chambon la Forêt
