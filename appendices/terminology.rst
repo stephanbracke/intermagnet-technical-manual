@@ -27,7 +27,8 @@ INTERMAGNET Terminology
         new message file can be transmitted to a GIN with the 'A'
         flag set in byte 25 of each hourly block header ( |app_imag_imfv_1| ).
         ADJUSTED data are maintained online until the annual
-        DVD is available. They are then archived by the GIN and only
+        INTERMAGNET Reference Data Set (IRDS) is available. 
+        They are then archived by the GIN and only
         available thereafter by special arrangement.
 
     QUASI-DEFINITIVE Data
@@ -71,7 +72,8 @@ INTERMAGNET Terminology
         block header byte 25 set to 'D' (|app_imag_imfv_1|), and the
         quality of the data is such that in this form they would be
         used for inclusion into Observatory Year Books, input to
-        World Data Centers and included in INTERMAGNET DVDs.
+        World Data Centers and included in the INTERMAGNET Reference 
+        Data Set (IRDS).
 
     Reference Measurement (RM)
         Values provided automatically by an IMO using 2 independent
@@ -128,3 +130,16 @@ INTERMAGNET Terminology
         Two bytes "Flags #1" and "Flags #2" (bytes 8 and 9) of
         Format IMFV2.83, are reserved for IMO status information
         (see |app_imag_imfv_2|).
+
+    IRDS
+        INTERMAGNET Reference Data Set contains all definitive 
+        data and metadata from the first Intermagnet publication
+        in 1991 up to the current year, including any corrections 
+        that have been made. Published with a DOI, for example 
+        the INTERMAGNET Reference Data Set, 2015: 
+        https://doi.org/10.5880/INTERMAGNET.1991.2015.
+
+    IPM
+        INTERMAGNET Physical Media, this term collectively 
+        describes the INTERMAGNET CDs, INTERMAGNET DVDs 
+        and INTERMAGNET USBs.
