@@ -1,15 +1,15 @@
 .. _app_imag_dir:
 
-INTERMAGNET CD-ROM/DVD/USB Directory Structure
+INTERMAGNET Physical Media Directory Structure
 ----------------------------------------------
 
 The structure of files and folders on the INTERMAGNET
-CD-ROM/DVD/USB has remained broadly the same since its
+Physical Media (IPM) has remained broadly the same since its
 inception in 1991, however there have been some differences.
 This appendix documents the structure for the current USB
 (2014), then describes the structure of the DVD (2011) and the
 first CD-ROM (1991) and lists year by year differences in the
-files and folders on the CD-ROM/DVD/USB.
+files and folders on the INTERMAGNET Physical Media (IPM).
 
 Structure of current (2014) USB
 ```````````````````````````````
@@ -185,13 +185,13 @@ Structure of first (1991) CD-ROM
 
 
 
-CD-ROM/DVD/USB Directory Structure
-``````````````````````````````````
+INTERMAGNET Physical Media Directory Structure
+``````````````````````````````````````````````
 
-The files on the INTERMAGNET CD-ROM/DVD/USB are set up in a
+The files on the INTERMAGNET Physical Media are set up in a
 particular directory structure. The root directory contains a
 "README.TXT" file, which is an ASCII file describing the
-CD-ROM/DVD/USB and where to obtain information about it, the
+INTERMAGNET Physical Media and where to obtain information about it, the
 software, and documentation; CD-ROMs from 1991-2004 also hold a
 "README.EXE" file, which is an executable version of the
 README.TXT file that allows the user to scroll back and forth
@@ -245,10 +245,10 @@ the DKA files have been created by INTERMAGNET, using data from
 the binary IAF file (before 2005 these files were provided by
 the observatories). The consequence is that DKA ASCII files
 provided by IMOs are ignored during final compilation of
-CD-ROM/DVD/USB. These ASCII K-Index files are published on,
+INTERMAGNET Physical Media. These ASCII K-Index files are published on,
 even though the data are in the binary records, because they
 are much faster to access than paging through the binary
-records on the CD-ROM/DVD/USB.
+records on the INTERMAGNET Physical Media.
 
 List of Changes to the Structure since the first (1991) CD-ROM
 ``````````````````````````````````````````````````````````````
@@ -458,16 +458,16 @@ List of Changes to the Structure since the first (1991) CD-ROM
     change is described. The exception to this is republished data.
 
 Republished data is put into a folder at the root of the
-CD-ROM/DVD. It is only put on for one year – the republished data
-is not repeated on subsequent CD-ROM/DVDs. Because the data is not
+INTERMAGNET Physical Media. It is only put on for one year – the republished data
+is not repeated on subsequent INTERMAGNET Physical Medias. Because the data is not
 under the MAGyyyy folder, it will not be recognised by the
 imcdview viewing software (where a number of years where
 republished in a form that the software can access).
 
-The OBSY_INF folder is present in all CD-ROM/DVD/USBs, though it
+The OBSY_INF folder is present in all INTERMAGNET Physical Medias, though it
 may be empty. It is used by software (along with the CTRY_INF and
-yyyyMAPS folders) to indicate the presence of an INTERMAGNET
-CD-ROM/DVD/USB folder structure.
+yyyyMAPS folders) to indicate the presence of an INTERMAGNET Physical Media
+folder structure.
 
 The .com and .exe files on earlier CD-ROMs are programs that were
 designed to run on Microsoft DOS operating system. They will not
