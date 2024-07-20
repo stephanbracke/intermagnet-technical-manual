@@ -464,7 +464,7 @@ under the MAGyyyy folder, it will not be recognised by the
 imcdview viewing software (where a number of years where
 republished in a form that the software can access).
 
-The OBSY_INF folder is present in all INTERMAGNET Physical Medias, though it
+The OBSY_INF folder is present on all INTERMAGNET Physical Medias, though it
 may be empty. It is used by software (along with the CTRY_INF and
 yyyyMAPS folders) to indicate the presence of an INTERMAGNET Physical Media
 folder structure.
