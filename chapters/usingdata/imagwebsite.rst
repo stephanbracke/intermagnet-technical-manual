@@ -10,7 +10,7 @@ organizations, countries and IMOs (INTERMAGNET Magnetic
 Observatories).
 The web site offers access to various products:
 
-* The annual definitive data published in form of a
+* The annual definitive data published with a
   Digital Object Identifier (DOI).
 * The magnetograms and data files of reported and adjusted
   minute values from all the IMOs.
@@ -37,12 +37,12 @@ Downloading Data
 
 The Annual Definitive Data
 ``````````````````````````
-Until 2015 the annual definitive data was always released on a physical medium see :numref:`sub_dat_1min_data_enc_soft`.
-From 2014 the intermagnet definitive data is yearly published and identified in the form of Digital Object Identifiers (DOIs).
-The reference to the data that can be dowloaded can be found on the INTERMAGNET website : |def_data|.
-The data structure within the zip file is the same as the CD/DVD/USB structure.
-To be able to view the data after downloading the zip, you need the IMCDview software which is available
-and explained on this page : |imag_software_bgs|.
+Until 2015, the annual definitive data was released on a physical media (see :numref:`sub_dat_1min_data_enc_soft`).
+From 2014 onward, the intermagnet definitive data is published yearly with a Digital Object Identifier (DOI).
+The reference to the downloadable data can be found on the INTERMAGNET website : |def_data|.
+The data structure within the compressed file is the same as the INTERMAGNET Physical Media structure.
+The downloaded data can be viewed using the IMCDview software which is available
+and explained at this location : |imag_software_bgs|.
 
 
 .. _use_dat_imag_web_obs_plots:
