@@ -109,8 +109,8 @@ recent version of the definitive one-minute data.
 
 .. _use_dat_cd_obtain:
 
-How to Obtain INTERMAGNET Physical Media
-----------------------------------------
+How to Obtain INTERMAGNET Physical Media (IPM)
+----------------------------------------------
 
 Send your request to |contact_ipgp| indicating clearly the
 Physical Medias required, your name, the name of your academic
