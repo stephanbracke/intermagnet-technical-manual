@@ -29,10 +29,10 @@ on the DVD, as well as a data export to other common formats
 
 .. _use_dat_cd_content:
 
-Content of the CD-ROM/DVD/USB
------------------------------
+Content of the INTERMAGNET Physical Media (IPM)
+-----------------------------------------------
 
-The CD-ROM/DVD/USB's content is organized in a number of
+The IPM's content is organized in a number of
 subdirectories. Most of them are named with the IAGA codes,
 they contain information regarding a particular observatory.
 Further subdirectories provide country information about
@@ -86,7 +86,7 @@ Where:
    managing IMOs in a given country in graphical form.
 
 Before 2006, corrected data were re-published on the next
-available CD/DVD if published definitive data were found to
+available physical media if published definitive data were found to
 contain errors. The 12 corrected monthly IAF bin files and
 other metadata files were included, if necessary, in a
 subdirectory with an observatory and year specific name
@@ -99,25 +99,25 @@ of errors in metadata files are not captured after 2006.
 Re-published IAF bin files contain the date (year and month) of
 the re-publication in the daily header records.
 
-CD-ROM/DVD/USBs contain a text file "\\errata\\errata" listing
+IPMs contain a text file "\\errata\\errata" listing
 the full history of corrected data and the year of the
-CD-ROM/DVD/USB on which the correction was published. This file
-remains unchanged since the 2006 DVD.
+IPM on which the correction was published. This file
+remains unchanged since the 2006.
 
 Now the INTERMAGNET web site should be regarded as the most
 recent version of the definitive one-minute data.
 
 .. _use_dat_cd_obtain:
 
-How to Obtain CD-ROM/DVD/USB
-----------------------------
+How to Obtain INTERMAGNET Physical Media
+----------------------------------------
 
 Send your request to |contact_ipgp| indicating clearly the
-CD-ROM/DVD/USBs required, your name, the name of your academic
+Physical Medias required, your name, the name of your academic
 institution, and your mailing address where the parcel should
-be sent. CD ROMs/DVDs/USBs are distributed by:
+be sent. INTERMAGNET Physical Medias are distributed by:
 
-| INTERMAGNET CD-ROM/DVD/USB distribution office
+| INTERMAGNET Physical Media distribution office
 | Observatoire Magnétique National
 | Carrefour des 8 routes
 | 45340 Chambon la Forêt
@@ -128,4 +128,4 @@ be sent. CD ROMs/DVDs/USBs are distributed by:
 The INTERMAGNET data are available without charge to
 participating institutes and to bona fide scientists for
 academic purposes only. By requesting one or more INTERMAGNET
-DVDs/CD-ROMs/USBs you agree to abide by the Conditions of Use.
+Physical Medias you agree to abide by the Conditions of Use.
