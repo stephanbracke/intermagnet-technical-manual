@@ -9,8 +9,8 @@ Data Viewer
 
 
 INTERMAGNET provides software to work with the data on the
-CD-ROM/DVD/USB. This software can be installed from the DVD, or
-downloaded from |imag_software| .
+INTERMAGNET Physical Media (IPM). This software can be installed from the
+Physical Media, or downloaded from |imag_software| .
 The software is designed to be simple and easy to use. When the
 software starts for the first time on a new computer, a dialog
 is displayed describing how to tell the software where to find
@@ -33,9 +33,9 @@ exit.
 
 There is also an Explorer window, available from the "View"
 menu. This window gives you an alternative view of data on the
-CD-ROM/DVD/USB. The view of the data that the window presents
+IPM. The view of the data that the window presents
 is similar in structure to the directory structure used to hold
-the data on the CD-ROM/DVD/USB. To view an object in the
+the data on the IPM. To view an object in the
 Explorer window, double click the object. For example, to plot
 data from an observatory using the Explorer window, expand the
 tree until the observatory is listed, expand the observatory,
