@@ -33,7 +33,9 @@ Executive Council and Operations Committee provided by past members.
       |
       |
       |
-      |             
+      |
+      |
+      |          
 
 
     * | **OPSCOM**
