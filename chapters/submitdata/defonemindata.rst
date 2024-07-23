@@ -436,7 +436,7 @@ files that pertain to each country's geomagnetism program
 (including a README for the ALL option). The OBSY_INF
 subdirectory is empty, but is required to identify to software
 that the this folder holds data in the IRDS
-structure.see :numref:`sub_dat_1min_data_soft`
+structure.
 
 The individual sub-directories (e.g. BFE for Brorfelde, TUC for
 Tucson, etc.) contain the 12 months of data labeled with the
