@@ -32,7 +32,7 @@ to quasi-absolute using the best available baseline
 measurements prior to transmission.
 
 1s-IMOs are required to transmit preliminary data in an
-INTERMAGNET recognized format to one of the INTERMAGNET
+INTERMAGNET recognized format (see section 6.1.1) to one of the INTERMAGNET
 Geomagnetic Information Nodes (GIN) by electronic means within
 72 hours of recording. Data are typically transmitted over the
 Internet such that preliminary data can be made available on
