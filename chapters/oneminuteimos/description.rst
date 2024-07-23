@@ -23,7 +23,7 @@ membership will be required to transmit data with best
 available baseline estimates applied.
 
 IMOs are required to transmit preliminary data in an
-INTERMAGNET recognized format (see section 6.1.1) to one of the INTERMAGNET
+INTERMAGNET recognized format (see :numref:`sub_dat_intro_df`) to one of the INTERMAGNET
 Geomagnetic Information Nodes (GIN) by electronic means within
 72 hours of recording. Data are typically transmitted over the
 Internet or through satellite such that preliminary data can be

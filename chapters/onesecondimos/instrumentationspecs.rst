@@ -209,7 +209,8 @@ Other
     | Filtering       | to INTERMAGNET standard                           |
     |                 | ( :numref:`1sec_imo_sampling` )                   |
     +-----------------+---------------------------------------------------+
-   | For more information see section 6.1.1 for Data Formats and section 6.1.2 for Data Types.
+
+For more information see :numref:`sub_dat_intro_df` for Data Formats and :numref:`sub_dat_intro_dt` for Data Types.
 
 The consensus of the scientific community survey was that
 one-second data should be accurately timestamped and the
@@ -264,11 +265,3 @@ amplitude artificial signals, such as 50/60 Hz mains
 interference. Hence it is recommended to separately attenuate
 non-natural, large-amplitude signals above the Nyquist
 frequency.
-
-
-
-
-
-
-
-

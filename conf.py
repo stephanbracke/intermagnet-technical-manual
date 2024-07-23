@@ -161,6 +161,7 @@ latex_elements = {
      # Latex figure (float) alignment
      #
      # 'figure_align': 'htbp',
+    'printindex': '',
     'preamble': preamble,
     'maketitle':latex_maketitle
 }
