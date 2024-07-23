@@ -129,3 +129,8 @@ The INTERMAGNET data are available without charge to
 participating institutes and to bona fide scientists for
 academic purposes only. By requesting one or more INTERMAGNET
 Physical Medias you agree to abide by the Conditions of Use.
+
+From 2015 onward, INTERMAGNET stopped the production of physical medias.
+Definitive data is now published yearly with a Digital Object Identifier (DOI)
+see :numref:`use_dat_imag_web_down_data_def`. Individual (monthly) IAF data files
+are available from the INTERMAGNET web site.
