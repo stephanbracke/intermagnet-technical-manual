@@ -209,7 +209,7 @@ Other
     | Filtering       | to INTERMAGNET standard                           |
     |                 | ( :numref:`1sec_imo_sampling` )                   |
     +-----------------+---------------------------------------------------+
-For more information see section 6.1.1 for Data Formats and section 6.1.2 for Data Types.
+   | For more information see section 6.1.1 for Data Formats and section 6.1.2 for Data Types.
 
 The consensus of the scientific community survey was that
 one-second data should be accurately timestamped and the
