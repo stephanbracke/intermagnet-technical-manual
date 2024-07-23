@@ -155,6 +155,7 @@ Other
     | Filtering                | to INTERMAGNET standard                  |
     |                          | (:numref:`1min_imo_sampling` )           |
     +--------------------------+------------------------------------------+
+For more information see section 6.1.1 for Data Formats and section 6.1.2 for Data Types.
 
 
 .. _1min_imo_instspec_pgr:
