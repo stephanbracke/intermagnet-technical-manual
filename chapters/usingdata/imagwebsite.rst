@@ -33,23 +33,28 @@ The INTERMAGNET web site address is: |intermagnet_website|
 Downloading Data
 ----------------
 
-.. _use_dat_imag_web_down_data_def:
-
-The Annual Definitive Data
-``````````````````````````
+Geomagnetic observatory data can be downloaded using a web browser by either using DOIs for definitive data or 
+using the web data distribution interface for all data types including definitive data.
 Until 2015, the annual definitive data was released on a physical media (see :numref:`sub_dat_1min_data_enc_soft`).
-From 2014 onward, the intermagnet definitive data is published yearly with a Digital Object Identifier (DOI).
+From 2014 onward, the intermagnet definitive data is published yearly with a Digital Object Identifier (DOI) which includes 
+all definitive data since 1991 to the publication year.
+
+.. _use_dat_imag_web_down_data_doi:
+
+Downloading Data Using DOIs
+```````````````````````````
+[Under development] Add instructions to use DOIs...
 The reference to the downloadable data can be found on the INTERMAGNET website : |def_data|.
 The data structure within the compressed file is the same as the INTERMAGNET Physical Media structure.
 The downloaded data can be viewed using the IMCDview software which is available
 and explained at this location : |imag_software_bgs|.
 
+.. _use_dat_imag_web_down_data_web:
 
-.. _use_dat_imag_web_obs_plots:
+Downloading Data Using the WEB Interface
+````````````````````````````````````````
 
-Observatory Plots
-`````````````````
-Reported and adjusted intermagnet data is available in near real-time.
+Reported and adjusted intermagnet data are available in near real-time.
 The availability of data files is dependent on the
 publishing delay of participating institutes. If there is no
 publishing delay, data are available within 10 to 20 minutes
@@ -59,13 +64,19 @@ available at several sampling rates and in various formats. For
 further details and to download data, see the following web
 site: |download_plot_data|
 
+
+.. _use_dat_imag_web_obs_plots:
+
+Observatory Plots
+-----------------
+
 Plots of magnetic observatory data and information derived from
 the data are also available. These include:
 
 -  Plots of X, Y, Z magnetic field components
 -  Plots of H, D, Z magnetic field components
 -  Plots of declination and inclination
-
+[Under development] Add missing link...
 
 .. _use_dat_imag_web_geo_act:
 
