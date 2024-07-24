@@ -44,16 +44,16 @@ all definitive data since 1991 to the publication year.
 Downloading Data Using DOIs
 ```````````````````````````
 [Under development] Add instructions to use DOIs...
-The reference to the downloadable data can be found on the INTERMAGNET website : |def_data|.
-The data structure within the compressed file is the same as the INTERMAGNET Physical Media structure.
-The downloaded data can be viewed using the IMCDview software which is available
-and explained at this location : |imag_software_bgs|.
 
 .. _use_dat_imag_web_down_data_web:
 
 Downloading Data Using the WEB Interface
 ````````````````````````````````````````
 
+The reference to the downloadable data can be found on the INTERMAGNET website : |def_data|.
+The data structure within the compressed file is the same as the INTERMAGNET Physical Media structure.
+The downloaded data can be viewed using the IMCDview software which is available
+and explained at this location : |imag_software_bgs|.
 Reported and adjusted intermagnet data are available in near real-time.
 The availability of data files is dependent on the
 publishing delay of participating institutes. If there is no
