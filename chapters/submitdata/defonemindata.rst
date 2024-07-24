@@ -544,5 +544,5 @@ Copies of INTERMAGNET Physical Media may be obtained from:
 
 From 2015 onward, INTERMAGNET stopped the production of physical medias.
 Definitive data is now published yearly with a Digital Object Identifier (DOI) see
-:numref:`use_dat_imag_web_down_data_def`.
+:numref:`use_dat_imag_web_down_data_doi`.
 Individual (monthly) IAF data files are available from the INTERMAGNET web site.

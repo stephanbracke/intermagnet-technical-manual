@@ -76,6 +76,7 @@ the data are also available. These include:
 -  Plots of X, Y, Z magnetic field components
 -  Plots of H, D, Z magnetic field components
 -  Plots of declination and inclination
+
 [Under development] Add missing link...
 
 .. _use_dat_imag_web_geo_act:
