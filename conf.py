@@ -113,6 +113,7 @@ preamble = r'''
         \renewcommand{\headrulewidth}{0.4pt}
         \renewcommand{\footrulewidth}{0.4pt}
       }
+    \usepackage{multicol}  
     \usepackage[none]{hyphenat}
     \setlength\parindent{12pt}
     \usepackage{enumitem}

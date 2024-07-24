@@ -154,7 +154,7 @@ Other
     |                          | (:numref:`1min_imo_sampling` )           |
     +--------------------------+------------------------------------------+
 
-For more information see :numref:`sub_dat_intro_df` for Data Formats and :numref:`sub_dat_intro_dt` for Data Types.
+.. centered:: For more information see :numref:`sub_dat_intro_df` for Data Formats and :numref:`sub_dat_intro_dt` for Data Types.
 
 .. _1min_imo_instspec_pgr:
 

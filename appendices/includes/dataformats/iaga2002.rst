@@ -87,8 +87,8 @@ filled element field).
   optional comment headers stating the start time and duration in
   seconds. These records must have the form:
 
-  | #Start Time hh:mm:ss
-  | #Duration-in-seconds sssss
+   - Start Time hh:mm:ss
+   - Duration-in-seconds sssss
 
 - If the data file contains absolute values (Data Type provisional or
   definitive), include the formula for computing the missing

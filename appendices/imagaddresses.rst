@@ -31,7 +31,6 @@ INTERMAGNET Executive Council Addresses
       | INTERNET: ecla@bgs.ac.uk
       |
       |
-      |
 
     * | **Gauthier Hulot**
       | Institut de Physique du Globe de Paris
@@ -41,7 +40,9 @@ INTERMAGNET Executive Council Addresses
       | FRANCE
       | TEL: 33 (0) 1-83-95-74-78
       | FAX: 33 (0) 1-71-93-77-09
-      | Internet: gh@ipgp.fr
+      | INTERNET: gh@ipgp.fr
+      |
+      |
       |
 
     * | **Kristen Lewis**
@@ -53,7 +54,6 @@ INTERMAGNET Executive Council Addresses
       | TEL: 1-303-273-8471
       | FAX: 1-303-273-8506
       | INTERNET: klewis@usgs.gov
-      |
       |
 
     * | **Andrew Lewis**
@@ -100,8 +100,6 @@ INTERMAGNET Operations Committee Addresses
        | FAX: 1-613-992-8836
        | INTERNET: charles.blais@canada.ca
        |
-       |
-       |
 
      * | **Stephan Bracke**
        | Institut Royal Météorologique de Belgique
@@ -110,7 +108,6 @@ INTERMAGNET Operations Committee Addresses
        | B-5670 Dourbes
        | Belgique
        | TEL: +32(60)395409
-       | FAX: +32(60)395423
        | INTERNET: stbracke@meteo.be
        |
 
@@ -124,8 +121,6 @@ INTERMAGNET Operations Committee Addresses
        | FAX: 44-131-667-1877
        | INTERNET: s.flower@bgs.ac.uk
        |
-       |
-       |
 
      * | **Benoit Heumez**
        | Observatoire Magnétique National
@@ -134,8 +129,6 @@ INTERMAGNET Operations Committee Addresses
        | FRANCE
        | TEL: 33-2-38-33-95-01
        | INTERNET: heumez@ipgp.fr
-       |
-       |
        |
 
      * | **Shun Imajo**
@@ -193,6 +186,7 @@ INTERMAGNET Operations Committee Addresses
        | FAX: 33 (0) 1-71-93-77-09
        | INTERNET: vmaury@ipgp.fr
        |
+       |
 
      * | **Achim Morschhauser**
        | Helmholtz-Zentrum Potsdam
@@ -225,8 +219,6 @@ INTERMAGNET Operations Committee Addresses
        |  TEL: 48-48-661-0830
        |  FAX: 48-48-661-0840
        |  INTERNET: jreda@igf.edu.pl
-       |
-       |
        |
 
      * | **Christopher W. Turbitt**
