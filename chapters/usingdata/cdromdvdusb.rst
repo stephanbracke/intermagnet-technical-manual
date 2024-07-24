@@ -1,12 +1,13 @@
 .. _use_dat_cd:
 
-CD-ROM/DVD/USB
-==============
+INTERMAGNET Physical Media
+==========================
 
 .. include:: ../../shared/variables.rst
 
 .. include:: ../../appendices/appendices.rst
 
+[Under development] Convert to legacy data access???
 Various types of data can be downloaded from the web site as
 described in :numref:`use_dat_imag_web_down_data`.
 This also applies to minute values with definitive status.
