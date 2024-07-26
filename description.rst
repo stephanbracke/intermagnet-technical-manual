@@ -2,7 +2,6 @@
 
 .. raw:: latex
 
-    \setcounter{page}{-1}
     \thispagestyle{empty}
 
 This document has been prepared by the INTERMAGNET Operations Committee and Executive Council.
@@ -10,47 +9,40 @@ Every effort has been made to ensure that the information is accurate and curren
 The document is distributed in the hope that it will be a useful reference not only for those participating formally in INTERMAGNET,
 but also for the greater geomagnetic community.
 
-.. raw:: latex
+.. centered:: **ACKNOWLEDGMENTS**
 
-   \begingroup\centering
-
-**Acknowledgements**
-
-.. raw:: latex
-
-   \endgroup
 
 We gratefully acknowledge the many significant contributions and
 comments provided by our colleagues.
 
-| Cite as:
-| St-Louis, B. (Ed.), INTERMAGNET Operations Committee and Executive Council, |copyright| Technical Reference Manual, Version |version|
+.. line-block::
+
+ Cite as:
+ St-Louis, B. (Ed.), INTERMAGNET Operations Committee and Executive Council, |copyright| Technical Reference Manual, Version |version|
 
 
-                    | The INTERMAGNET Office :
-                    |
-                    | INTERMAGNET
-                    | c/o British Geological Survey
-                    | The Lyell Centre
-                    | Research Avenue South
-                    | Edinburgh EH14 4AP
-                    | UK
+                    The INTERMAGNET Office :
+
+                    INTERMAGNET
+                    c/o British Geological Survey
+                    The Lyell Centre
+                    Research Avenue South
+                    Edinburgh EH14 4AP
+                    UK
+
 
 .. raw:: latex
 
     \newpage
     \thispagestyle{empty}
+    \mbox{}
+    \newpage
+    \thispagestyle{empty}
 
 
-.. raw:: latex
 
-   \begingroup\centering
+.. centered:: **QUICK REFERENCES**
 
-**Quick References**
-
-.. raw:: latex
-
-   \endgroup
 
 
 .. raw:: latex
@@ -133,8 +125,18 @@ comments provided by our colleagues.
 .. raw:: latex
 
     \end{multicols}
+    \newpage
+    \thispagestyle{empty}
+    \mbox{}
+    \newpage
+    \thispagestyle{empty}
+    \setcounter{page}{1}
+
+
 
 .. raw:: html
 
    </div>
    <div class='after'/>
+
+

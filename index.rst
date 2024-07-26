@@ -9,7 +9,7 @@ INTERMAGNET Technical Reference Manual
            :align: center
            :alt: Intermagnet
 
-    **version :** |version|
+    .. centered:: **version :** |version|
 
 
 
