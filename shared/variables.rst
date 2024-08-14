@@ -12,12 +12,20 @@
 
 .. |imag_imo_list| replace:: https://intermagnet.org/metadata/#/imos
 .. |intermagnet_website| replace:: https://www.intermagnet.org/
+.. |techman_website| replace:: https://tech-man.intermagnet.org/
+.. |intermagnet_github| replace:: https://github.com/INTERMAGNET
+.. |website_github_src| replace:: https://github.com/INTERMAGNET/intermagnet.github.io
+.. |tech_man_github_src| replace:: https://github.com/INTERMAGNET/imag-tech-man
+
+
 .. |faq_qd| replace:: https://intermagnet.org/faq/04.what-is-quasi.html
 .. |faq_bgs_qd| replace:: https://intermagnet.org/faq/08.bgs-quasi.html
 .. |faq_ipgp_qd| replace:: https://intermagnet.org/faq/09.ipgp-quasi.html
 
 .. |imag_ftp| replace:: ftp://ftp.seismo.nrcan.gc.ca/intermagnet/
 .. |imag_software| replace:: https://intermagnet.org/software.html
+.. |imag_data_con| replace:: https://intermagnet.org/data_conditions.html
+
 .. |imag_software_bgs| replace:: https://geomag.bgs.ac.uk/data_service/intermagnet/home.html
 
 .. |iaga_guide| replace:: http://www.iaga-aiga.org/data/uploads/pdf/guides/iaga-guide-observatories.pdf

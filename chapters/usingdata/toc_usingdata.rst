@@ -8,6 +8,5 @@ Using INTERMAGNET Data
     :maxdepth: 4
 
     imagwebsite
-    cdromdvdusb
     dataviewer
     conditionofuse

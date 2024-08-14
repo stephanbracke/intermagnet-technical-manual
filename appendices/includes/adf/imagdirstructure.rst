@@ -6,13 +6,13 @@ INTERMAGNET Physical Media Directory Structure
 The structure of files and folders on the INTERMAGNET
 Physical Media (IPM) has remained broadly the same since its
 inception in 1991, however there have been some differences.
-This appendix documents the structure for the current USB
+This appendix documents the structure for the USB
 (2014), then describes the structure of the DVD (2011) and the
 first CD-ROM (1991) and lists year by year differences in the
 files and folders on the INTERMAGNET Physical Media (IPM).
 
-Structure of current (2014) USB
-```````````````````````````````
+Structure of the USB (2014)
+```````````````````````````
 
 ::
 
