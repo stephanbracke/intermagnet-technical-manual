@@ -129,7 +129,7 @@ latex_maketitle =  r'''
             \end{figure}
             \centering
             \vspace{10mm}
-            \Huge \textbf{{Intermagnet}} \\
+            \Huge \textbf{{INTERMAGNET}} \\
             \vspace{5mm}
             \Large \textbf{{Technical Reference Manual}} \\
             \vspace{70mm}
