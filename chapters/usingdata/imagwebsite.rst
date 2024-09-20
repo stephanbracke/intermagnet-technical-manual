@@ -60,14 +60,14 @@ in different formats.
 
     Online Technical Reference manual
 
-In the left hand corner you find the possibility to download the PDF or complete HTML version.
-There are actually three versions available :
+On the left side, you will find links to download the manual in PDF or HTML format.
+There are three versions available :
 
-#. stable : the latest official reviewed version release.
-#. latest : current version with accepted changes but still not ready for an official release
-#. development : a version that can contain errors but has already proposed changes
+#. stable : The latest official release (the most The up to date version to be used as a reference).
+#. latest : The current working version with accepted changes but still not ready for an official release.
+#. development : This version may contain errors and/or proposed changes not accepted.
 
-We strongly advice to only use the stable version.
+The stable version should be the only one used as reference.
 
 
 .. _use_dat_imag_web_down_data:
