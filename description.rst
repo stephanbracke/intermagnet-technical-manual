@@ -102,7 +102,7 @@ comments provided by our colleagues.
     \columnbreak
 
 
-* | **INTERMAGNET membership applications**
+* | **INTERMAGNET membership application**
   |
   | Information on how to apply for membership can be found in :numref:`Chapter %s <mem_part>`.
     The application form can be downloaded from  |imag_apply_form|
