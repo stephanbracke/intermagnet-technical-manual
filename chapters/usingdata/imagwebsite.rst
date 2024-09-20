@@ -50,8 +50,8 @@ The source code is available on the INTERMAGNET GitHub.
 Online Technical Reference Manual
 ---------------------------------
 
-The Online Technical Reference manual can be found on the subdomain |techman_website|. It is the place were you can
-find the stable version of the Technical Reference Manual and download the `pdf version`_.
+The Online Technical Reference manual can be found on the subdomain |techman_website|. It is also possible to download the manual 
+in different formats.
 
 .. figure:: ../../img/online_tech_man.png
     :align: center
