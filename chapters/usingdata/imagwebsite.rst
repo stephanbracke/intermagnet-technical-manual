@@ -28,7 +28,7 @@ The following underlying technologies were selected for the web site :
 
 * a GitHub repository for all software, web site development and discussion forums : |intermagnet_github|
 * The INTERMAGNET web site has been designed using  GitHub Pages (|git_hub_pages|).
-* The Online Technical Reference Manual is made using the  `sphinx framework`_ making it possible to generate the pdf and the html.
+* The Online Technical Reference Manual is produced using the  `sphinx framework`_ making it possible to generate the pdf and the html.
   It is automatically build and deployed using the services offered by `readthedocs.org`_.
 
 The metadata and online data are hosted  at the British Geological Survey (BGS). The annual definitive data are
