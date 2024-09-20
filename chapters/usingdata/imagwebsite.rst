@@ -63,7 +63,7 @@ in different formats.
 On the left side, you will find links to download the manual in PDF or HTML format.
 There are three versions available :
 
-#. stable : The latest official release (the most The up to date version to be used as a reference).
+#. stable : The latest official release (the most up to date version to be used as a reference).
 #. latest : The current working version with accepted changes but still not ready for an official release.
 #. development : This version may contain errors and/or proposed changes not accepted.
 
