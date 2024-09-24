@@ -55,6 +55,20 @@ INTERMAGNET Terminology
         The operation and equipment must meet INTERMAGNET standards
         and specifications.
 
+    IPM
+        INTERMAGNET Physical Media, this term collectively
+        describes the INTERMAGNET CDs, INTERMAGNET DVDs
+        and INTERMAGNET USBs.
+
+    IRDS
+        INTERMAGNET Reference Data Set contains all definitive
+        data and metadata from the first Intermagnet publication
+        in 1991 up to the current year, including any corrections
+        that have been made. Published with a DOI, for example
+        the INTERMAGNET Reference Data Set, 2015:
+        https://doi.org/10.5880/INTERMAGNET.1991.2015.
+
+
     Magnetic observatory
         A permanent installation of magnetometers capable of
         providing magnetic field values with an absolute accuracy of
@@ -128,17 +142,4 @@ INTERMAGNET Terminology
            number.
         -  Minute of the Greenwich day : 0 through 1439 encoded as a
            12-bit binary number (see |app_imag_imfv_2| and |app_sat_cod|).
-
-    IPM
-        INTERMAGNET Physical Media, this term collectively
-        describes the INTERMAGNET CDs, INTERMAGNET DVDs
-        and INTERMAGNET USBs.
-
-    IRDS
-        INTERMAGNET Reference Data Set contains all definitive 
-        data and metadata from the first Intermagnet publication
-        in 1991 up to the current year, including any corrections 
-        that have been made. Published with a DOI, for example 
-        the INTERMAGNET Reference Data Set, 2015: 
-        https://doi.org/10.5880/INTERMAGNET.1991.2015.
 
