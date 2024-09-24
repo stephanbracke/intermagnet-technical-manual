@@ -8,9 +8,9 @@ Data Viewer
 .. include:: ../../appendices/appendices.rst
 
 
-INTERMAGNET provides software to work with the data on the
-INTERMAGNET Physical Media (IPM). This software can be installed from the
-Physical Media, or downloaded from |imag_software| .
+INTERMAGNET provides software to work with the data from the DOIs, web downloads
+and from the INTERMAGNET Physical Media (IPM).This software can be installed
+from the Physical Media, or downloaded from |imag_software| .
 The software is designed to be simple and easy to use. When the
 software starts for the first time on a new computer, a dialog
 is displayed describing how to tell the software where to find
