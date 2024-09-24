@@ -210,6 +210,8 @@ Other
     |                 | ( :numref:`1sec_imo_sampling` )                   |
     +-----------------+---------------------------------------------------+
 
+.. centered:: For more information see :numref:`sub_dat_intro_df` for Data Formats and :numref:`sub_dat_intro_dt` for Data Types.
+
 The consensus of the scientific community survey was that
 one-second data should be accurately timestamped and the
 instruments should have linear phase response. Hence, a maximum
@@ -263,11 +265,3 @@ amplitude artificial signals, such as 50/60 Hz mains
 interference. Hence it is recommended to separately attenuate
 non-natural, large-amplitude signals above the Nyquist
 frequency.
-
-
-
-
-
-
-
-

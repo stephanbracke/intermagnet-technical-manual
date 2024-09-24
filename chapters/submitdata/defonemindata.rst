@@ -436,7 +436,7 @@ files that pertain to each country's geomagnetism program
 (including a README for the ALL option). The OBSY_INF
 subdirectory is empty, but is required to identify to software
 that the this folder holds data in the IRDS
-structure.see :numref:`sub_dat_1min_data_soft`
+structure.
 
 The individual sub-directories (e.g. BFE for Brorfelde, TUC for
 Tucson, etc.) contain the 12 months of data labeled with the
@@ -529,12 +529,12 @@ precision is unacceptably low, particularly for angular
 measurements.
 
 Prior to the current software, INTERMAGNET distributed a
-DOS-based program for working with the DVD/CD-ROM data. For
+DOS-based program for working with the IPM data. For
 historical purposes this software is documented in |app_imag_cd|.
 
-Copies of CD-ROM/DVD/USB may be obtained from:
+Copies of INTERMAGNET Physical Media may be obtained from:
 
-| INTERMAGNET data distribution office
+| INTERMAGNET Physical Media (IPM) distribution office
 | Observatoire Magnétique National
 | Carrefour des 8 routes
 | 45340 Chambon la Forêt
@@ -542,7 +542,7 @@ Copies of CD-ROM/DVD/USB may be obtained from:
 | Tel: 33 (0) 2-38-33-95-01
 | Internet: |contact_ipgp|
 
-From 2015 INTERMAGNET stopped the distribution on a physical medium.
-Definitive data is now yearly published and identified in the form of Digital Object Identifiers (DOIS) see
-:numref:`use_dat_imag_web_down_data_def`.
+From 2015 onward, INTERMAGNET stopped the production of physical medias.
+Definitive data is now published yearly with a Digital Object Identifier (DOI) see
+:numref:`use_dat_imag_web_down_data_doi`.
 Individual (monthly) IAF data files are available from the INTERMAGNET web site.

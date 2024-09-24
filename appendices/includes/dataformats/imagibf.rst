@@ -10,7 +10,7 @@ IBFV2.00 (2009 and after)
 
 This file format is to be used to provide baselines for use in examining
 equipment and environmental quality (mainly thermal stability of the
-variometers) and for inclusion on the INTERMAGNET yearly DVD. This
+variometers). This
 format makes room for all published components, including a baseline to
 scalar data. After a one-line header, the first section contains the
 observed baseline values on the days when they are measured.

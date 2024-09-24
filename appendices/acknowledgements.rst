@@ -17,6 +17,8 @@ Executive Council and Operations Committee provided by past members.
       | David Kerridge (UK)
       | Arnaud Chulliat (France)
       | Carol Finn (USA)
+      | Alan Thomson (UK)
+      | 
       |
       |
       |
@@ -32,6 +34,8 @@ Executive Council and Operations Committee provided by past members.
       |
       |
       |
+      |
+      |          
 
 
     * | **OPSCOM**
@@ -59,5 +63,7 @@ Executive Council and Operations Committee provided by past members.
       | Duff Stuart (USA)
       | Jean Rasson (Belgique)
       | Tim White (USA)
-
-
+      | Simon Flower (UK)
+      | Sergey khomutov (Russia)
+      | Hiroaki Toh (Japan)
+      | Benoit St-Louis (Canada)

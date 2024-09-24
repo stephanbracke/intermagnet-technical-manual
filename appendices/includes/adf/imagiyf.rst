@@ -1,8 +1,8 @@
 .. _app_iyf:
 
 
-INTERMAGNET DVD/CD-ROM Format for Yearmean File : IYF V1.02
------------------------------------------------------------
+INTERMAGNET Format for Yearmean File : IYF V1.02
+------------------------------------------------
 
 
 Magnetic data with 1nT or 0.1min of arc resolution are organized

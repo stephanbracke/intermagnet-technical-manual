@@ -43,12 +43,3 @@ directly.
 INTERMAGNET accepts no liability in respect of
 loss, damage, injury or other occurrence arising from
 the provision of these data.
-
-The Operations Committee advises the Executive
-Council on matters relating to magnetic sensors, data
-capture and data processing, and on communications
-options, protocols, etc. The Operations Committee
-is also responsible for establishing and maintaining
-standards of operation and uniform data formats and
-transmission characteristics which optimize global
-exchange.

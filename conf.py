@@ -113,6 +113,7 @@ preamble = r'''
         \renewcommand{\headrulewidth}{0.4pt}
         \renewcommand{\footrulewidth}{0.4pt}
       }
+    \usepackage{multicol}  
     \usepackage[none]{hyphenat}
     \setlength\parindent{12pt}
     \usepackage{enumitem}
@@ -128,7 +129,7 @@ latex_maketitle =  r'''
             \end{figure}
             \centering
             \vspace{10mm}
-            \Huge \textbf{{Intermagnet}} \\
+            \Huge \textbf{{INTERMAGNET}} \\
             \vspace{5mm}
             \Large \textbf{{Technical Reference Manual}} \\
             \vspace{70mm}
@@ -161,6 +162,7 @@ latex_elements = {
      # Latex figure (float) alignment
      #
      # 'figure_align': 'htbp',
+    'printindex': '',
     'preamble': preamble,
     'maketitle':latex_maketitle
 }

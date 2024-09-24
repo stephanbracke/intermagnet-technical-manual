@@ -7,10 +7,11 @@ When mean or filtered values are to be calculated, the question
 of how to handle missing data arises. For a number of reasons
 it is difficult to devise a simple objective rule that can be
 applied to all cases. INTERMAGNET recommends a simple and
-pragmatic approach: mean values may be calculated when 90% or
-more of the values required for calculation of the mean are
-available. When fewer than 90% of the required values are
-available the mean value should be assigned the value used to
+pragmatic approach: mean or filtered values may be calculated when 90% or
+more of the values required for calculation are
+available.  This can be interpreted as either 90% of the values or 90% of the 
+weight of the filter. When fewer than 90% of the required values are
+available the value should be assigned the value used to
 flag missing data. INTERMAGNET recommends adoption of this rule
 for both simple mean and weighted mean calculations. For
 example, a simple daily mean value may be computed when 1296 or
