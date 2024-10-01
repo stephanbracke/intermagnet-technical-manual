@@ -1,7 +1,7 @@
 .. _use_dat_cond_use:
 
-Condition of Use
-================
+Condition  Use
+==============
 
 .. include:: ../../shared/variables.rst
 
