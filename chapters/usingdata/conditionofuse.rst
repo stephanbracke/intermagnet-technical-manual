@@ -14,6 +14,7 @@ for the INTERMAGNET conditions of use.
 Acknowledgment of Data from Observatories Participating in INTERMAGNET
 ----------------------------------------------------------------------
 
+
 Publications making use of INTERMAGNET data should include an
 acknowledgement statement of the form given below. The first
 form is for cases where data from many observatories have been
