@@ -54,12 +54,12 @@ The Online Technical Reference manual can be found on the subdomain |techman_web
 
 .. figure:: ../../img/online_tech_man.png
     :align: center
-    :scale: 50 %
+    :scale: 60 %
     :alt: Online Technical Reference manual
 
     Online Technical Reference manual
 
-On the left side, you will find links to download the manual in PDF or HTML format.
+On the right side, you will find links to download the manual in PDF or HTML format.
 There are three versions available :
 
 #. stable : The latest official release (the most up to date version to be used as a reference).
