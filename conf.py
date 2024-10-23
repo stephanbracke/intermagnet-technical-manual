@@ -18,14 +18,27 @@
 # -- Project information -----------------------------------------------------
 import re
 import os
-import sys
+import subprocess
 import datetime as dt
 
 
 project = 'Technical Reference Manual'
 copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
-release = re.sub('^v', '', os.popen('git describe').read().strip())
+
+def get_git_commit_hash():
+    try:
+        return (
+            subprocess.check_output(["git", "rev-parse", "--short", "HEAD"])
+            .strip()
+            .decode("utf-8")
+        )
+    except Exception:
+        return "unknown"
+
+release = get_git_commit_hash()
+
+#release = re.sub('^v', '', os.popen('git describe').read().strip())
 #release ='5.1.0-draft'
 version = release
 
