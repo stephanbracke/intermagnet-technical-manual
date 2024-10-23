@@ -25,8 +25,8 @@ import datetime as dt
 project = 'Technical Reference Manual'
 copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
-#release = re.sub('^v', '', os.popen('git describe').read().strip())
-release ='5.1.0-draft'
+release = re.sub('^v', '', os.popen('git describe').read().strip())
+#release ='5.1.0-draft'
 version = release
 
 
