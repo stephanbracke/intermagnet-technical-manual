@@ -1,7 +1,7 @@
 .. _use_dat_cond_use:
 
-Condition of Use
-================
+Condition  Use
+==============
 
 .. include:: ../../shared/variables.rst
 
@@ -13,6 +13,7 @@ for the INTERMAGNET conditions of use.
 
 Acknowledgment of Data from Observatories Participating in INTERMAGNET
 ----------------------------------------------------------------------
+
 
 Publications making use of INTERMAGNET data should include an
 acknowledgement statement of the form given below. The first

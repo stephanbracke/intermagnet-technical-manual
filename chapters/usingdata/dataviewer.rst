@@ -9,11 +9,11 @@ Data Viewer
 
 
 INTERMAGNET provides software to work with the data from the DOIs, web downloads
-and from the INTERMAGNET Physical Media (IPM).This software can be installed
+and from the INTERMAGNET Physical Media (IPM). This software can be installed
 from the Physical Media, or downloaded from |imag_software| .
 The software is designed to be simple and easy to use. When the
 software starts for the first time on a new computer, a dialog
-is displayed describing how to tell the software where to find
+is displayed describing how configure the software to find
 data. This same information, on how to find data, is available
 from the "Help" menu under "Help for New Users".
 
@@ -43,6 +43,10 @@ select and expand the data file that you want to view then
 double click the "Data Plot" icon. The Explorer window also
 shows you which databases the program is using. For more
 information about databases see the online help system.
+
+The Data Catalogue option from the "View" menu displays a colour-coded 
+graphical view of available observatories and data from the program's database. 
+Data can be accessed via sub-menus by clicking within the graphic.
 
 The third main window, also available from the "View" menu, is
 the Export Window. This window allows you to create data files
