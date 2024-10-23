@@ -146,7 +146,7 @@ latex_maketitle =  r'''
             \vspace{5mm}
             \Large \textbf{{Technical Reference Manual}} \\
             \vspace{70mm}
-            \Large version : \version \ (''' + str(year) +r''') 
+            \Large version : \ ''' + str(version) + ''' \ (''' + str(year) +r''') 
             \vspace*{0mm}
             \break     
             \break     
