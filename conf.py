@@ -28,7 +28,7 @@ author = 'Technical Manual Team'
 def get_git_commit_hash():
     try:
         return (
-            subprocess.check_output(["git", "rev-parse", "--short", "HEAD"])
+            subprocess.check_output(["git", "describe"])
             .strip()
             .decode("utf-8")
         )
