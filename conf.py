@@ -68,6 +68,7 @@ numfig = True
 # ones.
 
 extensions = ['sphinx_rtd_theme',
+              "sphinx.ext.viewcode"
               #'sphinx.ext.imgmath',
               #'sphinx.ext.autosectionlabel',
               #'sphinx.ext.autodoc'
@@ -100,9 +101,13 @@ html_static_path = ['_static']
 
 html_css_files = ['theme_overrides.css',]
 
-'''html_context = {
-  'display_github': True
-}'''
+html_context = {
+  'display_github': True,
+  'github_user': 'stephanbracke',
+  'github_repo': 'test-manual',
+  'github_version': 'development/'
+ }
+
 
 latex_engine = 'xelatex'
 latex_use_xindy = False
