@@ -17,4 +17,4 @@ python:
   install:
     - requirements: requirements.txt
 git:
-  depth: 0
+  depth: 10
