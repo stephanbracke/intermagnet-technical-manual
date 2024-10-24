@@ -100,9 +100,10 @@ html_static_path = ['_static']
 
 html_css_files = ['theme_overrides.css',]
 
-html_context = {
+'''html_context = {
   'display_github': True
-}
+}'''
+
 latex_engine = 'xelatex'
 latex_use_xindy = False
 
