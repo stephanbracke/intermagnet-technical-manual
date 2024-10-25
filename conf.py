@@ -57,11 +57,11 @@ def get_current_stream_name():
     except Exception:
         return "unknown"
 
-def is_def_stream() -> bool:
+def is_dev_stream() -> bool:
     return get_current_stream_name().lower().startswith( "dev")
 
 def get_html_context():
-    if is_def_stream():
+    if is_dev_stream():
         return {
             'display_github': True,
             'github_user': github_user,
@@ -140,6 +140,11 @@ html_css_files = ['theme_overrides.css',]
 
 html_context = get_html_context()
 
+print("dddddddddddddddd")
+print(get_current_stream_name())
+print(is_dev_stream())
+print(html_context)
+print("dddddddddddddddd")
 
 latex_engine = 'xelatex'
 latex_use_xindy = False
