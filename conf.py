@@ -45,6 +45,9 @@ print(git_version_type)
 print(git_branch_name)
 print(git_id)
 print(git_commit_hash)
+print(re.sub('^v', '', os.popen('git describe').read().strip()))
+print(re.sub('^v', '', os.popen('git describe --tags '+git_commit_hash).read().strip()))
+print(re.sub('^v', '', os.popen('git describe --tags HEAD').read().strip()))
 print("---------------------------")
 
 
