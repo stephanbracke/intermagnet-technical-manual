@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 import os
-import subprocess
+import re
 import datetime as dt
 
 
@@ -31,13 +31,20 @@ branch_name = os.environ.get("READTHEDOCS_VERSION_NAME")
 git_id = os.environ.get("READTHEDOCS_GIT_IDENTIFIER")
 git_commit_hash = os.environ.get("READTHEDOCS_GIT_COMMIT_HASH")
 
-print("dddddddddddddddddddddddd")
+if git_version_type == 'local':
+    branch_name = re.sub('^v', '', os.popen('git branch --show-current').read().strip())
+    git_id = re.sub('^v', '', os.popen('git rev-parse --short HEAD').read().strip())
+    git_commit_hash = git_id
+
+
+
+
+print("---------------------------")
 print(git_version_type)
 print(branch_name)
 print(git_id)
 print(git_commit_hash)
-print("dddddddddddddddddddddddd")
-
+print("---------------------------")
 
 
 
@@ -61,7 +68,7 @@ def get_version_tag():
     if is_release():
         return git_id
     else:
-        return git_commit_hash
+        return git_commit_hash[:7]
 
 release = get_version_tag()
 version = release
