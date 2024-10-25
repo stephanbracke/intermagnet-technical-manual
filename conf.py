@@ -16,18 +16,67 @@
 
 
 # -- Project information -----------------------------------------------------
-import re
 import os
-import sys
+import re
 import datetime as dt
 
 
 project = 'Technical Reference Manual'
 copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
-#release = re.sub('^v', '', os.popen('git describe').read().strip())
-release ='5.1.0-draft'
+github_user = 'stephanbracke'
+github_repo = 'test-manual'
+git_version_type = os.environ.get("READTHEDOCS_VERSION_TYPE") or 'local'# tag, external, branch, unknown
+branch_name = os.environ.get("READTHEDOCS_VERSION_NAME")
+git_id = os.environ.get("READTHEDOCS_GIT_IDENTIFIER")
+git_commit_hash = os.environ.get("READTHEDOCS_GIT_COMMIT_HASH")
+
+if git_version_type == 'local':
+    branch_name = re.sub('^v', '', os.popen('git branch --show-current').read().strip())
+    git_id = re.sub('^v', '', os.popen('git rev-parse --short HEAD').read().strip())
+    git_commit_hash = git_id
+
+
+
+
+print("---------------------------")
+print(git_version_type)
+print(branch_name)
+print(git_id)
+print(git_commit_hash)
+print("---------------------------")
+
+
+
+def is_dev_stream() -> bool:
+    return git_version_type == 'branch'
+
+def is_release() -> bool:
+    return git_version_type == 'tag'
+
+def get_html_context():
+    if is_dev_stream():
+        return {
+            'display_github': True,
+            'github_user': github_user,
+            'github_repo': github_repo,
+            'github_version': branch_name+'/'
+        }
+    else:
+        return {}
+def get_version_tag():
+    if is_release():
+        return git_id
+    else:
+        return git_commit_hash[:7]
+
+release = get_version_tag()
 version = release
+
+
+#release = re.sub('^v', '', os.popen('git describe').read().strip())
+#release ='5.1.0-draft'
+
 
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
@@ -56,6 +105,7 @@ numfig = True
 # ones.
 
 extensions = ['sphinx_rtd_theme',
+              "sphinx.ext.viewcode"
               #'sphinx.ext.imgmath',
               #'sphinx.ext.autosectionlabel',
               #'sphinx.ext.autodoc'
@@ -87,6 +137,8 @@ html_static_path = ['_static']
 
 
 html_css_files = ['theme_overrides.css',]
+
+html_context = get_html_context()
 
 
 latex_engine = 'xelatex'
@@ -133,7 +185,7 @@ latex_maketitle =  r'''
             \vspace{5mm}
             \Large \textbf{{Technical Reference Manual}} \\
             \vspace{70mm}
-            \Large version : \version \ (''' + str(year) +r''') 
+            \Large version : \ ''' + str(release) + ''' \ (''' + str(year) +r''') 
             \vspace*{0mm}
             \break     
             \break     
