@@ -24,22 +24,59 @@ import datetime as dt
 project = 'Technical Reference Manual'
 copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
+github_user = 'stephanbracke'
+github_repo = 'test-manual'
+
 
 def get_git_commit_hash():
     try:
         return (
+            #subprocess.check_output(["git", "rev-parse", "--short", "HEAD"])
             subprocess.check_output(["git", "describe", "--tags"])
+            .strip()
+            .decode("utf-8")
+        )
+    except Exception:
+        try:
+            return (
+                subprocess.check_output(["git", "rev-parse", "--short", "HEAD"])
+                .strip()
+                .decode("utf-8")
+            )
+        except Exception:
+         return "unknown"
+
+
+def get_current_stream_name():
+    try:
+        return (
+             subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"])
             .strip()
             .decode("utf-8")
         )
     except Exception:
         return "unknown"
 
+def is_def_stream() -> bool:
+    return get_current_stream_name().lower().startswith( "dev")
+
+def get_html_context():
+    if is_def_stream():
+        return {
+            'display_github': True,
+            'github_user': github_user,
+            'github_repo': github_repo,
+            'github_version': get_current_stream_name() +'/'
+        }
+    else:
+        return {}
 release = get_git_commit_hash()
+version = release
+
 
 #release = re.sub('^v', '', os.popen('git describe').read().strip())
 #release ='5.1.0-draft'
-version = release
+
 
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
@@ -101,12 +138,7 @@ html_static_path = ['_static']
 
 html_css_files = ['theme_overrides.css',]
 
-html_context = {
-  'display_github': True,
-  'github_user': 'stephanbracke',
-  'github_repo': 'test-manual',
-  'github_version': 'development/'
- }
+html_context = get_html_context()
 
 
 latex_engine = 'xelatex'
