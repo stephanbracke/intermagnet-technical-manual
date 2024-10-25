@@ -71,7 +71,7 @@ def get_html_context():
 def get_version_tag():
     if is_release():
         #current work around waiting for bugfix #11662 readthedocs.org
-        return re.sub('^v', '', os.popen('git describe').read().strip())
+        return re.sub('^v', '', os.popen('git describe --tags '+git_commit_hash).read().strip())
         #return git_id
     else:
         return git_commit_hash[:7]
