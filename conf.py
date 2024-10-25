@@ -26,39 +26,26 @@ copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
 github_user = 'stephanbracke'
 github_repo = 'test-manual'
+git_version_type = os.environ.get("READTHEDOCS_VERSION_TYPE") or 'local'# tag, external, branch, unknown
+branch_name = os.environ.get("READTHEDOCS_VERSION_NAME")
+git_id = os.environ.get("READTHEDOCS_GIT_IDENTIFIER")
+git_commit_hash = os.environ.get("READTHEDOCS_GIT_COMMIT_HASH")
+
+print("dddddddddddddddddddddddd")
+print(git_version_type)
+print(branch_name)
+print(git_id)
+print(git_commit_hash)
+print("dddddddddddddddddddddddd")
 
 
-def get_git_commit_hash():
-    try:
-        return (
-            #subprocess.check_output(["git", "rev-parse", "--short", "HEAD"])
-            subprocess.check_output(["git", "describe", "--tags"])
-            .strip()
-            .decode("utf-8")
-        )
-    except Exception:
-        try:
-            return (
-                subprocess.check_output(["git", "rev-parse", "--short", "HEAD"])
-                .strip()
-                .decode("utf-8")
-            )
-        except Exception:
-         return "unknown"
 
-
-def get_current_stream_name():
-    try:
-        return (
-             subprocess.check_output(["git", "branch", "--show-current"])
-            .strip()
-            .decode("utf-8")
-        )
-    except Exception:
-        return "unknown"
 
 def is_dev_stream() -> bool:
-    return get_current_stream_name().lower().startswith( "dev")
+    return git_version_type == 'branch'
+
+def is_release() -> bool:
+    return git_version_type == 'tag'
 
 def get_html_context():
     if is_dev_stream():
@@ -66,11 +53,17 @@ def get_html_context():
             'display_github': True,
             'github_user': github_user,
             'github_repo': github_repo,
-            'github_version': get_current_stream_name() +'/'
+            'github_version': branch_name+'/'
         }
     else:
         return {}
-release = get_git_commit_hash()
+def get_version_tag():
+    if is_release():
+        return git_id
+    else:
+        return git_commit_hash
+
+release = get_version_tag()
 version = release
 
 
@@ -140,11 +133,6 @@ html_css_files = ['theme_overrides.css',]
 
 html_context = get_html_context()
 
-print("dddddddddddddddd")
-print(get_current_stream_name())
-print(is_dev_stream())
-print(html_context)
-print("dddddddddddddddd")
 
 latex_engine = 'xelatex'
 latex_use_xindy = False
