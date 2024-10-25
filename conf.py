@@ -50,7 +50,7 @@ def get_git_commit_hash():
 def get_current_stream_name():
     try:
         return (
-             subprocess.check_output(["git", "rev-parse", "--abbrev-ref", "HEAD"])
+             subprocess.check_output(["git", "branch", "--show-current"])
             .strip()
             .decode("utf-8")
         )
