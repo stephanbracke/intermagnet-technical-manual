@@ -26,17 +26,18 @@ copyright = ', INTERMAGNET'
 author = 'Technical Manual Team'
 github_user = 'stephanbracke'
 github_repo = 'test-manual'
-git_version_type = os.environ.get("READTHEDOCS_VERSION_TYPE") or 'local'# tag, external, branch, unknown
+git_version_type = os.environ.get("READTHEDOCS_VERSION_TYPE") or 'local-dev'# tag, external, branch, unknown
 git_branch_name = os.environ.get("READTHEDOCS_VERSION_NAME")
 git_id = os.environ.get("READTHEDOCS_GIT_IDENTIFIER")
 git_commit_hash = os.environ.get("READTHEDOCS_GIT_COMMIT_HASH")
 
-if git_version_type == 'local':
+if git_version_type == 'local-dev':
     git_branch_name = re.sub('^v', '', os.popen('git branch --show-current').read().strip())
-    git_id = re.sub('^v', '', os.popen('git rev-parse --short HEAD').read().strip())
+    if(git_branch_name ==''):
+        git_id = re.sub('^v', '', os.popen('git describe').read().strip())
+    else:
+        git_id = re.sub('^v', '', os.popen('git rev-parse --short HEAD').read().strip())
     git_commit_hash = git_id
-
-
 
 
 print("---------------------------")
@@ -67,7 +68,7 @@ def get_html_context():
 def get_version_tag():
     if is_release():
         #current work around waiting for bugfix #11662 readthedocs.org
-        return re.sub('^v', '', os.popen('git branch --show-current').read().strip())
+        return re.sub('^v', '', os.popen('git describe').read().strip())
         #return git_id
     else:
         return git_commit_hash[:7]
