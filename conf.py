@@ -21,9 +21,10 @@ import re
 import datetime as dt
 
 
-project = 'Technical Reference Manual'
-copyright = ', INTERMAGNET'
-author = 'Technical Manual Team'
+project = 'Test Manual'
+project = 'Test Manual'
+copyright = ', Test'
+author = 'Test Team'
 github_user = 'stephanbracke'
 github_repo = 'test-manual'
 git_version_type = os.environ.get("READTHEDOCS_VERSION_TYPE") or 'local-dev'# tag, external, branch, unknown
