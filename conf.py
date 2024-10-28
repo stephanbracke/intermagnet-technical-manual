@@ -21,9 +21,10 @@ import re
 import datetime as dt
 
 
-project = 'Technical Reference Manual'
-copyright = ', INTERMAGNET'
-author = 'Technical Manual Team'
+project = 'Test Manual'
+project = 'Test Manual'
+copyright = ', Test'
+author = 'Test Team'
 github_user = 'stephanbracke'
 github_repo = 'test-manual'
 git_version_type = os.environ.get("READTHEDOCS_VERSION_TYPE") or 'local-dev'# tag, external, branch, unknown
@@ -151,14 +152,14 @@ latex_engine = 'xelatex'
 latex_use_xindy = False
 
 
-latex_appendices = ['appendices/terminology',
+'''latex_appendices = ['appendices/terminology',
                     'appendices/observatories',
                     'appendices/archivedataformats',
                     'appendices/imagaddresses',
                     'appendices/dataformats',
                     'appendices/filters',
                     'appendices/acknowledgements'
-                    ]
+                    ]'''
 
 preamble = r'''
     \makeatletter
@@ -203,6 +204,7 @@ latex_maketitle =  r'''
         \clearpage
         \pagenumbering{roman}
         '''
+'''
 #added to avoid empty pages
 latex_elements = {
      # The paper size ('letterpaper' or 'a4paper').
@@ -231,6 +233,6 @@ latex_documents = [
     ('index', 'technical_manual_'+release+'.tex',
      u'INTERMAGNET Technical Reference Manual',
      u'', 'manual'),
-]
+]'''
 
 
