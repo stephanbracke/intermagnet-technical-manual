@@ -151,14 +151,14 @@ latex_engine = 'xelatex'
 latex_use_xindy = False
 
 
-latex_appendices = ['appendices/terminology',
+'''latex_appendices = ['appendices/terminology',
                     'appendices/observatories',
                     'appendices/archivedataformats',
                     'appendices/imagaddresses',
                     'appendices/dataformats',
                     'appendices/filters',
                     'appendices/acknowledgements'
-                    ]
+                    ]'''
 
 preamble = r'''
     \makeatletter
@@ -203,6 +203,7 @@ latex_maketitle =  r'''
         \clearpage
         \pagenumbering{roman}
         '''
+'''
 #added to avoid empty pages
 latex_elements = {
      # The paper size ('letterpaper' or 'a4paper').
@@ -231,6 +232,6 @@ latex_documents = [
     ('index', 'technical_manual_'+release+'.tex',
      u'INTERMAGNET Technical Reference Manual',
      u'', 'manual'),
-]
+]'''
 
 
